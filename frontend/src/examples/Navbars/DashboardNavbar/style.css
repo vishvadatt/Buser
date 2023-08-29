@@ -1,0 +1,60 @@
+.navbar-btn:active{ 
+    color: #40a9ff !important;
+}
+.navbar-btn:hover {
+    color: #40a9ff !important;
+}
+.unreadMessageBadge{
+    position: absolute;
+    height: 25px;
+    top: -10px;
+    right: -12px;
+    border-radius: 50%;
+    background: lightgray;
+    display: flex;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+@media only screen and (max-width:320px) {
+.doctor-soap-btn{
+    margin-bottom:10px !important ;
+}
+.touricon{
+    margin-right:10% !important;
+}
+}
+@media only screen  and (min-width:321px) and (max-width:375px) {
+    .doctor-soap-btn {
+        margin-bottom: 10px !important;
+    }
+        .touricon {
+            margin-right: 10% !important;
+        }
+}
+@media only screen and (min-width:375px) and (max-width:425px) {
+    .doctor-soap-btn {
+        margin-bottom: 10px !important;
+    }
+    .touricon {
+        margin-right: 10% !important;
+    }
+    /* .navbar-menus{
+        display: flex !important;
+    } */
+}
+@media only screen and (min-width:425px) and (max-width:768px) {
+    .doctor-soap-btn {
+        margin-bottom: 10px !important;
+    }
+    .touricon {
+        margin-right: 10% !important;
+    }
+    /* .navbar-menus{
+        display: flex !important;
+    } */
+}
+.headerClass{
+    z-index: 1100 !important;
+}

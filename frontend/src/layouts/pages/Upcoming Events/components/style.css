@@ -1,0 +1,31 @@
+.ant-table th {
+  color: #8392ab !important;
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+}
+
+.ant-table-thead > tr > th {
+  position: relative;
+  color: #8392ab !important;
+  font-weight: 500;
+  text-align: left;
+  background: #fafafa;
+}
+.btn-event-view {
+  background-color: #3a416f !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.per-pages-entries-conainer {
+  padding-left: 8px;
+}
+
+@media (max-width: 417px) {
+  .per-pages-container {
+    display: flex;
+    flex-direction: column-reverse;
+
+    align-items: flex-start;
+  }
+}

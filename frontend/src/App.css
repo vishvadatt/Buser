@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-size: initial;
+}
+
+.MuiCheckbox-root {
+    border-width: 2px !important;
+    border-color: gray !important;
+    margin: 0px 7px !important;
+}
+
+.MuiRestyleButton {
+    background: #ffffff !important;
+    color: #67748e !important;
+    text-transform: none !important;
+    border-color: #67748e !important;
+    border-radius: 12px !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: 0rem 0.25rem 0.4375rem -0.0625rem rgba(0, 0, 0, 0.11), 0rem 0.125rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.07) !important;
+}
+
+.draggable_model>div {
+    border-radius: 50% !important;
+    min-height: 230px !important;
+}
+
+.vedio_recorder_wrapper>div>div>video {
+    object-fit: contain !important;
+}
+
+.vedio_recorder_wrapper>div>div:nth-child(2)>div {
+    justify-content: flex-end !important;
+    padding: 0px 20px !important;
+
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.screen_share_button_wrapper {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    z-index: 9999;
+    width: 180px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0rem 0.25rem 0.4375rem -0.0625rem rgba(0, 0, 0, 0.11), 0rem 0.125rem 0.25rem -0.0625rem rgba(0, 0, 0, 0.07);
+}

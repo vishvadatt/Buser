@@ -1,0 +1,739 @@
+.NICheck{
+    padding: 45px 0px 0px 20px !important;
+}
+
+label{
+    font-size: 13px !important;
+    padding: 5px !important;
+    font-weight: 600 !important;
+}
+
+// .class1 {
+//     input {
+//         width: 100px !important;
+//     }
+// }
+.patientName{
+    width: 80% !important;
+        margin-bottom: 10px;
+}
+.inputClass{
+    color:#495057;
+    padding: 1.2rem 0.75rem;
+    // border: 0.0625rem solid #d2d6da !important;
+    font-size: 0.875rem!important;
+    outline: none !important;
+    background-color: none;
+    border-radius: 0.5rem;
+    // line-height: 1.4!important;
+    font-weight: 400!important;
+    // height: auto!important;
+    // width: 100%!important;
+    // display: grid!important;
+    // place-items: center!important;
+    // cursor: text;
+    // box-sizing: border-box;
+    // font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.class2{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.visitNumber{
+    width: 120px !important;
+}
+
+.todayDate{
+    width: 125px !important;
+}
+
+.nextreExam{
+    width: 125px !important;
+}
+
+.dob{
+    width: 125px !important;
+}
+
+.age{
+    width: 125px !important;
+}
+
+.height{
+    width: 125px !important;
+}
+
+.weight{
+    width: 125px !important;
+}
+
+.Cautions{
+    width: 80% !important;
+    border-bottom: 1px solid red !important;
+}
+
+.label{
+    font-size: 10px !important;
+    font-weight: bold !important;
+}
+.practitionerName{
+    input {
+        width: 54% !important;
+        color:#495057;
+        padding: 0.5rem 0.75rem;
+        border: 0.0625rem solid #d2d6da !important;
+        font-size: 0.875rem!important;
+        outline: none !important;
+        background-color: none;
+        border-radius: 0.5rem;
+        line-height: 1.4!important;
+        font-weight: 400!important;
+        height: auto!important;
+        place-items: center!important;
+        cursor: text;
+        box-sizing: border-box;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        display: inline-block !important;
+        margin-bottom: 10px;
+    }
+    
+}
+.NPI{
+    input {
+        width: 159px !important;
+
+        color:#495057;
+        padding: 0.5rem 0.75rem;
+        border: 0.0625rem solid #d2d6da !important;
+        font-size: 0.875rem!important;
+        outline: none !important;
+        background-color: none;
+        border-radius: 0.5rem;
+        line-height: 1.4!important;
+        font-weight: 400!important;
+        height: auto!important;
+        place-items: center!important;
+        cursor: text;
+        box-sizing: border-box;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        display: inline-block !important;
+        margin-bottom: 10px;
+
+    }
+}
+
+.TIN{
+    input {
+        width: 159px !important;
+
+        color:#495057;
+        padding: 0.5rem 0.75rem;
+        border: 0.0625rem solid #d2d6da !important;
+        font-size: 0.875rem!important;
+        outline: none !important;
+        background-color: none;
+        border-radius: 0.5rem;
+        line-height: 1.4!important;
+        font-weight: 400!important;
+        height: auto!important;
+        place-items: center!important;
+        cursor: text;
+        box-sizing: border-box;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        display: inline-block !important;
+        margin-bottom: 10px;
+
+    }
+}
+
+.hourlyRate{
+    input {
+        width: 23% !important;
+
+        color:#495057;
+        padding: 0.5rem 0.75rem;
+        border: 0.0625rem solid #d2d6da !important;
+        font-size: 0.875rem!important;
+        outline: none !important;
+        background-color: none;
+        border-radius: 0.5rem;
+        line-height: 1.4!important;
+        font-weight: 400!important;
+        height: auto!important;
+        place-items: center!important;
+        cursor: text;
+        box-sizing: border-box;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        display: inline-block !important;
+        margin-bottom: 10px;
+
+    }
+}
+
+.Assessment{
+    font-weight: bold !important;
+    font-size: 10px !important;
+}
+
+.Additional{
+    padding: 5px !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    font-size: 15px !important;
+    outline: none !important;
+    background-color: #edf4fc;
+}
+
+.doe{
+    font-weight: bolder !important;
+    font-size: 10px !important;
+    padding: 1px !important;
+}
+
+.doeInput{
+    height: 25px !important;
+    width: 100px !important;
+    padding: 5px !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    font-size: 15px !important;
+    background-color: #edf4fc !important;
+}
+
+.label1{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+}
+
+.BpClass{
+    width: 70px !important;
+}
+
+.pluse{
+    width: 50px !important;
+}
+.temp{
+    width: 50px !important;
+}
+.Neurological{
+    font-size: 13px !important;
+}
+.CranialNerves{
+    width: 145px !important;
+}
+.Romberg{
+    width: 164px !important;
+}
+.Diadichodyskinesia{
+    width: 122px !important;
+}
+.Dermatomes{
+    width: 153px !important;
+}
+.Myotomes{
+    width: 164px !important;
+}
+.DTR{
+    width: 187px !important;
+}
+.Pathological{
+    width: 154px !important;
+}
+.Homan{
+    width: 184px !important;
+}
+
+.table3 td {
+    padding: 0px 5px 0px 5px !important;
+} 
+
+// .root_container{
+//     height: 85vh !important;
+//     background-size: 100% 100% !important;
+// }
+
+// .container .first_box{
+//     height: calc(85vh - 40vh);
+// }
+
+
+// .container .second_box{
+//     height: calc(85vh - 40vh);
+// }
+
+// .container .third_box{
+//     height: calc(85vh - 60vh);
+// }
+
+// .container .fourth_box{
+//     height: calc(85vh - 60vh);
+// }
+
+// .container .fifth_box{
+//     height: calc(85vh - 50vh);
+// }
+
+// .container .six_box{
+//     height: calc(85vh - 75vh);
+// }
+.GridClass div{
+    height: 30px !important;
+}
+.GridClass div input{
+    height: 25px !important;
+}
+
+
+// :root{
+//     --div-height : 100% !important;
+//     --bg-size : 100% 100% !important;
+// }
+
+// .center_div .top_div{
+//     height: calc(var(--div-height) - 50%) !important;
+//     background-color: cornflowerblue !important;
+// }
+
+// .center_div .bottom_first_div{
+//     height: calc(var(--div-height) - 50%) !important;
+//     background-color: darkgoldenrod !important;
+// }
+
+// .center_div .bottom_sec_div{
+//     height: calc(var(--div-height) - 50%) !important;
+//     background-color: chocolate !important;
+// }
+
+.content-table{
+    border-collapse: collapse !important;
+    // margin: 25px 0 !important;
+    font-size: 14px !important;
+    // min-width: 400px !important;
+    // overflow: hidden !important;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    // background-color: #DCDCDC !important;    
+    // align-items: center;
+    // justify-content: center;
+}
+
+.content-table thead tr {
+    // background-color: #009879 !important;
+    text-align: center !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+// .content-table th,
+// .content-table td {
+//     // padding: 10px 13px !important;
+//     // padding: 3px 3px 3px 5px !important;
+// }
+
+// .content-table  .check {
+//     padding-left: 25px !important;
+// }
+
+.content-table td div div {
+    width: 100% !important;
+}
+
+// .content-table td input {
+//     width: 100px !important;
+//     // margin-right: 5px !important;
+//     padding: 3px !important;
+//     // background-color: #f1f4ff !important;
+//     font-size: 15px;
+//     // border: #f1f4ff !important;
+// }
+.content-table td label{
+    margin-left: 10px !important;
+}
+.content-table td select{
+    margin-right : 8px !important;
+    width : 50px;
+    padding : 3px !important;
+    background: #f1f4ff !important;
+    font-size : 15px !important;
+    border : #f1f4ff !important;
+    
+}
+.tbodyTd{
+    text-align: center !important;
+}
+.textAreaClass{
+    margin-right : 8px !important;
+    // width : 50px !important;
+    padding : 3px !important;
+    background: #f1f4ff !important;
+    font-size : 15px !important;
+    border : 1px solid black !important;
+}
+@mixin mobile {
+    @media screen and (min-width: 480px) {
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @mixin laptop {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  .discription {
+    font-size: 13px !important;
+    padding-top: 5px !important;
+    padding-left: 25px !important;
+  }
+  .CranialNervesLabel{
+    padding-top: 35px !important;
+  }
+  @media only screen and (max-width : 480px){
+   .discription{
+    padding-top: 10px !important;
+    padding-left: 0px !important;
+    text-align: center !important;
+   } 
+  }
+
+  .content-table td {
+    position: relative !important;
+    width: 200px;
+  }
+  .content-table td input{
+    position: absolute !important;
+    width: 100% ;
+    height: 100% !important;
+    top: 0 !important;
+    border: none !important;
+    outline: none !important;
+  }
+  .table1Pain{
+    text-align: center !important;
+    width: 1% !important;
+  }
+
+  .nextButton5{
+    position: absolute !important;
+    right: 0;
+    top: 20px;
+}
+
+.additonLabel label{
+    font-size: 15px !important;
+}
+.ODonoghuesManeuver-dropdown{
+    width: 100% !important;
+}
+
+@media only screen and (max-width : 425px) {
+    .RangeScroll {
+        overflow-x: auto;
+    }
+}
+@media only screen and (max-width : 375px){
+    .mediaQuery{
+        // background-color: aqua;
+        padding-left: 0 !important;
+    }
+}
+@media only screen  and (max-width : 320px) {
+    .practitionerName {
+            input {
+                width: 70% !important;
+                color: #495057;
+                padding: 0.5rem 0.75rem;
+                border: 0.0625rem solid #d2d6da !important;
+                font-size: 0.875rem !important;
+                outline: none !important;
+                background-color: none;
+                border-radius: 0.5rem;
+                line-height: 1.4 !important;
+                font-weight: 400 !important;
+                height: auto !important;
+                place-items: center !important;
+                cursor: text;
+                box-sizing: border-box;
+                font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                display: inline-block !important;
+                margin-bottom: 10px;
+            }
+    
+        }
+                .hourlyRate {
+                    input {
+                        width: 30% !important;
+        
+                        color: #495057;
+                        padding: 0.5rem 0.75rem;
+                        border: 0.0625rem solid #d2d6da !important;
+                        font-size: 0.875rem !important;
+                        outline: none !important;
+                        background-color: none;
+                        border-radius: 0.5rem;
+                        line-height: 1.4 !important;
+                        font-weight: 400 !important;
+                        height: auto !important;
+                        place-items: center !important;
+                        cursor: text;
+                        box-sizing: border-box;
+                        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                        display: inline-block !important;
+                        margin-bottom: 10px;
+        
+                    }
+                }
+}
+@media only screen and (min-width : 321px)and (max-width : 375px) {
+    .practitionerName {
+        input {
+            width: 59% !important;
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .hourlyRate {
+        input {
+            width: 25.5% !important;
+
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+
+        }
+    }
+}
+@media only screen and (min-width : 376px) and (max-width : 425px) {
+    .practitionerName {
+        input {
+            width: 51% !important;
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .hourlyRate {
+        input {
+            width: 22% !important;
+
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+
+        }
+    }
+}
+@media (max-width: 991px){
+    .mediaQuery{
+        justify-content: center !important;
+        display: flex !important;
+    }
+}
+@media only screen and (min-width : 426px) and (max-width : 768px) {
+    
+    .practitionerName {
+        input {
+            width: 85.5% !important;
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .hourlyRate {
+        input {
+            width: 37% !important;
+
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+
+        }
+    }
+}
+@media only screen and (min-width : 992px) and (max-width : 1024px) {
+    .practitionerName {
+        input {
+            width: 69% !important;
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+        }
+
+    }
+
+    .hourlyRate {
+        input {
+            width: 30% !important;
+
+            color: #495057;
+            padding: 0.5rem 0.75rem;
+            border: 0.0625rem solid #d2d6da !important;
+            font-size: 0.875rem !important;
+            outline: none !important;
+            background-color: none;
+            border-radius: 0.5rem;
+            line-height: 1.4 !important;
+            font-weight: 400 !important;
+            height: auto !important;
+            place-items: center !important;
+            cursor: text;
+            box-sizing: border-box;
+            font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+            display: inline-block !important;
+            margin-bottom: 10px;
+
+        }
+    }
+}
+@media only screen and (min-width : 1300px) and (max-width : 1440px) {
+    .practitionerName {
+            input {
+                width: 48% !important;
+                color: #495057;
+                padding: 0.5rem 0.75rem;
+                border: 0.0625rem solid #d2d6da !important;
+                font-size: 0.875rem !important;
+                outline: none !important;
+                background-color: none;
+                border-radius: 0.5rem;
+                line-height: 1.4 !important;
+                font-weight: 400 !important;
+                height: auto !important;
+                place-items: center !important;
+                cursor: text;
+                box-sizing: border-box;
+                font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                display: inline-block !important;
+                margin-bottom: 10px;
+            }
+    
+        }
+    
+        .hourlyRate {
+            input {
+                width: 20.5% !important;
+    
+                color: #495057;
+                padding: 0.5rem 0.75rem;
+                border: 0.0625rem solid #d2d6da !important;
+                font-size: 0.875rem !important;
+                outline: none !important;
+                background-color: none;
+                border-radius: 0.5rem;
+                line-height: 1.4 !important;
+                font-weight: 400 !important;
+                height: auto !important;
+                place-items: center !important;
+                cursor: text;
+                box-sizing: border-box;
+                font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+                display: inline-block !important;
+                margin-bottom: 10px;
+    
+            }
+        }
+}

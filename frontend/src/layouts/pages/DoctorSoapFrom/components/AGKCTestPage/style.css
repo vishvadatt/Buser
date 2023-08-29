@@ -1,0 +1,109 @@
+.agkctitle span {
+  font-size: 14px !important;
+  border-bottom: 1px solid #e20ed3;
+  color: #e20ed3;
+  font-weight: bold;
+}
+.agkg {
+  display: flex;
+}
+.agkgsubtitleform p {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 3px !important;
+}
+.agkgsubtitleform span {
+  font-size: 14px;
+  color: #e20ed3;
+  font-weight: bold;
+}
+
+.selectvalue {
+  margin-right: 8px;
+  width: 55px !important;
+  padding: 3px;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+}
+.Exercises {
+  margin-left: 63px !important;
+}
+.Exercises input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 14px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 100% !important;
+  height: 30px;
+}
+
+.Exercises input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.agkcnotes {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.agkcnotes p {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.agkcnotes textarea {
+  width: 100%;
+  height: 150px;
+  background-color: #f1f4ff;
+  border: none;
+  font-size: 15px;
+  resize: none;
+}
+
+.agkcnotes input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.agkcbtn {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+.agkcbtn:focus-visible,
+textarea:focus-visible {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .top {
+    padding-bottom: 15px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bodyimg {
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Exercises input {
+    background-color: #f1f4ff;
+    padding: 5px !important;
+    font-size: 15x !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100% !important;
+  }
+}
+

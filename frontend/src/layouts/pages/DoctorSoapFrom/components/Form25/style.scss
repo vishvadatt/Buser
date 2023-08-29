@@ -1,0 +1,95 @@
+.tableContainer5 {
+  border-collapse: collapse !important;
+  font-size: 0.8em !important;
+  // box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.tableContainer5 thead tr {
+  text-align: left !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.tableContainer5 th,
+.tableContainer5 td {
+  // padding: 3px 3px 3px 5px !important;
+  position: relative !important;
+  width: 200px;
+}
+
+.tableContainer5 td div div {
+  width: 100% !important;
+}
+
+// .tableContainer5 td input {
+//     position: absolute !important;
+//     width: 100% !important;
+//     height: 100% !important;
+//     top: 0 !important;
+//     border: none !important;
+//     outline: none !important;
+// }
+
+.firstRowHeight {
+  height: 80px;
+}
+
+.inputClasses {
+  // position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  border: none !important;
+  outline: none !important;
+  background-color: #e3f7f7;
+  padding: 3px;
+  resize: none;
+}
+
+.inputClasses1 {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  border: none !important;
+  outline: none !important;
+}
+.tableContainer5 td label {
+  margin-left: 5px !important;
+}
+
+.tableContainer5 td {
+  border-left: 3px solid black !important;
+}
+.borderTopBold {
+  border-top: 3px solid black;
+}
+.borderLeftBold {
+  border-left: 3px solid black;
+}
+.clientProgram {
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  width: 343px !important;
+  color: black;
+  background-color: #e7e7e7;
+}
+
+.divNewPtProgram {
+  padding-top: 5px !important;
+}
+.newPtProgram {
+  padding: 5px !important;
+  border: 2px solid black;
+}
+
+.fixWidth {
+  width: 100px !important;
+}
+
+.nextButttonclass25 {
+  position: absolute;
+  right: 0;
+  top: 17px;
+}

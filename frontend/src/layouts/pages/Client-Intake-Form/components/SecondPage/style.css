@@ -1,0 +1,1553 @@
+.css-el1bou {
+  width: 0% !important;
+  margin-top: 0px !important;
+}
+
+.Physical {
+  margin-left: 3.2rem !important;
+}
+
+.ObGyn {
+  margin-left: 3.5rem !important;
+}
+
+.Eye {
+  margin-left: 1.3rem !important;
+}
+
+.Physical input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.Physical input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.ObGyn input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.ObGyn input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.WellnessE input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.WellnessE input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.Eye input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.Eye input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.Dental input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.Dental input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+/* second part */
+
+.Females {
+  /* margin-left: 10px; */
+  /* text-align: center; */
+}
+
+.Age {
+  margin-left: 3.5rem;
+}
+
+.lastcycle {
+  margin-left: 6.1rem;
+}
+
+.cycle {
+  margin-left: 7.5rem;
+}
+
+.abnormal {
+  margin-left: 4.2rem;
+}
+
+.pain {
+  margin-left: 7.4rem;
+}
+
+.dateofmeno {}
+
+.lastpap {
+  margin-left: 10.8rem;
+}
+
+.birth {
+  margin-left: 9.1rem;
+}
+
+.hormone {
+  margin-left: 2.2rem;
+}
+
+.Age input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.Age input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.lastcycle input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.lastcycle input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.cycle input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.cycle input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.abnormal input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.abnormal input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.pain input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.pain input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.dateofmeno input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.dateofmeno input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.lastpap input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.lastpap input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.birth input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.birth input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.hormone input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.hormone input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+/* third Part */
+.providers {
+  margin-left: 10px !important;
+}
+
+.Describe {
+  margin-top: 18.5rem;
+
+  /* border-bottom: 1px solid black; */
+}
+
+.bor {
+  border-bottom: 1px solid black !important;
+}
+
+.Describe input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 76.3%;
+  height: 27px !important;
+}
+
+.Describe input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.bloodtest {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bloodtest span {
+  /* margin-left: 2.8rem !important; */
+}
+
+.bloodtest input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 1.3rem;
+}
+
+.bloodtest input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.breast {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.breast span {
+  /* margin-left: 4.5rem !important; */
+}
+
+.breast input {
+  border-bottom: 1px solid black !important;
+  margin-left: 3px !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+}
+
+.breast input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.colonoscopy {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.colonoscopy span {
+  /* margin-left: 1.5rem !important; */
+}
+
+.colonoscopy input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+}
+
+.colonoscopy input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.ctscan {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ctscan span {
+  /* margin-left: 3.7rem !important; */
+}
+
+.ctscan input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 2.1rem;
+}
+
+.ctscan input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.dexa {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dexa span {
+  /* margin-left: 4.9rem !important; */
+}
+
+.dexa input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 3.3rem;
+}
+
+.dexa input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.endoscope {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.endoscope span {
+  /* margin-left: 2.4rem !important; */
+}
+
+.endoscope input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 0.8rem;
+}
+
+.endoscope input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.mri {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mri span {
+  /* margin-left: 5.6rem !important; */
+}
+
+.mri input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 4.1rem;
+}
+
+.mri input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.prostate {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.prostate span {
+  /* margin-left: 3.5rem !important; */
+}
+
+.prostate input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 2rem;
+}
+
+.prostate input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.ultrasound {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ultrasound span {
+  /* margin-left: 2.5rem !important; */
+}
+
+.ultrasound input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 0.9rem;
+}
+
+.ultrasound input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.x-ray {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.x-ray span {
+  /* margin-left: 5.1rem !important; */
+}
+
+.x-ray input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+  margin-left: 3.6rem;
+}
+
+.x-ray input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.other {
+  margin-left: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.other span {
+  /* margin-left: 4.9rem !important; */
+}
+
+.other input {
+  border-bottom: 1px solid black !important;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  margin-left: 3.3rem;
+  height: 27px !important;
+}
+
+.other input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.next-btn-sbn {
+  position: relative;
+  /* top: 41px; */
+}
+
+@media only screen and (max-width: 320px) {
+  .Physical {
+    margin-left: 0rem !important;
+  }
+
+  .ObGyn {
+    margin-left: 0rem !important;
+  }
+
+  .Eye {
+    margin-left: 0rem !important;
+  }
+
+  .Physical input {
+    width: 40% !important;
+    margin-left: 49px !important;
+  }
+
+  .ObGyn input {
+    width: 40% !important;
+    margin-left: 55px !important;
+  }
+
+  .WellnessE input {
+    width: 40% !important;
+  }
+
+  .Eye input {
+    width: 40% !important;
+    margin-left: 85px !important;
+  }
+
+  .Dental input {
+    width: 40% !important;
+    margin-left: 63px !important;
+  }
+
+  .Females {
+    margin-left: 0px;
+  }
+
+  .Age {
+    margin-left: 0rem;
+  }
+
+  .lastcycle {
+    margin-left: 0rem;
+  }
+
+  .cycle {
+    margin-left: 0rem;
+  }
+
+  .abnormal {
+    margin-left: 0rem;
+  }
+
+  .pain {
+    margin-left: 0rem;
+  }
+
+  .dateofmeno {}
+
+  .lastpap {
+    margin-left: 0rem;
+  }
+
+  .birth {
+    margin-left: 0rem;
+  }
+
+  .hormone {
+    margin-left: 0rem;
+  }
+
+  .Females {
+    margin-left: 0;
+  }
+
+  .Age input {
+    width: 100%;
+  }
+
+  .lastcycle input {
+    width: 100%;
+  }
+
+  .cycle input {
+    width: 100%;
+  }
+
+  .abnormal input {
+    width: 100%;
+  }
+
+  .pain input {
+    width: 100%;
+  }
+
+  .dateofmeno input {
+    width: 100%;
+  }
+
+  .lastpap input {
+    width: 100%;
+  }
+
+  .birth input {
+    width: 100%;
+  }
+
+  .hormone input {
+    width: 100%;
+  }
+
+  /* third part */
+  .providers {
+    margin-left: 10px !important;
+  }
+
+  .providers-table {
+    overflow-x: auto !important;
+  }
+
+  .Describe {
+    margin-top: 13px !important;
+    border-bottom: 1px solid black;
+  }
+
+  .Describe input {
+    width: 100%;
+  }
+
+  .bloodtest {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .bloodtest span {
+    margin-left: 0rem !important;
+  }
+
+  .bloodtest input {
+    width: auto;
+    margin-left: 1.3rem !important;
+  }
+
+  .breast {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .breast span {
+    margin-left: 0rem !important;
+  }
+
+  .breast input {
+    width: auto;
+    margin-left: 3rem !important;
+  }
+
+  .colonoscopy {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .colonoscopy span {
+    margin-left: 0rem !important;
+  }
+
+  .colonoscopy input {
+    width: auto;
+    margin-left: 0rem !important;
+  }
+
+  .ctscan {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .ctscan span {
+    margin-left: 0rem !important;
+  }
+
+  .ctscan input {
+    width: auto;
+    margin-left: 2.1rem !important;
+  }
+
+  .dexa {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .dexa span {
+    margin-left: 0rem !important;
+  }
+
+  .dexa input {
+    width: auto;
+    margin-left: 3.3rem !important;
+  }
+
+  .endoscope {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .endoscope span {
+    margin-left: 0rem !important;
+  }
+
+  .endoscope input {
+    width: auto;
+    margin-left: 0.8rem !important;
+  }
+
+  .mri {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .mri span {
+    margin-left: 0rem !important;
+  }
+
+  .mri input {
+    width: auto;
+    margin-left: 4.1rem !important;
+  }
+
+  .prostate {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .prostate span {
+    margin-left: 0rem !important;
+  }
+
+  .prostate input {
+    width: auto;
+    margin-left: 2rem !important;
+  }
+
+  .ultrasound {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .ultrasound span {
+    margin-left: 0rem !important;
+  }
+
+  .ultrasound input {
+    width: auto;
+    margin-left: 0.9rem !important;
+  }
+
+  .x-ray {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .x-ray span {
+    margin-left: 0rem !important;
+  }
+
+  .x-ray input {
+    width: auto;
+    margin-left: 3.6rem !important;
+  }
+
+  .other {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .other span {
+    margin-left: 0rem !important;
+  }
+
+  .other input {
+    width: auto;
+    margin-left: 3.4rem !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .Physical {
+    margin-left: 0rem !important;
+  }
+
+  .ObGyn {
+    margin-left: 0rem !important;
+  }
+
+  .Eye {
+    margin-left: 0rem !important;
+  }
+
+  .Physical input {
+    width: 40% !important;
+    margin-left: 49px !important;
+  }
+
+  .ObGyn input {
+    width: 40% !important;
+    margin-left: 55px !important;
+  }
+
+  .WellnessE input {
+    width: 40% !important;
+  }
+
+  .Eye input {
+    width: 40% !important;
+    margin-left: 85px !important;
+  }
+
+  .Dental input {
+    width: 40% !important;
+    margin-left: 63px !important;
+  }
+
+  .Females {
+    margin-left: 0;
+  }
+
+  .Age {
+    margin-left: 0rem;
+  }
+
+  .lastcycle {
+    margin-left: 0rem;
+  }
+
+  .cycle {
+    margin-left: 0rem;
+  }
+
+  .abnormal {
+    margin-left: 0rem;
+  }
+
+  .pain {
+    margin-left: 0rem;
+  }
+
+  /* .dateofmeno {
+  } */
+
+  .lastpap {
+    margin-left: 0rem;
+  }
+
+  .birth {
+    margin-left: 0rem;
+  }
+
+  .hormone {
+    margin-left: 0rem;
+  }
+
+  .Age input {
+    width: 100%;
+  }
+
+  .lastcycle input {
+    width: 100%;
+  }
+
+  .cycle input {
+    width: 100%;
+  }
+
+  .abnormal input {
+    width: 100%;
+  }
+
+  .pain input {
+    width: 100%;
+  }
+
+  .dateofmeno input {
+    width: 100%;
+  }
+
+  .lastpap input {
+    width: 100%;
+  }
+
+  .birth input {
+    width: 100%;
+  }
+
+  .hormone input {
+    width: 100%;
+  }
+
+  /* third part */
+  .providers {
+    margin-left: 10px !important;
+  }
+
+  .providers-table {
+    overflow-x: auto !important;
+  }
+
+  .Describe {
+    margin-top: 13px !important;
+    border-bottom: 1px solid black;
+  }
+
+  .Describe input {
+    width: 100%;
+  }
+
+  .bloodtest {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .bloodtest span {
+    margin-left: 0rem !important;
+  }
+
+  .bloodtest input {
+    width: auto;
+    margin-left: 1.3rem !important;
+  }
+
+  .breast {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .breast span {
+    margin-left: 0rem !important;
+  }
+
+  .breast input {
+    width: auto;
+    margin-left: 3rem !important;
+  }
+
+  .colonoscopy {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .colonoscopy span {
+    margin-left: 0rem !important;
+  }
+
+  .colonoscopy input {
+    width: auto;
+    margin-left: 0rem !important;
+  }
+
+  .ctscan {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .ctscan span {
+    margin-left: 0rem !important;
+  }
+
+  .ctscan input {
+    width: auto;
+    margin-left: 2.2rem !important;
+  }
+
+  .dexa {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .dexa span {
+    margin-left: 0rem !important;
+  }
+
+  .dexa input {
+    width: auto;
+    margin-left: 3.4rem !important;
+  }
+
+  .endoscope {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .endoscope span {
+    margin-left: 0rem !important;
+  }
+
+  .endoscope input {
+    width: auto;
+    margin-left: 0.9rem !important;
+  }
+
+  .mri {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .mri span {
+    margin-left: 0rem !important;
+  }
+
+  .mri input {
+    width: auto;
+    margin-left: 4.1rem !important;
+  }
+
+  .prostate {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .prostate span {
+    margin-left: 0rem !important;
+  }
+
+  .prostate input {
+    width: auto;
+    margin-left: 2rem !important;
+  }
+
+  .ultrasound {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .ultrasound span {
+    margin-left: 0rem !important;
+  }
+
+  .ultrasound input {
+    width: auto;
+    margin-left: 0.9rem !important;
+  }
+
+  .x-ray {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .x-ray span {
+    margin-left: 0rem !important;
+  }
+
+  .x-ray input {
+    width: auto;
+    margin-left: 3.6rem !important;
+  }
+
+  .other {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .other span {
+    margin-left: 0rem !important;
+  }
+
+  .other input {
+    width: auto;
+    margin-left: 3.4rem !important;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .Physical {
+    margin-left: 0rem !important;
+  }
+
+  .ObGyn {
+    margin-left: 0rem !important;
+  }
+
+  .Eye {
+    margin-left: 0rem !important;
+  }
+
+  .Physical input {
+    width: 40% !important;
+    margin-left: 49px !important;
+  }
+
+  .ObGyn input {
+    width: 40% !important;
+    margin-left: 55px !important;
+  }
+
+  .WellnessE input {
+    width: 40% !important;
+  }
+
+  .Eye input {
+    width: 40% !important;
+    margin-left: 85px !important;
+  }
+
+  .Dental input {
+    width: 40% !important;
+    margin-left: 63px !important;
+  }
+
+  .Females {
+    margin-left: 0;
+  }
+
+  .Age {
+    margin-left: 0rem;
+  }
+
+  .lastcycle {
+    margin-left: 0rem;
+  }
+
+  .cycle {
+    margin-left: 0rem;
+  }
+
+  .abnormal {
+    margin-left: 0rem;
+  }
+
+  .pain {
+    margin-left: 0rem;
+  }
+
+  /* .dateofmeno {
+  } */
+
+  .lastpap {
+    margin-left: 0rem;
+  }
+
+  .birth {
+    margin-left: 0rem;
+  }
+
+  .hormone {
+    margin-left: 0rem;
+  }
+
+  .Age input {
+    width: 100%;
+  }
+
+  .lastcycle input {
+    width: 100%;
+  }
+
+  .cycle input {
+    width: 100%;
+  }
+
+  .abnormal input {
+    width: 100%;
+  }
+
+  .pain input {
+    width: 100%;
+  }
+
+  .dateofmeno input {
+    width: 100%;
+  }
+
+  .lastpap input {
+    width: 100%;
+  }
+
+  .birth input {
+    width: 100%;
+  }
+
+  .hormone input {
+    width: 100%;
+  }
+
+  /* third Part */
+  .providers {
+    margin-left: 0px !important;
+  }
+
+  .Describe {
+    margin-top: 13px !important;
+    border-bottom: 1px solid black;
+  }
+
+  .Describe input {
+    width: 100%;
+  }
+
+  .bloodtest {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .bloodtest span {
+    margin-left: 0rem !important;
+  }
+
+  .bloodtest input {
+    width: auto;
+    margin-left: 1.3rem !important;
+  }
+
+  .breast {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .breast span {
+    margin-left: 0rem !important;
+  }
+
+  .breast input {
+    width: auto;
+    margin-left: 3rem !important;
+  }
+
+  .colonoscopy {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .colonoscopy span {
+    margin-left: 0rem !important;
+  }
+
+  .colonoscopy input {
+    width: auto;
+    margin-left: 0rem !important;
+  }
+
+  .ctscan {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .ctscan span {
+    margin-left: 0rem !important;
+  }
+
+  .ctscan input {
+    width: auto;
+    margin-left: 2.2rem !important;
+  }
+
+  .dexa {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .dexa span {
+    margin-left: 0rem !important;
+  }
+
+  .dexa input {
+    width: auto;
+    margin-left: 3.3rem !important;
+  }
+
+  .endoscope {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .endoscope span {
+    margin-left: 0rem !important;
+  }
+
+  .endoscope input {
+    width: auto;
+    margin-left: 0.8rem !important;
+  }
+
+  .mri {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .mri span {
+    margin-left: 0rem !important;
+  }
+
+  .mri input {
+    width: auto;
+    margin-left: 4rem !important;
+  }
+
+  .prostate {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .prostate span {
+    margin-left: 0rem !important;
+  }
+
+  .prostate input {
+    width: auto;
+    margin-left: 1.9rem !important;
+  }
+
+  .ultrasound {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .ultrasound span {
+    margin-left: 0rem !important;
+  }
+
+  .ultrasound input {
+    width: auto;
+    margin-left: 0.8rem !important;
+  }
+
+  .x-ray {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .x-ray span {
+    margin-left: 0rem !important;
+  }
+
+  .x-ray input {
+    width: auto;
+    margin-left: 3.5rem !important;
+  }
+
+  .other {
+    /* border-bottom: 1px solid black; */
+    margin-left: 0px !important;
+  }
+
+  .other span {
+    margin-left: 0rem !important;
+  }
+
+  .other input {
+    width: auto;
+    margin-left: 3.3rem !important;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .Age input {
+    width: 40%;
+  }
+
+  .lastcycle input {
+    width: 42.7%;
+  }
+
+  .cycle input {
+    width: 44.5%;
+  }
+
+  .abnormal input {
+    width: 40.5%;
+  }
+
+  .pain input {
+    width: 44%;
+  }
+
+  .dateofmeno input {
+    width: 36.3%;
+  }
+
+  .lastpap input {
+    width: 48.6%;
+  }
+
+  .birth input {
+    width: 46.3%;
+  }
+
+  .hormone input {
+    width: 38.5%;
+  }
+
+  .Describe input {
+    width: 77.5%;
+  }
+}
+
+@media only screen and (min-width: 1296px) and (max-width: 1440px) {
+  .Age input {
+    width: 30%;
+  }
+
+  .lastcycle input {
+    width: 31.5%;
+  }
+
+  .cycle input {
+    width: 32.3%;
+  }
+
+  .abnormal input {
+    width: 30.4%;
+  }
+
+  .pain input {
+    width: 32.2%;
+  }
+
+  .dateofmeno input {
+    width: 28.4%;
+  }
+
+  .lastpap input {
+    width: 34.3%;
+  }
+
+  .birth input {
+    width: 33.4%;
+  }
+
+  .hormone input {
+    width: 29.6%;
+  }
+
+  .Describe input {
+    width: 79.6%;
+  }
+
+  .bloodtest input {
+    width: 61.5%;
+  }
+
+  .breast input {
+    width: 61.5%;
+  }
+
+  .colonoscopy input {
+    width: 61.5%;
+  }
+
+  .ctscan input {
+    width: 61.5%;
+  }
+
+  .dexa input {
+    width: 61.5%;
+  }
+
+  .endoscope input {
+    width: 61.5%;
+  }
+
+  .mri input {
+    width: 61.5%;
+  }
+
+  .prostate input {
+    width: 61.5%;
+  }
+
+  .ultrasound input {
+    width: 61.5%;
+  }
+
+  .x-ray input {
+    width: 61.5%;
+  }
+
+  .other input {
+    width: 61.5%;
+  }
+}

@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "rage-italic";
+  src: url("../../../../rage-italic/RAGE.TTF");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.initalName {
+  /* font-family: "Rage italic" !important; */
+  font-family: "rage-italic" !important;
+  font-size: 24px !important;
+  font-variant: small-caps !important;
+}
+.saveAndClear {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 240px;
+
+  max-width: 240px;
+}
+.initialhere {
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 818px) {
+  .step1 {
+    padding: 0 !important;
+  }
+
+  .nameAndDate {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .saveAndClear {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+  }
+
+  .Iaggre {
+    padding-top: 0 !important;
+  }
+
+  .nxtButton {
+    margin-right: 0 !important;
+  }
+}
+
+label {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03333em;
+  opacity: 1;
+  text-transform: capitalize;
+  vertical-align: unset;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #344767;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 388px) {
+  .initialhere {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .initialhere {
+    margin-bottom: 0 !important;
+  }
+
+  .initialhere1 {
+    margin-bottom: 0 !important;
+  }
+
+  .clientInitialName {
+    margin-bottom: -20px !important;
+  }
+
+  .parentClass {
+    padding-top: 0 !important;
+  }
+}
+
+.sign {
+  /* background-color: #f1f4ff;
+    border: #f1f4ff;
+   // border-bottom: 1px solid #000;
+    font-size: 15px !important; */
+  height: 36px !important;
+  width: 450px !important;
+}

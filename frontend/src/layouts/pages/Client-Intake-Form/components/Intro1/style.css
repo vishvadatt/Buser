@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "rage-italic";
+    /* src: url("../../../../rage-italic/RAGE.TTF"); */
+    src: url("../../../../../../rage-italic/RAGE.TTF");
+  }
+  
+.understand{
+    font-size: 16px;
+    display: flex;
+    text-align: justify;
+}
+.intends
+{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.SIGNING{
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: justify !important;
+}
+.sign1{
+    padding-left: 10px;
+}
+.date{
+    margin-top: 10px;
+}
+.Your{
+    justify-content: center;
+    display: flex;
+    font-size: 33px;
+}
+.sign{
+    /* font-style: italic; */
+    font-size: 16px;
+}
+
+.rageItalicFont{
+    font-size: 2rem !important;
+    font-family: 'rage-italic' !important;
+    padding: 1% !important;
+}

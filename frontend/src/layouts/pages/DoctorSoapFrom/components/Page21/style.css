@@ -1,0 +1,31 @@
+.bodyImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0;
+    /* background: white; */
+    height: 361px;
+    width: 100%;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0rem 0.1875rem 0.3125rem -0.0625rem rgb(0 0 0 / 9%),
+        0rem 0.125rem 0.3125rem rgb(0 0 0 / 7%);
+    outline-color: white;
+    border: 3px solid white;
+}
+
+.bodyImage1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-width: 0;
+    /* background: white; */
+    height: 100%;
+    width: 100%;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* box-shadow: 0rem 0.1875rem 0.3125rem -0.0625rem rgb(0 0 0 / 9%),
+        0rem 0.125rem 0.3125rem rgb(0 0 0 / 7%); */
+    outline-color: white;
+    border: 3px solid white;
+}

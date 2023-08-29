@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "rage-italic";
+    src: url("../../../../../../rage-italic/RAGE.TTF");
+  }
+
+.AGREEMENT{
+    justify-content: center;
+    display: flex;
+    font-size: 33px;
+}
+.ARBITRATION{
+    font-size: 16px;
+    text-align: justify;
+    display: flex;
+}
+.Article1{
+    font-weight: bold;
+    
+}
+.notice{
+    font-size: 16px;
+    text-align: justify;
+    display: flex;
+}
+
+.rageItalicFont{
+    font-size: 2rem !important;
+    font-family: 'rage-italic' !important;
+    padding: 1% !important;
+}

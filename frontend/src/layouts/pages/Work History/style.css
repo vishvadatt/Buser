@@ -1,0 +1,26 @@
+.css-t3qchm {
+    margin-bottom: 24px;
+    padding: 8px;
+    opacity: 1;
+    background: transparent;
+    color: #344767;
+    border-radius: none;
+}
+
+.ant-table th {
+    color: #8392ab !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+}
+
+.ant-table-thead>tr>th {
+    position: relative;
+    color: #8392ab !important;
+    font-weight: 500;
+    text-align: left;
+    background: #fafafa;
+}
+
+.workHistory {
+    width: 40%;
+}

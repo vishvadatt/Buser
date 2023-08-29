@@ -1,0 +1,71 @@
+.AGREEMENT {
+  font-size: 33px !important;
+}
+@font-face {
+  font-family: "rage-italic";
+  src: url("../../../../rage-italic/RAGE.TTF");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.initialName {
+  /* font-family: "Rage italic" !important; */
+  font-family: "rage-italic" !important;
+  font-size: 24px !important;
+  font-variant: small-caps !important;
+}
+
+.saveAndClear {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 818px) {
+  .step1 {
+    padding: 0 !important;
+  }
+  .nameAndDate {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .saveAndClear {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+  }
+  .Iaggre {
+    padding-top: 0 !important;
+  }
+  .nxtButton {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .initialhere {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .initialhere {
+    margin-bottom: 0 !important;
+  }
+  .initialhere1 {
+    margin-bottom: 0 !important;
+  }
+  .clientInitialName {
+    margin-bottom: -20px !important;
+  }
+  .parentClass {
+    padding-top: 0 !important;
+  }
+}

@@ -1,0 +1,106 @@
+.nxt1 {
+  margin-top: 16px;
+}
+.main-label {
+  font-size: 16px !important;
+}
+.other-title {
+  font-size: 16px !important;
+  text-decoration: underline !important;
+}
+.spacing {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.neuropsych-part {
+  margin-left: 15px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.symptoms-control {
+  margin-bottom: 2rem !important;
+}
+
+.heightinputClass {
+  margin-right: 10px !important;
+  /* background-color: #f1f4ff; */
+  width: 70px !important;
+  margin-left: 5px;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.heightinputClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.widthinputClass {
+  /* border-bottom: 1px solid black; */
+  margin-right: 10px !important;
+  /* background-color: #f1f4ff; */
+  width: 70px !important;
+  margin-left: 5px;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 40px !important;
+  color: #495057 !important;
+  border-radius: 8px !important;
+}
+.stylet :focus {
+  border-color: #35d1f5 !important;
+  box-shadow: 0rem 0rem 0rem 0.125rem rgb(129 227 249) !important;
+  outline: 0 !important;
+}
+
+.paddingLeftClass {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+@media screen and (max-width: 480px) {
+  .paddingLeftClass {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .paddingLeftClass {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}

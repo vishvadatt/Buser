@@ -1,0 +1,74 @@
+.nxtbutton1{
+    /* top: 20px; */
+    position: absolute;
+    left: -88px;
+}
+.table-Css{
+    overflow-x: auto;
+}
+td.checkbox-td {
+    width: 4%;
+    border-right: 0.0625rem solid #d2d6da;
+    padding: 0px 5px 0px 20px;
+    vertical-align: top;
+}
+td.number-td {
+    width: 10%;
+    border-right:  0.0625rem solid #d2d6da;
+    padding: 0px 5px 0px 10px;
+    vertical-align: top;
+}
+td.requries-td {
+    width: 35%;
+    border-right:  0.0625rem solid #d2d6da;
+    padding: 0px 5px 0px 10px;
+    vertical-align: top;
+}
+td.presenting-td {
+    width: 35%;
+    border-right:  0.0625rem solid #d2d6da;
+    padding: 0px 5px 0px 10px;
+    vertical-align: top;
+}
+td.input-td {
+    width: 9%;
+    vertical-align: top;
+    padding: 0px 10px 0px 0px;
+
+}
+.input-Css {
+    border: 0.0625rem solid #dee2e6;
+    border-radius: 0.35rem;
+    color: #495057!important;
+    padding: 10px 0.45rem;
+    font-size: 0.875rem!important;
+    font-weight: 400!important;
+    width: 78px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.therapies-type{
+    width: 7%;
+    border-right:  0.0625rem solid #d2d6da;
+    padding: 0px 10px;
+}
+.last-ele{
+    border-bottom:  0.0625rem solid #d2d6da;
+}
+td.spanLab.cpt-td {
+    width: 11%;
+}
+td.spanLab.code-td {
+    width: 9%;
+    margin-left: 35px;
+}
+td.spanLab.description-td {
+    width: 60%;
+    margin-left: 50px;
+}
+@media screen and (max-width: 600px) {
+    td.spanLab.description-td {
+        width: 55%;
+    }
+  }

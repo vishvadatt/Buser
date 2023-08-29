@@ -1,0 +1,181 @@
+const form = {
+  formId: "new-user-form",
+  formField: {
+    firstName: {
+      name: "firstName",
+      label: "first name",
+      type: "text",
+      placeholder: "eg. Micheal",
+      errorMsg: "First name is required.",
+    },
+    gender:{
+      name: "gender",
+      label: "Gender",
+      type: "text",
+      errorMsg: "Gender is required.",
+    },
+    country:{
+      name: "country",
+      label: "Country",
+      type: "text",
+      placeholder: "Select your Country",
+      // errorMsg: "Gender is required.",
+    },
+    lastName: {
+      name: "lastName",
+      label: "last name",
+      type: "text",
+      placeholder: "eg. Prior",
+      errorMsg: "Last name is required.",
+    },
+    company: {
+      name: "company",
+      label: "company",
+      type: "text",
+      placeholder: "eg. Creative Tim",
+      errorMsg: "company is required.",
+    },
+
+    email: {
+      name: "email",
+      label: "email address",
+      type: "email",
+      placeholder: "eg. soft@dashboard.come",
+      errorMsg: "Email address is required.",
+      invalidMsg: "Your email address is invalid",
+    },
+    
+    address1: {
+      name: "address1",
+      label: "address 1",
+      type: "text",
+      placeholder: "eg. Street 111",
+      //errorMsg: "Address is required.",
+    },
+    address2: {
+      name: "address2",
+      label: "address 2",
+      type: "text",
+      placeholder: "eg. Street 221",
+    },
+    city: {
+      name: "city",
+      label: "City",
+      type: "text",
+      placeholder: "Select your city",
+      errorMsg: "City is required.",
+    },
+    zip: {
+      name: "zip",
+      label: "zip",
+      type: "number",
+      placeholder: "enter Zip code",
+      errorMsg: "Zip is required.",
+      invalidMsg: "Zipcode is not valied (e.g. 70000).",
+    },
+    EmergencyPhoneNumber: {
+      name: "EmergencyPhoneNumber",
+      label: "Emergency Phone Number",
+      type: "number",
+      placeholder: "eg.451026",
+      errorMsg: "Emergency Phone Number is required.",
+    },
+    MaritalStatus: {
+      name: "MaritalStatus",
+      label: "Marital Status",
+      type: "text",
+      placeholder: "Select...",
+      errorMsg: "Status is need to fill",
+    },
+    Cellphonenumber: {
+      name: "Cellphonenumber",
+      label: "Cell Phone Number",
+      type: "number",
+      placeholder: "eg. 366975120",
+      errorMsg: "Cell phone number is required.",
+    },
+    Workphonenumber: {
+      name: "Workphonenumber",
+      label: "Work Phone Number",
+      type: "text",
+      placeholder: "eg. 366975120",
+      errorMsg: "Other Phone number is required,",
+    },
+    UserProfilePIC: {
+      name: "UserProfilePIC",
+      label: "UserProfilePIC",
+      // type: "number",
+      // placeholder: "eg. 366975120",
+      // errorMsg: "phone number needed",
+    },
+    EmergencyName: {
+      name: "EmergencyName",
+      label: "Emergency Person Name",
+      type: "text",
+      placeholder: "eg.john jow",
+    },
+    EmergencyRelation: {
+      name: "EmergencyRelation",
+      label: "Relation",
+      type: "text",
+      placeholder: "eg. Father",
+    },
+    publicEmail: {
+      name: "publicEmail",
+      label: "public email",
+      type: "email",
+      placeholder: "Use an address you don't use frequently",
+    },
+    bio: {
+      name: "bio",
+      label: "bio",
+      placeholder: "Say a few words about who you are or what you're working on.",
+    },
+    language: {
+      type: "text",
+      name: "language",
+      label: "language",
+      placeholder: "eg. English",
+      errorMsg: "language is required.",
+    },
+    DOB: {
+      type:"date",
+      name: "DOB",
+      label: "DOB",
+      
+    },
+    SocialSecurityNumber: {
+      type:"number",
+      name: "SocialSecurityNumber",
+      label: "Social Security Number / Identification Number",
+      placeholder:"eg.6454621",
+    },
+    NumberofChildren: {
+      type:"number",
+      name: "NumberofChildren",
+      label: "Number of Children",
+      placeholder:"eg.2",
+      errorMsg : "required number of children"
+    },
+    Occupation: {
+      type:"text",
+      name: "Occupation",
+      label: "Occupation",
+      placeholder:"eg.Manager",
+    },
+    UserWorkHours: {
+      type:"number",
+      name: "UserWorkHours",
+      label: "number of work hours per week",
+      placeholder:"eg.68",
+    },
+    state: {
+      type:"text",
+      name: "state",
+      label: "State",
+      placeholder:"Select your State",
+    },
+  },
+};
+
+export default form;

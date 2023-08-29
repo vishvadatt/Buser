@@ -1,0 +1,17 @@
+.redesignSelectComponent {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  background: #ffffff !important;
+  color: #67748e !important;
+}
+
+.quizWrapper {
+  .errorMessage {
+    color: red;
+    margin: 0px;
+    font-size: 13px;
+    padding: 2px 0px;
+  }
+}

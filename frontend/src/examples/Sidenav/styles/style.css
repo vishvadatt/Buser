@@ -1,0 +1,32 @@
+.css-u0k6ft-MuiPaper-root-MuiDrawer-paper {
+  margin-left: -4 !important;
+}
+@media (min-width: 960px) {
+  .css-1y936z7-MuiDrawer-docked .MuiDrawer-paper {
+    width: 19% !important;
+    /* margin-left: -4 !important; */
+  }
+}
+@media (min-width: 1200px) {
+  .css-1y936z7-MuiDrawer-docked .MuiDrawer-paper {
+    width: 19% !important;
+    /* margin-left: -4 !important; */
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #ebeef0;
+  border-radius: 10px;
+}
+/* .list{
+    z-index: auto !important;
+  } */
+/* .MuiPaper-root{
+    z-index: 100 !important;
+  } */

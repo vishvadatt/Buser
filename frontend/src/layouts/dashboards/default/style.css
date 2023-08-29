@@ -1,0 +1,151 @@
+.complementary {
+  text-align: justify;
+}
+
+@font-face {
+  font-family: "rage-italic";
+  src: url("../../../../rage-italic/RAGE.TTF");
+}
+
+.initialName {
+  font-family: "rage-italic" !important;
+  font-size: 24px !important;
+  font-variant: small-caps !important;
+}
+.react-joyride__tooltip {
+  color: #344767 !important;
+}
+.react-joyride__tooltip button {
+  background-color: #344767 !important;
+  color: white !important;
+  font-weight: 700;
+  border-radius: 5px !important;
+  padding: 10px !important;
+}
+.react-joyride__beacon {
+  margin-bottom: 20px !important;
+}
+.react-joyride__beacon {
+  margin: 0 !important;
+}
+.tourdiv {
+  position: fixed;
+  margin-left: 62% !important;
+}
+.touricon {
+  z-index: 100;
+  position: relative !important;
+  /* position: relative !important; */
+  background-color: transparent;
+  /* top: 0; */
+  border: 0px;
+  border-radius: 0px;
+  color: rgb(85, 85, 85);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  padding: 8px;
+  appearance: none;
+  display: inline-block;
+  height: 42px;
+  position: relative;
+  width: 42px;
+  z-index: 100;
+  top: -17px;
+}
+
+.iconmiddle {
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: joyride-beacon-inner;
+  background-color: rgb(21, 26, 77) !important;
+  border-radius: 50%;
+  display: block !important;
+  height: 50% !important;
+  left: 50% !important;
+  opacity: 0.7 !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 50% !important;
+}
+
+@keyframes joyride-beacon-inner {
+  20% {
+    opacity: 0.9;
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+.iconborder {
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: joyride-beacon-outer;
+  background-color: rgba(87, 112, 221, 0.2) !important;
+  border: 2px solid rgb(31, 32, 85) !important;
+  border-radius: 50% !important;
+  box-sizing: border-box !important;
+  display: block !important;
+  height: 100% !important;
+  left: 0px !important;
+  opacity: 0.9 !important;
+  position: absolute !important;
+  top: 0px !important;
+  transform-origin: center center !important;
+  width: 100% !important;
+}
+@keyframes joyride-beacon-outer {
+  0% {
+    transform: scale(1);
+  }
+  45% {
+    opacity: 0.7;
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .tourdiv {
+    margin-left: 15% !important;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .tourdiv {
+    margin-left: 50px !important;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .tourdiv {
+    margin-left: 50% !important;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 768px) {
+  .tourdiv {
+    margin-left: 69% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .tourdiv {
+    margin-left: 76.5% !important;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .tourdiv {
+    margin-left: 66.5% !important;
+  }
+}

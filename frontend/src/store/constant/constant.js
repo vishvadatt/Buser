@@ -1,0 +1,7 @@
+export const SET_LOGIN_DETAILS = "SET_LOGIN_DETAILS";
+
+// Generate Report
+
+export const GEN_REPORT_REQUEST = "GEN_REPORT_REQUEST";
+export const GEN_REPORT_SUCCESS = "GEN_REPORT_SUCCESS";
+export const GEN_REPORT_FAILURE = "GEN_REPORT_FAILURE";

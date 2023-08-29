@@ -1,0 +1,105 @@
+@media screen and (min-width: 480px) and (max-width: 576px) {
+    .singleGraph1{
+        justify-content: center;
+        display: flex;
+        padding-top: 70px;
+    }
+    .singleGraph2{
+        justify-content: center;
+        display: flex;
+        padding-top: 170px;
+    }
+}
+
+.tableContainer1{
+    border-collapse: collapse !important;
+    font-size: 0.6em !important;
+    min-width: 100px !important;
+    overflow: hidden !important;
+    // box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.tableContainer1 thead tr {
+    // background-color: #009879 !important;
+    text-align: left !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.tableContainer1 th,
+.tableContainer1 td {
+    // padding: 10px 13px !important;
+    padding: 3px 3px 3px 5px !important;
+}
+.dropDownInputComponent2{
+    margin-right : 8px !important;
+    width : 50px !important;
+    padding : 3px !important;
+    background: #f1f4ff !important;
+    font-size : 15px !important;
+    border : #f1f4ff !important;
+}
+
+.nextButton{
+    position: absolute;
+    right: 0;
+    top: 520px;
+}
+.headingTableTwo{
+    // padding-right: 43% !important;
+    text-align: center !important;
+}
+.tab2{
+    justify-content: center !important;
+    display: flex;
+    // padding-left: 100px;
+    padding-top: 105px !important;
+}
+// @media only screen and (max-width : 768px){
+//     .smallTable{
+//         padding-left: 183px !important;
+//     }
+// }
+@media only screen and (max-width : 480px){
+    .tab2{
+        padding-left: 0px;
+    }
+
+    .singleGraph1{
+        padding-top: 75px !important;
+        padding-left: 30px !important;
+    }
+    .singleGraph2{
+        padding-top: 163px !important;
+        padding-left: 30px !important;
+    }
+    .smallTable{
+        padding-left: 32px !important;
+    }
+    .SingGraph1{
+        padding-left: 46px !important;
+    }
+    .SingGraph2{
+        padding-left: 46px !important;
+    }
+    .LableL{
+        left: 160px !important;
+    }
+    .LableR{
+        left: 160px !important;
+    }
+}
+
+@media only screen and (max-width : 320px){
+    .singleGraph1{
+        padding-top: 75px !important;
+        padding-left: 0px !important;
+    }
+    .singleGraph2{
+        padding-top: 163px !important;
+        padding-left: 0px !important;
+    }
+    .headingTableTwo{
+        padding-left: 35px !important;
+    }
+}

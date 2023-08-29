@@ -1,0 +1,154 @@
+.table1{
+    padding: 5px;
+}
+.table1 div{
+    height: 25px !important;
+}
+.tableContainer{
+    border-collapse: collapse !important;
+    font-size: 0.6em !important;
+    min-width: 100px !important;
+    overflow: hidden !important;
+    margin: auto;
+    // box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.tableContainer thead tr {
+    // background-color: #009879 !important;
+    text-align: left !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.tableContainer th,
+.tableContainer td {
+    // padding: 10px 13px !important;
+    padding: 3px 3px 3px 5px !important;
+}
+.dropDownInputComponent1{
+    margin-right : 8px !important;
+    width : 50px !important;
+    padding : 3px !important;
+    background: #f1f4ff !important;
+    font-size : 15px !important;
+    border : #f1f4ff !important;
+}
+.graphTwo{
+    height: 250px !important;
+    width: 300px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative !important;
+    margin: auto;
+}
+@media only screen and (max-width : 1025px){
+    .graphTwo {
+        height: 225px !important;
+        width : 250px !important;
+    }
+    .add45Right{
+        bottom: 14px !important;
+    }
+    .add45RightLabel{
+        top: -68px !important;
+    }
+    .add30left{
+        bottom: 14px !important;
+    }
+    .add30leftLabel{
+        top: -68px !important;
+    }
+   }
+   .tabComp1{
+        // padding-left: 145px !important;
+        justify-content: center !important;
+        display: flex !important;
+    }
+
+    @media only screen and (max-width : 768px){
+    //     .tab4{
+    //         padding-left: 230px !important;
+    // }
+    .labelL{
+        left: 122px !important;
+    }
+    .labelR{
+        left: 122px !important;
+    }
+    }
+    .headingTable{
+        text-align: center;
+        padding-right: 120px !important;
+    }
+    .headingTable1{
+        text-align: center;
+        // padding-right: 170px !important;
+    }
+    .headingTable2{
+        text-align: center;
+        // padding-right: 0px !important;
+    }
+    .headingTable3{
+        text-align: center;
+        padding-right: 12px !important;
+    }
+    .tab4{
+        padding-left: 70px;
+    }
+    .tabFive{
+        padding-left: 100px;
+    }
+    
+   @media only screen and (max-width : 480px){
+    .GraphpaddingTop {
+        padding-top: 60px !important;
+    }
+    .GraphpaddingTop1 {
+        padding-top: 75px !important;
+    }
+    .GraphpaddingTop2{
+        padding-top: 35px !important;
+    }
+    .tabComp1{
+        padding-left: 0px !important;
+        padding-top: 35px !important;
+    }
+    .headingTable{
+        text-align: center;
+        padding-right: 13px !important;
+    }
+    .headingTable1{
+        text-align: center;
+        // padding-left: 129px !important;
+    }
+    .headingTable2{
+        text-align: center;
+        // padding-left: 130px !important;
+    }
+    .headingTable3{
+        text-align: center;
+        padding-left: 48px !important;
+    }
+    .tab4{
+        padding-left: 70px !important;
+        padding-top: 50px !important;
+    }
+    .tabFive{
+        padding-left: 0 !important;
+    }
+
+    .grph1{
+        padding-top: 40px !important;
+    }
+    .grph2{
+        padding-top: 80px !important;
+    }
+   }
+   
+   .nextButton2{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+

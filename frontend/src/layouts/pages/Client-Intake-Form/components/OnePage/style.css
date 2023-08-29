@@ -1,0 +1,869 @@
+@media (max-width: 991px){
+  .addr{
+       margin-top: 10px;
+       width: 50% !important;
+  }
+}
+
+
+.select-item {
+  border-left: 1px solid #d8dde6;
+}
+.profile-details-select {
+  border-bottom: 1px solid #d8dde6;
+}
+.profile-select img {
+  border-radius: 50% !important;
+}
+
+/* main footer */
+.mainfooter {
+  justify-content: center !important;
+  display: flex !important;
+}
+.mainfooter p {
+  font-size: 15px;
+}
+.mainfooter span {
+  font-size: 10px !important;
+}
+/* intropart */
+.langPart {
+  display: contents !important;
+}
+.otherlang {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 63%;
+  height: 27px !important;
+}
+
+.otherlang:focus,
+textarea:focus {
+  outline: none !important;
+}
+.othergender {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 48%;
+  height: 27px !important;
+}
+.othergender:focus,
+textarea:focus {
+  outline: none !important;
+}
+.address input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 89%;
+  height: 27px !important;
+}
+.address input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.addresscity input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 70%;
+  height: 27px !important;
+}
+
+.addresscity input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.addressstate input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 70%;
+  height: 27px !important;
+}
+
+.addressstate input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.addresszip input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 70%;
+  height: 27px !important;
+}
+
+.addresszip input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.DOB input {
+  height: 27px !important;
+  border: #f1f4ff;
+  background-color: #f1f4ff;
+  width: "auto" !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+}
+
+.DOB input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.Socialnumber input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 27px !important;
+}
+
+.Socialnumber input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.homenumber input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.homenumber input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.worknumber input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.worknumber input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.cellnumber input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: 27px !important;
+}
+
+.cellnumber input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.email input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 27px !important;
+}
+
+.email input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.maritals {
+  flex-direction: row !important;
+}
+.martalspart {
+  /* margin-right: 10px !important; */
+}
+
+.noofChild input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 27px !important;
+}
+
+.noofChild input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.occupation input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 40%;
+  height: 27px !important;
+}
+
+.occupation input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.emcname input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 48.5%;
+  height: 27px !important;
+}
+
+.emcname input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.emcname {
+  margin-left: 3.8rem !important;
+}
+.emcphone input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 45%;
+  height: 27px !important;
+}
+
+.emcphone input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.emcrealation input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 48%;
+  height: 27px !important;
+}
+
+.emcrealation input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.emcrealation {
+  margin-left: 3.3rem !important;
+}
+.overhealthlast {
+  border-bottom: 1px solid black !important;
+  border-bottom-style: dashed !important;
+}
+.clientaction input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 35%;
+  height: 27px !important;
+}
+.clientaction input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.name-span {
+  /* margin-left: 5px !important; */
+  margin-top: 12px !important;
+}
+.name-spans {
+  margin-left: 10px !important;
+}
+.ideal {
+  /* margin-left: 1rem !important; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.last-healthcode{
+  margin-left: 1rem !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .name input {
+    margin-top: 12px !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .name-span {
+    margin-top: 13px !important;
+  }
+  .name-spans {
+    margin-left: 0px !important;
+  }
+  .gender {
+    margin-bottom: 10px;
+  }
+  .othergender {
+    margin-top: 5px !important;
+    width: 83%;
+  }
+  .address input {
+    margin-top: 12px !important;
+    /* width: 100% !important; */
+  }
+
+  .addresscity input {
+    margin-top: 10px !important;
+    width: auto !important;
+  }
+  .addressstate input {
+    margin-top: 10px !important;
+    width: 75% !important;
+  }
+  .addresszip {
+    margin-top: 10px !important;
+    width: 80% !important;
+  }
+  .homenumber input {
+    width: 100%;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  .worknumber input {
+    width: 100%;
+  }
+  .cellnumber input {
+    width: 100%;
+  }
+  .email input {
+    width: 100%;
+  }
+  .Socialnumber input {
+    width: 100%;
+  }
+  /* .maritals {
+      flex-direction: column !important;
+  } */
+  .martalspart {
+    margin-right: 15px !important;
+  }
+  .marriedpart {
+    padding-left: 27px !important;
+  }
+  .widowedpart {
+    padding-left: 10px !important;
+  }
+  .partneredpart {
+    padding-left: 1px !important;
+  }
+  .noofChild input {
+    width: 100% !important;
+  }
+
+  .occupationpart {
+    margin-left: 0px !important;
+  }
+  .occupation input {
+    width: 58% !important;
+  }
+  .emcname input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcname input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  .emcname {
+    margin-left: 0px !important;
+  }
+
+  .econtact {
+    margin-left: 0px !important;
+  }
+  .emcphone {
+    margin-left: 0px !important;
+  }
+  .emcrealation {
+    margin-left: 0px !important;
+  }
+  .emcphone input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcphone input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+
+  .emcrealation input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcrealation input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  .overallhealth {
+    margin-left: 0px !important;
+  }
+  .healthCode {
+    margin-right: 20px !important;
+  }
+  .toxins {
+    width: 100% !important;
+  }
+
+  .clientaction input {
+    width: 100%;
+  }
+  .otherlang {
+    width: 90% !important;
+  }
+  .ideal {
+    margin-left: 0px !important;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .status-check{
+    margin-left: 10px !important;
+  }
+  .name input {
+    margin-top: 12px !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .gender {
+    margin-bottom: 10px;
+  }
+
+  .othergender {
+    margin-top: 5px !important;
+    width: 67%;
+  }
+  .address input {
+    margin-top: 12px !important;
+    /* width: 100% !important; */
+  }
+  .address input {
+    margin-top: 12px !important;
+    /* width: 100% !important;   */
+  }
+
+  .addresscity input {
+    margin-top: 10px !important;
+    width: 80% !important;
+  }
+
+  .addressstate input {
+    margin-top: 10px !important;
+    width: 76.5% !important;
+  }
+
+  .addresszip input {
+    margin-top: 10px !important;
+    width: 50% !important;
+  }
+  .homenumber input {
+    width: 100%;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .worknumber input {
+    width: 100%;
+  }
+
+  .cellnumber input {
+    width: 100%;
+  }
+
+  .email input {
+    width: 100%;
+  }
+
+  .Socialnumber input {
+    width: 100%;
+  }
+  /* .maritals {
+      flex-direction: column !important;
+  } */
+  .martalspart {
+    margin-right: 15px !important;
+  }
+  .noofChild input {
+    width: 100% !important;
+  }
+
+  .occupationpart {
+    margin-left: 0px !important;
+  }
+
+  .occupation input {
+    width: 58% !important;
+  }
+  .emcname input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcname input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+
+  .emcname {
+    margin-left: 0px !important;
+  }
+
+  .econtact {
+    margin-left: 0px !important;
+  }
+
+  .emcphone {
+    margin-left: 0px !important;
+  }
+
+  .emcrealation {
+    margin-left: 0px !important;
+  }
+
+  .emcphone input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcphone input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+
+  .emcrealation input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcrealation input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  .overallhealth {
+    margin-left: 0px !important;
+  }
+  .healthCode {
+    margin-right: 5px !important;
+  }
+  .toxins {
+    width: 100% !important;
+  }
+  .clientaction input {
+    width: 100%;
+  }
+  .otherlang {
+    width: 90% !important;
+  }
+  .ideal {
+    margin-left: 18px !important;
+  }
+  .ideals{
+    margin-left: 25px !important;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .name input {
+    margin-top: 12px !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .gender {
+    margin-bottom: 10px;
+  }
+  .otherlang {
+    width: 67%;
+  }
+
+  .othergender {
+    margin-top: 5px !important;
+    width: 67%;
+  }
+  .address input {
+    margin-top: 12px !important;
+    /* width: 100% !important; */
+  }
+  .addresscity input {
+    margin-top: 10px !important;
+    width: 70% !important;
+  }
+
+  .addressstate input {
+    margin-top: 10px !important;
+    width: 67.5% !important;
+  }
+
+  .addresszip input {
+    margin-top: 10px !important;
+    width: 50% !important;
+  }
+  .homenumber input {
+    width: 100%;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .worknumber input {
+    width: 100%;
+  }
+
+  .cellnumber input {
+    width: 100%;
+  }
+
+  .email input {
+    width: 100%;
+  }
+
+  .Socialnumber input {
+    width: 100%;
+  }
+  .martalspart {
+    margin-right: 18px !important;
+  }
+  .noofChild input {
+    width: 100% !important;
+  }
+
+  .occupationpart {
+    margin-left: 0px !important;
+  }
+
+  .occupation input {
+    width: 58% !important;
+  }
+  .emcname input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcname input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+
+  .emcname {
+    margin-left: 0px !important;
+  }
+
+  .econtact {
+    margin-left: 0px !important;
+  }
+
+  .emcphone {
+    margin-left: 0px !important;
+  }
+
+  .emcrealation {
+    margin-left: 0px !important;
+  }
+
+  .emcphone input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcphone input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+
+  .emcrealation input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 27px !important;
+  }
+
+  .emcrealation input:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  .overallhealth {
+    margin-left: 0px !important;
+  }
+  .healthCode {
+    margin-right:0.6rem !important;
+  }
+  .toxins {
+    width: 100% !important;
+  }
+  .clientaction input {
+    width: 100%;
+  }
+
+  .ideal {
+    margin-left:10px !important;
+  }
+    .ideals {
+      margin-left: 18px !important;
+    }
+    .last-healthcode{
+      margin-left: 0px !important;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .Language {
+    margin-right: 6px !important;
+  }
+  .english {
+    margin-right: 5px !important;
+  }
+  .otherlangpart {
+    margin-left: 9.5rem !important;
+  }
+  .name input {
+    margin-top: 12px !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .gender {
+    margin-bottom: 10px;
+  }
+
+  .otherlang {
+    width: 67%;
+  }
+
+  .othergender {
+    margin-top: 5px !important;
+    width: 70%;
+  }
+  .othergenderpart {
+    /* margin-left: 1rem; */
+    padding-bottom: 10px !important;
+  }
+
+  .address input {
+    margin-top: 12px !important;
+    /* width: 100% !important; */
+  }
+  .addresscity input {
+    width: 70% !important;
+  }
+
+  .addressstate input {
+    width: 67.5% !important;
+  }
+
+  .addresszip input {
+    margin-top: 10px !important;
+    width: 50% !important;
+    margin-left: 5px !important;
+  }
+  .homenumber input {
+    width: 90%;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .worknumber input {
+    width: 90%;
+  }
+
+  .cellnumber input {
+    width: 90%;
+  }
+
+  .email input {
+    width: 50%;
+  }
+
+  .Socialnumber input {
+    width: 50%;
+  }
+  .martalspart {
+    margin-right: 0px !important;
+  }
+.overallhealth{
+  margin-right: 0px !important;
+}
+}
+@media (min-width: 1200px) {
+  /* .ideal {
+     margin-left: 1rem !important; 
+  } */
+
+}
+@media only screen and (min-width: 800px) and(max-width:1199px) {
+  .ideal {
+    margin-left: 40px !important;
+  }
+}
+@media (max-width: 768px){
+  .addr{
+       /* margin-top: 10px; */
+       width: 50% !important;
+  }
+}
+@media (max-width: 425px){
+  .addr{
+       /* margin-top: 10px; */
+       width: 50% !important;
+  }
+}
+

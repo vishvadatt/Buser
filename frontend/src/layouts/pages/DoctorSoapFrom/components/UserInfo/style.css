@@ -1,0 +1,69 @@
+@media (max-width: 575px){
+    /* .topspace{
+         margin-top: 20px;
+    } */
+}
+
+.spanLabb{
+    font-size: 13px !important;
+    color: #344767 !important;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight:bold
+}
+@media (max-width : 575px){
+    .dobb{
+        margin-top: 10px
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+ -webkit-appearance: none;
+ margin: 0;
+}
+.react-tel-input .form-control {
+    width: 100% !important;
+    height: 40px !important;
+    color: #495057!important;
+    border-radius: 8px !important;
+}
+.stylet :focus{
+   
+    border-color: #35d1f5 !important;
+    box-shadow: 0rem 0rem 0rem 0.125rem rgb(129 227 249) !important;
+    outline: 0 !important;
+}
+
+.paddingLeftClass{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.name_dropdown{
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_item_name{
+    border-bottom: 1px solid #d8dde6;
+    border-right: 1px solid #d8dde6;
+    border-left: 1px solid #d8dde6;
+}
+
+.next{
+    padding-top: 10px !important;
+}
+
+@media screen and (max-width : 480px) {
+    .paddingLeftClass{
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+}
+
+@media screen and (max-width : 281px) {
+    .paddingLeftClass{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}

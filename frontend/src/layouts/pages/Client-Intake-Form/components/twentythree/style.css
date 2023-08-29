@@ -1,0 +1,118 @@
+.All{
+  justify-content: center;
+  display: flex;
+}
+.brainname {
+    background-color: #f1f4ff;
+      font-size: 15px !important;
+      border: #f1f4ff;
+      border-bottom: 1px solid black;
+      width: 80%;
+      height: 27px !important;
+  }
+  .brainname:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  .brain-age{
+  background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 45%;
+    height: 27px !important;
+  }
+  .brain-age:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  
+  .brain-sex {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 45%;
+    height: 27px !important;
+  }
+  
+  .brain-sex:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  .brain-date {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: auto;
+    height: 27px !important;
+  }
+  
+  .brain-date:focus,
+  textarea:focus {
+    outline: none !important;
+  }
+  
+  .braintitle span{
+    border-bottom: 2px solid #344767;
+  }
+  .function-section{
+    border-right: 1px solid #344767;
+  }
+  /* .queno{
+    justify-content: end;
+    display: flex;
+    
+  } */
+  .rate span{
+    margin-left: 20px;
+  }
+  @media only screen and (max-width: 320px) {   
+    .brainname{
+      width: 50% !important;
+    }
+    .brain-sex{
+      width:30% !important
+    }
+      .brain-age {
+        width: 30% !important
+      }
+  
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+    .brainname {
+        width: 100% !important;
+      }
+    
+      .brain-sex {
+        width: 30% !important
+      }
+    
+      .brain-age {
+        width: 30% !important
+      }
+  
+  }
+  @media only screen and (min-width: 376px) and (max-width: 425px) {
+    .brainname {
+        width: 100% !important;
+      }
+    
+      .brain-sex {
+        width: 30% !important
+      }
+    
+      .brain-age {
+        width: 30% !important
+      }
+  
+  }
+  @media (max-width: 768px) {
+  
+    .brainname {
+        width: 50% !important;
+      }
+  }
+  

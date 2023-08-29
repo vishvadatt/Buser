@@ -1,0 +1,320 @@
+.rpv-default-layout-sidebar-headers {
+  display: none !important;
+}
+.rpv-open-button {
+  display: none !important;
+}
+.rpv-zoom-popover-target {
+  display: none !important;
+}
+.rpv-core-button {
+  margin-left: -9px !important;
+}
+.rpv-default-layout-container {
+  border: none !important;
+}
+.document {
+  border-radius: 25px !important;
+  border: none;
+}
+
+.searchpatientp {
+  position: relative !important;
+}
+
+.doctorNameInputp {
+  background-color: #f3f5f4;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+
+  height: 27px !important;
+  outline: none !important;
+  border: none !important;
+  margin-left: 15px;
+  padding: 10px;
+  height: 50px !important;
+  border-radius: 10px;
+  /* position: absolute; */
+  /* z-index: 1000; */
+  margin-top: 5px;
+  margin-right: 17px;
+}
+.photosVideotitle {
+  padding: 5px;
+  /* text-align: center; */
+  display: flex !important;
+  justify-content: space-around !important;
+  font-size: 22px;
+  background-color: white !important;
+}
+.photosVideotitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+.rpv-default-layout-toolbar {
+  overflow-y: scroll !important;
+  overflow-x: unset !important;
+}
+
+.maintitle {
+  font-size: 1.25rem !important;
+  font-weight: 500;
+}
+.audiocontrols {
+  /* height: 200px !important; */
+  margin-top: 73px;
+  margin-bottom: 73px !important;
+  width: auto !important;
+  /* background-color: red; */
+}
+.audio {
+  background-color: #f1f3f4 !important;
+}
+.lengthmsg {
+  display: contents !important;
+}
+.css-zow5z4-MuiGrid-root {
+  justify-content: center !important;
+  display: flex;
+}
+
+.tabClass {
+  border: none !important;
+  outline: none !important;
+}
+
+.upd {
+  justify-content: center;
+  display: flex;
+  background-color: white;
+
+  border-end-start-radius: 0;
+
+  border-end-end-radius: 0;
+}
+.uploadimagep {
+  border-width: 0;
+  background: white;
+  height: 300px;
+  width: 100%;
+  /* border-end-end-radius: 10px;
+  border-bottom-left-radius: 10px; */
+  box-shadow: 0rem 0.1875rem 0.3125rem -0.0625rem rgb(0 0 0 / 9%),
+    0rem 0.125rem 0.3125rem rgb(0 0 0 / 7%);
+  outline-color: white;
+  border: 3px solid white;
+}
+.image-wrap , .video_wrap{
+  border-width: 0;
+  background: white;
+
+  border-end-end-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: 0rem 0.1875rem 0.3125rem -0.0625rem rgb(0 0 0 / 9%),
+    0rem 0.125rem 0.3125rem rgb(0 0 0 / 7%);
+  outline-color: white;
+  border: 3px solid white;
+  height: 206px;
+  width: 18%;
+  padding: 1px;
+  border-radius: 10px;
+}
+.video_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uploadimageshowp {
+  outline: none;
+  border: 2px solid gray;
+
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+.viewmore-wrap {
+  display: grid;
+  place-items: center;
+  width: 18%;
+}
+
+.uploadimageshow {
+  outline: none;
+  border: 2px solid gray;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  border-end-end-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.imageDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* body {
+      background-color: gray !important;
+    } */
+  .SoftInputClass {
+    width: 476px !important;
+    /* background-color: aqua; */
+    margin-left: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* body {
+      background-color: orange !important;
+    } */
+  .SoftInputClass {
+    width: 476px !important;
+    /* background-color: aqua; */
+    margin-left: 12px;
+  }
+}
+
+.otherlang1 {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 475px !important;
+  height: 27px !important;
+  outline: none !important;
+  border: none !important;
+  margin-left: 15px;
+  padding: 10px;
+  height: 50px !important;
+  border-radius: 10px;
+}
+.select-item1 {
+  border-left: 1px solid #d8dde6;
+}
+.profile-details-select1 {
+  border-bottom: 1px solid #d8dde6;
+}
+
+.SearchingClient {
+  max-height: 300px;
+  width: 49%;
+  padding-left: 20px;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 101;
+  background: white;
+}
+
+.photovideoDoctorSearch {
+  /* background-color: #f1f4ff; */
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 30% !important;
+  height: 27px !important;
+  outline: none !important;
+  border: none !important;
+  margin-left: 15px;
+  padding: 0px;
+  height: 50px !important;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1000;
+  /* margin-top: 30px; */
+  margin-right: 22px;
+}
+
+@media only screen and (max-width: 320px) {
+  .otherlang1 {
+    width: 90% !important;
+  }
+  .name-span1 {
+    margin-top: 13px !important;
+  }
+  .imageDisplay {
+    flex-direction: column;
+  }
+  .image-wrap {
+    width: 100%;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 5px;
+  }
+  .viewmore-wrap {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .imageDisplay {
+    flex-direction: column;
+  }
+  .image-wrap {
+    width: 100%;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 5px;
+  }
+  .viewmore-wrap {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .otherlang1 {
+    width: 49% !important;
+    margin-left: 0px !important;
+  }
+  .SearchingClient {
+    width: 77%;
+  }
+  .uploadimage {
+    border-width: 0;
+    background: white;
+    height: 300px;
+    width: 100%;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0rem 0.1875rem 0.3125rem -0.0625rem rgb(0 0 0 / 9%),
+      0rem 0.125rem 0.3125rem rgb(0 0 0 / 7%);
+    outline-color: white;
+    border: 3px solid white;
+  }
+  .image-wrap {
+    width: 100%;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 5px;
+    /* background-color: aquamarine; */
+  }
+  .viewmore-wrap {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .otherlang1 {
+    width: 91% !important;
+  }
+  .imageDisplay {
+    flex-direction: column;
+  }
+  .image-wrap {
+    width: 100%;
+    justify-content: space-between;
+    height: 300px;
+    margin-top: 5px;
+  }
+  .viewmore-wrap {
+    width: 100%;
+    margin-top: 2%;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .otherlang1 {
+    width: 49% !important;
+  }
+  .SearchingClient {
+    width: 46%;
+  }
+}

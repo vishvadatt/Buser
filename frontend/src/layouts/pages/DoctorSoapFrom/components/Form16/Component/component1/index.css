@@ -1,0 +1,244 @@
+.htControl {
+  display: flex !important;
+}
+.htControl label {
+  font-size: 13px !important;
+}
+
+.htControl input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 50%;
+  height: 65%;
+}
+
+.htControl input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.htControl1 {
+  margin-top: 0px !important;
+}
+.htControl1 label {
+  font-size: 13px !important;
+}
+.htControl1 input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 25.8%;
+  height: 65%;
+}
+.htcontrol-Grid {
+  width: 22.5% !important;
+}
+.htControlHT {
+  width: 35% !important;
+}
+.htcontrol-Grid1 {
+  width: 40% !important ;
+}
+.htControl1 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.title12 {
+  font-size: 20px !important;
+}
+.htControl2 label {
+  font-size: 13px !important;
+}
+
+.htControl2 input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 30%;
+  height: 70%;
+}
+.Area-control {
+  width: 96.8% !important;
+}
+
+.htControl2 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.htControl3 label {
+  font-size: 12px !important;
+}
+.htControl3 input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 90% !important;
+  height: 70%;
+}
+
+.htControl3 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.cnVControl {
+  height: 27px !important;
+}
+.cnVControls {
+  height: 27px !important;
+  width: 27.5% !important;
+}
+@media only screen and (max-width: 320px) {
+  .BPControl {
+    width: 35.5% !important;
+  }
+  .htcontrol-Grid {
+    width: 30% !important;
+  }
+  .RRControl {
+    width: 36% !important;
+  }
+  .Area-control {
+    width: 87% !important;
+  }
+  .TempControl {
+    width: 33% !important;
+  }
+  .spo2control {
+    width: 33% !important;
+  }
+  .cnVControls {
+    width: 60% !important;
+  }
+  .cnVControl {
+    width: 65% !important;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+  .BPControl {
+    width: 35.5% !important;
+  }
+
+  .htcontrol-Grid {
+    width: 30.5% !important;
+  }
+
+  .RRControl {
+    width: 36% !important;
+  }
+
+  .Area-control {
+    width: 87% !important;
+  }
+
+  .TempControl {
+    width: 33% !important;
+  }
+
+  .spo2control {
+    width: 33% !important;
+  }
+
+  .cnVControls {
+    width: 62% !important;
+  }
+
+  .cnVControl {
+    width: 68% !important;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .Area-control {
+    width: 94% !important;
+  }
+  .htcontrol-Grid1 {
+    width: 38% !important;
+  }
+  .BPControl {
+    width: 35.5% !important;
+  }
+
+  .htcontrol-Grid {
+    width: 30.5% !important;
+  }
+
+  .RRControl {
+    width: 36% !important;
+  }
+
+  .Area-control {
+    width: 87% !important;
+  }
+
+  .TempControl {
+    width: 33% !important;
+  }
+
+  .spo2control {
+    width: 33% !important;
+  }
+
+  .cnVControls {
+    width: 62% !important;
+  }
+
+  .cnVControl {
+    width: 71% !important;
+  }
+  .Area1sub-control {
+    width: 76.8% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .Area-control {
+    width: 95% !important;
+  }
+  .htControlHT {
+    width: 38% !important;
+  }
+  .htcontrol-Grid1 {
+    width: 100%;
+  }
+
+  .BPControl {
+    width: 35.5% !important;
+  }
+
+  .htcontrol-Grid {
+    width: 30.5% !important;
+  }
+
+  .RRControl {
+    width: 36% !important;
+  }
+
+  .Area-control {
+    width: 87% !important;
+  }
+
+  .TempControl {
+    width: 33% !important;
+  }
+
+  .spo2control {
+    width: 33% !important;
+  }
+
+  .cnVControls {
+    width: 62% !important;
+  }
+
+  .cnVControl {
+    width: 71% !important;
+  }
+  .Area1sub-control {
+    width: 77.5% !important;
+  }
+}

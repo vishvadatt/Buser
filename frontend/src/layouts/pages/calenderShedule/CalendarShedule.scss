@@ -1,0 +1,52 @@
+.calendar_wrapper {
+  .fc-event-title {
+    font-weight: bold;
+    margin-top: 25px !important;
+    font-style: normal !important;
+    font-size: 13px !important;
+    text-align: center;
+    color: white !important;
+  }
+}
+.fc-event-today {
+  background-color: black !important;
+}
+.MuiTimePickerToolbar-hourMinuteLabel {
+  flex-direction: initial !important;
+}
+
+.MuiTimePickerToolbar-hourMinuteLabel > .MuiTypography-root {
+  font-size: initial !important;
+}
+
+.MuiClock-clock > .MuiClock-pin,
+.MuiClockPointer-root {
+  background-color: #17c1e8 !important;
+  border: #17c1e8 !important;
+}
+
+.MuiClockPointer-root > .MuiClockPointer-thumb {
+  background-color: #17c1e8 !important;
+  border: 16px solid #17c1e8 !important;
+}
+
+.calendar_wrapper .fc-event-title-container {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.calendar_wrapper .fc-event-title-container > .fc-event-title {
+  font-size: 12px !important;
+}
+.calendar_wrapper .fc-daygrid-day-events {
+  z-index: -50;
+}
+.event-booked {
+  background-color: rgb(137, 207, 137);
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.time_picker > .MuiStack-root > .MuiTextField-root {
+  min-width: 100% !important;
+}

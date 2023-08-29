@@ -1,0 +1,1842 @@
+.rbc-day-slot .rbc-time-slot {
+  border-top: 1px solid lightgray !important;
+}
+.rbc-event-label {
+  font-size: 12px !important;
+}
+
+.rbc-events-container {
+  margin-right: 3px !important;
+}
+
+.rbc-event-content {
+  overflow-y: scroll !important;
+}
+
+.rbc-calendar {
+  min-width: 1000px !important;
+}
+
+.rbc-event-label {
+  color: black;
+  font-weight: bold;
+}
+
+.rbc-event {
+  background-color: #e5e5e5 !important;
+  border-color: lightgray !important;
+}
+
+.rbc-toolbar {
+  flex-direction: row-reverse !important;
+}
+
+.rbc-timeslot-group {
+  min-height: 350px !important;
+}
+
+.week-daysc {
+  font-weight: 400;
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action-btn {
+  background-color: #364969 !important;
+  color: white !important;
+}
+
+.action-btn1 {
+  background-color: #e21818 !important;
+  color: white !important;
+}
+.preview-image {
+  width: 70px;
+  height: 70px;
+}
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  width: 80%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-input input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-input label {
+  display: inline-block;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.file-input span {
+  margin-right: 2px;
+}
+
+.file-input:hover {
+  background-color: #e0e0e0;
+}
+.docComplete {
+  position: absolute;
+  overflow-x: scroll;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #364969;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 30px;
+  width: 600px;
+}
+
+.conplete-modal-label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.week-appointmentc {
+  border-bottom: 1px solid #cccc;
+  font-size: 14px;
+  font-weight: 400;
+  height: 160px;
+  width: 100%;
+}
+
+.week-appointment-divc {
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+}
+
+.week-namec {
+  text-align: center;
+}
+
+.week-dayc {
+  text-align: center;
+  border-bottom: 1px solid #cccc;
+  margin-bottom: 0px;
+}
+
+.week-divc {
+  border: 1px solid #cccc;
+  min-width: 105px;
+}
+
+.beforeDayc {
+  /* padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    height: auto;
+    width: 170px; */
+  background-color: #ededed;
+  border: 1px solid #cccc;
+  width: 100%;
+}
+
+.doctor-infoc {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-headc {
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: saturate(200%) blur(1.875rem);
+}
+
+.body-divc {
+  position: relative;
+  top: 0;
+  /* overflow-y: scroll; */
+}
+
+.main-appointment-divc {
+  display: flex;
+  height: 450px;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 60;
+  /* overflow-x:hidden; */
+}
+
+.slot-divc {
+  height: max-content;
+  position: sticky;
+  left: 0;
+  z-index: 101;
+  background-color: #ffffff;
+}
+
+.slot-time-divc {
+  height: 160px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.slot-infoc {
+  /* padding: 18px 0px; */
+  /* margin-top: -6px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-align: center;
+  height: 100%;
+}
+
+.week-appointment:last-child {
+  display: none;
+}
+
+.cancel-divc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.complete-divc {
+  margin-top: 2.3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-btn-complete {
+  width: 15%;
+  height: 45px;
+  background-color: #364969;
+  cursor: pointer;
+  color: white;
+}
+
+.modal-btn-cancel {
+  width: 15%;
+  height: 45px;
+  background-color: white;
+  color: #364969;
+  cursor: pointer;
+}
+
+.modal-btn-complete:focus {
+  background-color: #364969 !important;
+}
+
+.modal-btn-complete:hover {
+  background-color: white;
+  color: #364969;
+}
+
+.modal-btn-cancel:hover {
+  background-color: #364969;
+  color: white;
+}
+
+.modal-btn-complete:active {
+  background-color: #364969;
+}
+
+.modal-btn-cancel:focus {
+  background-color: #17c1e8;
+}
+
+.name1c {
+  /* display: grid; */
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.pendingC {
+  color: orangered;
+}
+
+.confirmedC {
+  color: purple;
+}
+
+.name2c {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+.name4c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.name1c + .cancel-btnc {
+  margin-top: 13px;
+}
+
+/* .name1c + .name2c {
+  margin-top: 15px;
+} */
+
+.btn-cancelc {
+  margin: 10px;
+}
+
+button {
+  z-index: 999;
+}
+
+button.cancle-btnc {
+  font-size: 15px;
+  width: 100%;
+  background-color: #17c1e8;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+button.confirm-btnc {
+  padding: 4px 0;
+  background-color: #17c1e8;
+  color: white;
+  cursor: pointer;
+  border: #17c1e8;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+button.denied-btnc {
+  padding: 4px 0px;
+  background-color: #17c1e8;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border: #17c1e8;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+button.cancel-btnc {
+  padding: 4px 5px;
+  background-color: #17c1e8;
+  color: white;
+  cursor: pointer;
+  margin: 0px;
+  border: #17c1e8;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.btn1 {
+  margin-left: 4px;
+}
+
+.btn2 {
+  margin-right: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.modal-size {
+  position: fixed;
+  background: lightblue;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.Denied-appointment {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #364969;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 10px;
+  width: 550px;
+}
+
+.canceldoc-appointment {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #364969;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 10px;
+  width: 550px;
+}
+
+.docConfirm {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #364969;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 10px;
+  width: 550px;
+}
+
+.week-body-divc {
+  width: 100%;
+}
+
+.slot-time-divc-empty {
+  height: 40px;
+}
+
+/* @media (max-width: 422px) {
+  .color-detail {
+    margin-left: 1rem;
+  }
+} */
+
+@media (max-width: 357px) {
+  .slot-time-divc:first-child {
+    margin-top: -22px;
+  }
+
+  .slot-time-divc {
+    height: 110px;
+  }
+
+  .week-daysc {
+    width: 77px;
+  }
+
+  .week-dayc {
+    padding: 0 0px;
+    font-size: 10px;
+
+    min-width: 77px;
+  }
+
+  .week-namec {
+    font-size: 10px;
+    width: 77px;
+  }
+
+  .table-head {
+    width: 77px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-divc {
+    min-width: 77px;
+  }
+
+  .body-divc {
+    width: 77px;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+
+  .name2c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    /* height: 70px; */
+    /* width: 77px; */
+  }
+
+  .name1c + .name2c {
+    margin-top: 0;
+  }
+
+  .name1c {
+    font-size: 10px;
+    /* width: 77px; */
+  }
+
+  .week-appointmentc {
+    width: 77px;
+    height: 100px;
+  }
+
+  .week-appointment-divc {
+    width: max-content;
+  }
+
+  .week-appointmentc button {
+    width: 57px;
+    font-size: 9px;
+    padding: 4px 0px;
+  }
+
+  .Denied-appointment {
+    width: 300px;
+  }
+
+  .canceldoc-appointment {
+    width: 250px;
+  }
+
+  .docConfirm {
+    width: 250px;
+  }
+
+  .docComplete {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 357px) and (max-width: 389px) {
+  .slot-time-divc:first-child {
+    margin-top: -22px;
+  }
+
+  .slot-time-divc {
+    height: 140px;
+  }
+
+  .week-daysc {
+    width: 77px;
+  }
+
+  .week-dayc {
+    padding: 0 0px;
+    font-size: 10px;
+
+    min-width: 77px;
+  }
+
+  .week-namec {
+    font-size: 10px;
+    width: 77px;
+  }
+
+  .table-head {
+    width: 77px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-divc {
+    min-width: 77px;
+  }
+
+  .body-divc {
+    width: 77px;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    /* height: 70px; */
+  }
+
+  .name2c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+    width: 77px;
+  }
+
+  .name1c + .name2c {
+    margin-top: 0;
+  }
+
+  .name1c {
+    font-size: 10px;
+    /* width: 77px; */
+  }
+
+  .week-appointmentc {
+    width: 77px;
+    height: 100px;
+  }
+
+  .week-appointmentc button {
+    width: 57px;
+    font-size: 9px;
+    padding: 4px 0px;
+  }
+
+  .Denied-appointment {
+    width: 350px;
+  }
+
+  .week-appointment-divc {
+    width: max-content;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 250px;
+  }
+
+  .docComplete {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 425px) {
+  .slot-time-divc:first-child {
+    margin-top: -24px;
+  }
+
+  .slot-time-divc {
+    height: 100px;
+  }
+
+  .week-daysc {
+    width: 77px;
+  }
+
+  .week-dayc {
+    padding: 0 0px;
+    font-size: 10px;
+
+    min-width: 77px;
+  }
+
+  .week-namec {
+    font-size: 10px;
+    width: 77px;
+  }
+
+  .table-head {
+    width: 77px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-divc {
+    min-width: 77px;
+  }
+
+  .body-divc {
+    width: 77px;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+  }
+
+  .name2c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+    /* width: 77px; */
+  }
+
+  .name1c + .name2c {
+    margin-top: 0;
+  }
+
+  .name1c {
+    font-size: 10px;
+    /* width: 77px; */
+  }
+
+  .week-appointmentc {
+    width: 77px;
+    height: 100px;
+  }
+
+  .week-appointmentc button {
+    width: 57px;
+    font-size: 9px;
+    padding: 4px 0px;
+  }
+
+  .Denied-appointment {
+    width: 350px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 300px;
+  }
+
+  .docComplete {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 500px) {
+  .slot-time-divc:first-child {
+    margin-top: -24px;
+  }
+
+  .slot-time-divc {
+    height: 100px;
+  }
+
+  .week-daysc {
+    width: 77px;
+  }
+
+  .week-dayc {
+    padding: 0 0px;
+    font-size: 10px;
+
+    min-width: 77px;
+  }
+
+  .week-namec {
+    font-size: 10px;
+    width: 77px;
+  }
+
+  .table-head {
+    width: 77px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-divc {
+    min-width: 77px;
+  }
+
+  .body-divc {
+    width: 77px;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+  }
+
+  .name2c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+    width: 77px;
+  }
+
+  .name1c + .name2c {
+    margin-top: 0;
+  }
+
+  .name1c {
+    font-size: 10px;
+    /* width: 77px; */
+  }
+
+  .week-appointmentc {
+    width: 77px;
+    height: 100px;
+  }
+
+  .week-appointmentc button {
+    width: 55px;
+    font-size: 9px;
+    padding: 4px 0px;
+  }
+
+  .Denied-appointment {
+    width: 350px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 300px;
+  }
+
+  .docComplete {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 601px) {
+  .Denied-appointment {
+    width: 400px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 350px;
+  }
+
+  .docComplete {
+    width: 400px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -18px;
+  }
+
+  .slot-time-divc {
+    height: 100px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 4px;
+    min-width: 88px;
+    font-size: 13px;
+  }
+
+  .week-namec {
+    font-size: 12px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+  }
+
+  .name2c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+  }
+
+  .name1c + .name2c {
+    margin-top: 0;
+  }
+
+  .name1c {
+    font-size: 10px;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+    height: 100px;
+  }
+
+  .week-appointmentc button {
+    width: 62px;
+    font-size: 11px;
+    padding: 4px 0px;
+  }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 700px) {
+  .Denied-appointment {
+    width: 450px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 400px;
+  }
+
+  .slot-time-divc {
+    height: 100px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -10px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 4px;
+    min-width: 88px;
+    font-size: 13px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+  }
+
+  .name2c {
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    height: 70px;
+  }
+
+  .name1c + .name2c {
+    margin-top: 0;
+  }
+
+  .name1c {
+    font-size: 10px;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+    height: 100px;
+  }
+
+  .week-appointmentc button {
+    width: 62px;
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 750px) {
+  .Denied-appointment {
+    width: 450px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 400px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -11px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 4px;
+    min-width: 88px;
+    font-size: 13px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 39px;
+    font-size: 10px;
+    padding: 4px 0px;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 804px) {
+  .slot-time-divc:first-child {
+    margin-top: -10px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 4px;
+    min-width: 88px;
+    font-size: 13px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 50px;
+    font-size: 9px;
+    padding: 4px 0;
+  }
+
+  .Denied-appointment {
+    width: 450px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 805px) and (max-width: 849px) {
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    min-width: 105px;
+    padding: 0 0px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 50px;
+    font-size: 10px;
+    padding: 4px 0;
+  }
+
+  .Denied-appointment {
+    width: 450px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 901px) {
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 8px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 54px;
+    font-size: 11px;
+    padding: 4px 0;
+  }
+
+  .Denied-appointment {
+    width: 500px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 902px) and (max-width: 935px) {
+  .Denied-appointment {
+    width: 500px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 11px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 56px;
+    font-size: 11px;
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (min-width: 936px) and (max-width: 973px) {
+  .Denied-appointment {
+    width: 500px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 14px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 49px;
+    font-size: 11px;
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (min-width: 974px) and (max-width: 1023px) {
+  .Denied-appointment {
+    width: 500px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 16px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 52px;
+    font-size: 11px;
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1050px) {
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 20px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 58px;
+    font-size: 14px;
+    padding: 4px 0;
+  }
+
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1051px) and (max-width: 1125px) {
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 22px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 62px;
+    font-size: 14px;
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (min-width: 1126px) and (max-width: 1299px) {
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 26px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 62px;
+    font-size: 14px;
+    padding: 4px 0;
+  }
+
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1294px) {
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 11px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 55px;
+    font-size: 12px;
+    padding: 4px 0;
+  }
+
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1294px) and (max-width: 1330px) {
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 19px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 55px;
+    font-size: 12px;
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (min-width: 1330px) and (max-width: 1380px) {
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 20px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 55px;
+    font-size: 12px;
+    padding: 4px 0;
+  }
+}
+
+@media only screen and (min-width: 1380px) {
+  .Denied-appointment {
+    width: 504px;
+  }
+
+  .canceldoc-appointment {
+    width: 550px;
+  }
+
+  .docConfirm {
+    width: 550px;
+  }
+
+  .slot-time-divc:first-child {
+    margin-top: -7px;
+  }
+
+  .week-daysc {
+    width: 100%;
+  }
+
+  .week-dayc {
+    padding: 0 23px;
+  }
+
+  .beforeDayc {
+    width: 100%;
+  }
+
+  .week-appointmentc {
+    width: 100%;
+  }
+
+  .week-divc {
+    width: 100%;
+  }
+
+  .name {
+    margin-left: 0;
+  }
+
+  .name4c {
+    justify-content: center;
+  }
+
+  .name2c {
+    justify-content: center;
+  }
+
+  .week-appointmentc button {
+    width: 40%;
+    font-size: 12px;
+    padding: 4px 0;
+  }
+}
+
+.slot_container {
+  height: 100%;
+}
+
+@media only screen and (max-width: 601px) {
+  .week-appointmentc {
+    width: 100%;
+    height: 140px;
+  }
+
+  .btn1 {
+    margin-left: 0;
+  }
+
+  .btn2 {
+    margin-right: 0;
+  }
+
+  .name1c {
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 822px) {
+  .week-appointmentc {
+    width: 100%;
+    height: 140px;
+  }
+
+  .slot-time-divc {
+    height: 140px;
+  }
+
+  .slot-time-divc-empty {
+    height: 30px;
+  }
+
+  /* .name4c {
+    display: grid;
+    height: auto;
+  } */
+
+  .btn1 {
+    margin-left: 0;
+  }
+
+  .btn2 {
+    margin-right: 0;
+  }
+}

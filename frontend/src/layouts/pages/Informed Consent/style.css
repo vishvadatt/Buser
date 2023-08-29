@@ -1,0 +1,123 @@
+.AGREEMENT {
+  font-size: 33px;
+}
+@font-face {
+  font-family: "rage-italic";
+  src: url("../../../../rage-italic/RAGE.TTF");
+}
+
+.saveAndClear {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 240px;
+
+  max-width: 240px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.initialName {
+  font-family: "rage-italic" !important;
+  font-size: 24px !important;
+  font-variant: small-caps !important;
+}
+
+@media screen and (max-width: 818px) {
+  .step1 {
+    padding: 0 !important;
+  }
+  .nameAndDate {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .saveAndClear {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px !important;
+  }
+  .Iaggre {
+    padding-top: 0 !important;
+  }
+  .nxtButton {
+    margin-right: 0 !important;
+  }
+  .parentClass1 {
+    margin-top: 4% !important;
+  }
+  .bloodPre {
+    margin-top: 2% !important;
+  }
+  .bodyTempDeg {
+    margin-top: 0% !important;
+  }
+}
+label {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03333em;
+  opacity: 1;
+  text-transform: capitalize;
+  vertical-align: unset;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #344767;
+  font-weight: 700;
+}
+.newCommitment_initial3{
+  align-items: center;
+  margin-top: -40px;
+}
+@media screen and (max-width: 388px) {
+  .initialhere {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .initialhere {
+    margin-bottom: 0 !important;
+  }
+  .initialhere1 {
+    margin-bottom: 0 !important;
+  }
+  .clientInitialName {
+    margin-bottom: -20px !important;
+  }
+  .parentClass {
+    padding-top: 0 !important;
+  }
+  .newCommitment_initial3{
+    margin-top: 0px !important;
+  }
+}
+
+.css-10e8aqw {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  opacity: 1;
+  background: transparent;
+  color: #344767;
+  border-radius: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.625;
+  letter-spacing: 0.00938em;
+  background-color: #f8f9fa;
+}

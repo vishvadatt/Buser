@@ -1,0 +1,1144 @@
+@media only screen and (min-width: 410px) and (max-width: 419px) {
+  .pain{
+    width: 50% !important;
+  }
+}
+.pain{
+  margin-left: 0px !important;
+}
+h3.Tooltitle {
+  margin-top: 18px !important;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.abc {
+  display: flex !important;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+.sideimg {
+  height: auto !important;
+  width: 130px;
+}
+.icon1 {
+  position: absolute;
+  top: 4%;
+  left: 46%;
+}
+.icon2 {
+  position: absolute;
+  top: 16%;
+  left: 46%;
+}
+.icon3 {
+  position: absolute;
+  top: 23.5%;
+  left: 46%;
+}
+.icon4 {
+  position: absolute;
+  top: 36%;
+  left: 46%;
+}
+.icon5 {
+  position: absolute;
+  top: 43%;
+  left: 46%;
+}
+.icon6 {
+  position: absolute;
+  top: 68%;
+  left: 46%;
+}
+.icon7 {
+  position: absolute;
+  top: 89%;
+  left: 46%;
+}
+.icon8 {
+  position: absolute;
+  top: 16%;
+  left: 26%;
+}
+.icon9 {
+  position: absolute;
+  top: 16%;
+  left: 46%;
+}
+.icon10 {
+  position: absolute;
+  top: 16%;
+  left: 65%;
+}
+.icon11 {
+  position: absolute;
+  top: 25%;
+  left: 46%;
+}
+.icon12 {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+}
+.icon13 {
+  position: absolute;
+  top: 33%;
+  left: 46%;
+}
+.icon14 {
+  position: absolute;
+  top: 35%;
+  left: 53.5%;
+}
+.icon15 {
+  position: absolute;
+  top: 41.5%;
+  left: 38%;
+}
+.icon16 {
+  position: absolute;
+  top: 41.5%;
+  left: 54%;
+}
+.icon17 {
+  position: absolute;
+  top: 65%;
+  left: 37%;
+}
+.icon18 {
+  position: absolute;
+  top: 65%;
+  left: 55%;
+}
+.icon19 {
+  position: absolute;
+  top: 87%;
+  left: 38%;
+}
+.icon20 {
+  position: absolute;
+  top: 87%;
+  left: 55%;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 40px;
+  left: 49.3% !important;
+}
+
+.top-right {
+  position: absolute;
+  top: 130px;
+  right: 48.9%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Tooltitle span {
+  color: #344767 !important;
+  border-bottom: 2px solid #344767 !important;
+}
+.vvx {
+  justify-content: center !important;
+  display: flex;
+}
+.imgbody {
+  margin-top: 100px;
+}
+.container {
+  position: relative;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* float: left; */
+  /* margin-left: 10px; */
+}
+.checkDesign {
+  /* position: absolute !important; */
+  /* left: 0 !important;
+  top: 0 !important; */
+  /* height: 20px !important; */
+  /* width: 20px !important; */
+  background-color: none !important;
+  border: 1px solid red !important;
+}
+.form-check {
+  padding-left: 10px !important;
+}
+.nextbtn {
+  position: relative;
+  top: 10px !important;
+}
+.radioGroup {
+  margin-left: 0px !important;
+  display: flex !important;
+  flex-direction: row !important;
+}
+.radioclear {
+  width: 1em;
+  height: 1em;
+}
+.checkDesign::after {
+  /* left: 9px; */
+  /* top: 5px; */
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.checkbox {
+  position: absolute;
+  top: 4.5%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox1 {
+  position: absolute;
+  bottom: 833px;
+  top: 10%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox2 {
+  position: absolute;
+  top: 14%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox3 {
+  position: absolute;
+  top: 18%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox4 {
+  position: absolute;
+  top: 22%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox5 {
+  position: absolute;
+  top: 31%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox6 {
+  position: absolute;
+  top: 41%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox7 {
+  position: absolute;
+  top: 9.5%;
+  right: 136px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox8 {
+  position: absolute;
+  top: 9.5%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox9 {
+  position: absolute;
+  top: 9.5%;
+  right: 75px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox10 {
+  position: absolute;
+  top: 13%;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox11 {
+  position: absolute;
+  top: 17%;
+  right: 119px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox12 {
+  position: absolute;
+  top: 16%;
+  bottom: 783px;
+  right: 106px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox13 {
+  position: absolute;
+  top: 17%;
+  right: 93px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox14 {
+  position: absolute;
+  top: 19%;
+  right: 120px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkboxs14 {
+  position: absolute;
+  bottom: 760px;
+  top: 19%;
+  right: 92px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox15 {
+  position: absolute;
+  top: 28%;
+  right: 121px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox16 {
+  position: absolute;
+  bottom: 688px;
+  top: 28%;
+  right: 92px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.checkbox17 {
+  position: absolute;
+  top: 37%;
+  right: 120px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.checkbox18 {
+  position: absolute;
+  top: 37%;
+  right: 90px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.checkbox19 {
+  position: absolute;
+  top: 50%;
+  right: 90px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.title {
+  text-transform: capitalize;
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.title1 {
+  text-transform: capitalize;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.title2 {
+  text-transform: capitalize;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.title3 {
+  text-transform: capitalize;
+  padding-left: 49px !important;
+  padding-right: 49px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.title4 {
+  text-transform: capitalize;
+  padding-left: 41px !important;
+  padding-right: 41px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.title5 {
+  text-transform: capitalize;
+  padding-left: 36px !important;
+  padding-right: 36px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.title6 {
+  text-transform: capitalize;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  border: 1px solid black !important;
+  justify-content: center;
+  display: flex;
+  font-size: 18px;
+}
+.inputbox {
+  border: 2px solid !important;
+}
+.inputtext:focus-visible :focus,
+textarea:focus {
+  outline: none !important;
+}
+.shoulderText {
+  padding-bottom: 14px;
+}
+.shoulderText input {
+  /* border:1px solid black; */
+  text-align: center;
+}
+.shouldertextinput {
+  /* border-right: 0.5px  solid red !important; */
+  border: none !important;
+  text-align: center;
+
+}
+.shouldertextinput:focus,
+textarea:focus {
+  outline: none !important;
+}
+.tableHeaddesc label {
+  justify-content: center !important;
+  display: flex;
+  font-size: 18px !important;
+  margin: 0px;
+  color: #344767 !important;
+  border-bottom: 1px solid black !important;
+}
+
+.clientname label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.clientname input {
+  background-color: #f1f4ff;
+  width: 130px !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+  border: #f1f4ff;
+}
+.clientname input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.ChiefCom label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.ChiefCom input {
+  background-color: #f1f4ff;
+  width: 103px !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+  border: #f1f4ff;
+}
+.ChiefCom input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.painlevel label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.painlevel input {
+  background-color: #f1f4ff;
+  width: 142px !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+  border: #f1f4ff;
+}
+.painlevel input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.Practitioner label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.Practitioner input {
+  height: 28px !important;
+  border: #f1f4ff;
+  background-color: #f1f4ff;
+  margin-left: 3px;
+  width: 50% !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+}
+.Practitioner input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.Clearance {
+  display: flex !important;
+}
+.Clearance label {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.Clearance span {
+  font-size: 15px !important;
+}
+.pracdob label {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+.pracdob input {
+  height: 28px !important;
+  border: #f1f4ff;
+  background-color: #f1f4ff;
+  width: "auto" !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+}
+.physicianyes {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.physicianno {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.pracdob input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.contactdesc {
+  font-weight: 600;
+  display: flex;
+  font-size: 15px;
+  text-indent: 5px !important;
+}
+.posturrbtn {
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  /* border-style: dashed; */
+  color: black;
+}
+.posturrbtn:focus-visible,
+textarea:focus-visible {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .exe1 {
+    margin-top: 20px !important;
+    margin-left: 15px !important;
+  }
+  .humandesc {
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  .clientname input {
+    background-color: #f1f4ff;
+    width: 65% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    border: #f1f4ff;
+  }
+  .ChiefCom input {
+    background-color: #f1f4ff;
+    width: 56% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    border: #f1f4ff;
+  }
+    .painlevel input {
+      background-color: #f1f4ff;
+      width: 70% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+      border: #f1f4ff;
+    }
+  .Practitioner input {
+    height: 28px !important;
+    border: #f1f4ff;
+    background-color: #f1f4ff;
+    margin-left: 3px;
+    width: 65% !important;
+    height:75% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+  }
+    .pracdob input {
+      height: 28px !important;
+      border: #f1f4ff;
+      background-color: #f1f4ff;
+      width: 42% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+    }
+    .practitioner-sub-section{
+      padding-top: 0px !important;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px){
+  .clientname input {
+      background-color: #f1f4ff;
+      width: 71% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+      border: #f1f4ff;
+    }
+  
+    .ChiefCom input {
+      background-color: #f1f4ff;
+      width: 63% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+      border: #f1f4ff;
+    }
+  
+    .painlevel input {
+      background-color: #f1f4ff;
+      width: 74.5% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+      border: #f1f4ff;
+    }
+  
+    .Practitioner input {
+      height: 28px !important;
+      border: #f1f4ff;
+      background-color: #f1f4ff;
+      margin-left: 3px;
+      width: 70.5% !important;
+      height: 75% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+    }
+  
+    .pracdob input {
+      height: 28px !important;
+      border: #f1f4ff;
+      background-color: #f1f4ff;
+      width: 35% !important;
+      padding: 5px !important;
+      font-size: 15px !important;
+    }
+  
+    .practitioner-sub-section {
+      padding-top: 0px !important;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .clientname input {
+    background-color: #f1f4ff;
+    width: 70% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    border: #f1f4ff;
+  }
+
+  .ChiefCom input {
+    background-color: #f1f4ff;
+    width: 63% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    border: #f1f4ff;
+  }
+
+  .painlevel input {
+    background-color: #f1f4ff;
+    width: 70% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+    border: #f1f4ff;
+  }
+
+  .Practitioner input {
+    height: 28px !important;
+    border: #f1f4ff;
+    background-color: #f1f4ff;
+    margin-left: 3px;
+    width: 70% !important;
+    height: 75% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+  }
+
+  .pracdob input {
+    height: 28px !important;
+    border: #f1f4ff;
+    background-color: #f1f4ff;
+    width: 31% !important;
+    padding: 5px !important;
+    font-size: 15px !important;
+  }
+
+  .practitioner-sub-section {
+    padding-top: 0px !important;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+  .exe1 {
+    margin-top: 20px !important;
+    margin-left: 60px !important;
+  }
+  .humandesc {
+    margin-left: 0px !important;
+    margin-top: 20px;
+  }
+  
+}
+@media only screen and (max-width: 425px) {
+  .exe1img {
+    height: 100px;
+    width: 120px;
+  }
+  .imgbody {
+    margin-top: 50px;
+    text-align: center !important;
+  }
+  .exercise {
+    justify-content: center !important;
+    margin-top: 10px !important;
+  }
+  .humandesc {
+    /* text-align: center !important; */
+    justify-content: center !important;
+    display: flex !important;
+    /* margin-left: 30px !important; */
+  }
+  .checkbox {
+    position: absolute;
+    top: 10.5%;
+    right: 190px;
+    border-color: rgb(8, 8, 8) !important;
+  }
+  .icon1 {
+    position: absolute;
+    top: 4%;
+    left: 48%;
+  }
+
+  .icon2 {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+  }
+
+  .icon3 {
+    position: absolute;
+    top: 23.5%;
+    left: 48%;
+  }
+
+  .icon4 {
+    position: absolute;
+    top: 36%;
+    left: 48%;
+  }
+
+  .icon5 {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+  }
+
+  .icon6 {
+    position: absolute;
+    top: 68%;
+    left: 48%;
+  }
+
+  .icon7 {
+    position: absolute;
+    top: 89%;
+    left: 48%;
+  }
+
+  .icon8 {
+    position: absolute;
+    top: 16%;
+    left: 39%;
+  }
+
+  .icon9 {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+  }
+
+  .icon10 {
+    position: absolute;
+    top: 16%;
+    left: 57%;
+  }
+
+  .icon11 {
+    position: absolute;
+    top: 25%;
+    left: 48%;
+  }
+
+  .icon12 {
+    position: absolute;
+    top: 35%;
+    left: 43%;
+  }
+
+  .icon13 {
+    position: absolute;
+    top: 33%;
+    left: 48%;
+  }
+
+  .icon14 {
+    position: absolute;
+    top: 35%;
+    left: 53%;
+  }
+
+  .icon15 {
+    position: absolute;
+    top: 41.5%;
+    left: 42%;
+  }
+
+  .icon16 {
+    position: absolute;
+    top: 41.5%;
+    left: 54%;
+  }
+
+  .icon17 {
+    position: absolute;
+    top: 65%;
+    left: 42%;
+  }
+
+  .icon18 {
+    position: absolute;
+    top: 65%;
+    left: 54%;
+  }
+
+  .icon19 {
+    position: absolute;
+    top: 87%;
+    left: 42%;
+  }
+
+  .icon20 {
+    position: absolute;
+    top: 87%;
+    left: 54%;
+  }
+}
+@media only screen and(max-width:768px) {
+  .exe1 {
+    margin-top: 30px !important;
+  }
+
+  .humandesc {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  .exe1img {
+    height: 100px;
+    width: 120px;
+  }
+
+  .exe2 {
+    margin-left: 100px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .exe1 {
+    margin-top: 30px !important;
+  }
+
+  .humandesc {
+    /* margin-left: 10px; */
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .exe1img {
+    height: 100px;
+    width: 120px;
+  }
+
+  .exe2 {
+    margin-left: 100px;
+  }
+  .icon1 {
+    position: absolute;
+    top: 4%;
+    left: 48%;
+  }
+
+  .icon2 {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+  }
+
+  .icon3 {
+    position: absolute;
+    top: 23.5%;
+    left: 48%;
+  }
+
+  .icon4 {
+    position: absolute;
+    top: 36%;
+    left: 48%;
+  }
+
+  .icon5 {
+    position: absolute;
+    top: 43%;
+    left: 48%;
+  }
+
+  .icon6 {
+    position: absolute;
+    top: 68%;
+    left: 48%;
+  }
+
+  .icon7 {
+    position: absolute;
+    top: 89%;
+    left: 48%;
+  }
+
+  .icon8 {
+    position: absolute;
+    top: 16%;
+    left: 38%;
+  }
+
+  .icon9 {
+    position: absolute;
+    top: 16%;
+    left: 48%;
+  }
+
+  .icon10 {
+    position: absolute;
+    top: 16%;
+    left: 58%;
+  }
+
+  .icon11 {
+    position: absolute;
+    top: 25%;
+    left: 48%;
+  }
+
+  .icon12 {
+    position: absolute;
+    top: 35%;
+    left: 44%;
+  }
+
+  .icon13 {
+    position: absolute;
+    top: 33%;
+    left: 48%;
+  }
+
+  .icon14 {
+    position: absolute;
+    top: 35%;
+    left: 52%;
+  }
+
+  .icon15 {
+    position: absolute;
+    top: 41.5%;
+    left: 43%;
+  }
+
+  .icon16 {
+    position: absolute;
+    top: 41.5%;
+    left: 54%;
+  }
+
+  .icon17 {
+    position: absolute;
+    top: 65%;
+    left: 44%;
+  }
+
+  .icon18 {
+    position: absolute;
+    top: 65%;
+    left: 53%;
+  }
+
+  .icon19 {
+    position: absolute;
+    top: 87%;
+    left: 44%;
+  }
+
+  .icon20 {
+    position: absolute;
+    top: 87%;
+    left: 53%;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .icon1 {
+    position: absolute;
+    top: 4%;
+    left: 58%;
+  }
+
+  .icon2 {
+    position: absolute;
+    top: 16%;
+    left: 58%;
+  }
+
+  .icon3 {
+    position: absolute;
+    top: 23.5%;
+    left: 58%;
+  }
+
+  .icon4 {
+    position: absolute;
+    top: 36%;
+    left: 58%;
+  }
+
+  .icon5 {
+    position: absolute;
+    top: 43%;
+    left: 58%;
+  }
+
+  .icon6 {
+    position: absolute;
+    top: 68%;
+    left: 58%;
+  }
+
+  .icon7 {
+    position: absolute;
+    top: 89%;
+    left: 58%;
+  }
+
+  .icon8 {
+    position: absolute;
+    top: 16%;
+    left: 35%;
+  }
+
+  .icon9 {
+    position: absolute;
+    top: 16%;
+    left: 58%;
+  }
+
+  .icon10 {
+    position: absolute;
+    top: 16%;
+    left: 83%;
+  }
+
+  .icon11 {
+    position: absolute;
+    top: 25%;
+    left: 58%;
+  }
+
+  .icon12 {
+    position: absolute;
+    top: 35%;
+    left: 47%;
+  }
+
+  .icon13 {
+    position: absolute;
+    top: 33%;
+    left: 58%;
+  }
+
+  .icon14 {
+    position: absolute;
+    top: 35%;
+    left: 68%;
+  }
+
+  .icon15 {
+    position: absolute;
+    top: 41.5%;
+    left: 47%;
+  }
+
+  .icon16 {
+    position: absolute;
+    top: 41.5%;
+    left: 72%;
+  }
+
+  .icon17 {
+    position: absolute;
+    top: 65%;
+    left: 47%;
+  }
+
+  .icon18 {
+    position: absolute;
+    top: 65%;
+    left: 72%;
+  }
+
+  .icon19 {
+    position: absolute;
+    top: 87%;
+    left: 48%;
+  }
+
+  .icon20 {
+    position: absolute;
+    top: 87%;
+    left: 73%;
+  }
+}
+
+/* sccs */

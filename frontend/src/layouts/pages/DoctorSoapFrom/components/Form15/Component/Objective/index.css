@@ -1,0 +1,18 @@
+.objective input {
+    background-color: #f1f4ff;
+    /* padding: 5px !important; */
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 50% !important;
+    /* margin-top: 20px; */
+}
+
+.objective input:focus,
+textarea:focus {
+    outline: none !important;
+}
+.vvx1{
+    height: 30px !important;
+
+}

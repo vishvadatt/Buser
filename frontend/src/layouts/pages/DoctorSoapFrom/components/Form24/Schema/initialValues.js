@@ -1,0 +1,98 @@
+const initialValues = {
+    cArray : [
+         {
+            ngrid : "",
+            ram : "",
+            Periph : "",
+            Muscle : "",
+            jtCut : "",
+            Sclero	: "",
+            AkOrgan : "",
+            Mer : "",
+            NL : "",
+            NV : "",
+            KICat : "",
+            LabRef : "",
+            LabFunc : "",
+            PtLab : "",
+            NutriationSupport : ""
+        },
+    ],
+    tArray : [
+        {
+           ngrid : "",
+           ram : "",
+           Periph : "",
+           Muscle : "",
+           jtCut : "",
+           Sclero	: "",
+           AkOrgan : "",
+           Mer : "",
+           NL : "",
+           NV : "",
+           KICat : "",
+           LabRef : "",
+           LabFunc : "",
+           PtLab : "",
+           NutriationSupport : ""
+       },
+   ],
+   lArray : [
+    {
+       ngrid : "",
+       ram : "",
+       Periph : "",
+       Muscle : "",
+       jtCut : "",
+       Sclero	: "",
+       AkOrgan : "",
+       Mer : "",
+       NL : "",
+       NV : "",
+       KICat : "",
+       LabRef : "",
+       LabFunc : "",
+       PtLab : "",
+       NutriationSupport : ""
+   },
+],
+sArray : [
+    {
+       ngrid : "",
+       ram : "",
+       Periph : "",
+       Muscle : "",
+       jtCut : "",
+       Sclero	: "",
+       AkOrgan : "",
+       Mer : "",
+       NL : "",
+       NV : "",
+       KICat : "",
+       LabRef : "",
+       LabFunc : "",
+       PtLab : "",
+       NutriationSupport : ""
+   },
+],
+
+coArray : [
+    {
+       ngrid : "",
+       ram : "",
+       Periph : "",
+       Muscle : "",
+       jtCut : "",
+       Sclero	: "",
+       AkOrgan : "",
+       Mer : "",
+       NL : "",
+       NV : "",
+       KICat : "",
+       LabRef : "",
+       LabFunc : "",
+       PtLab : "",
+       NutriationSupport : ""
+   },
+],
+}

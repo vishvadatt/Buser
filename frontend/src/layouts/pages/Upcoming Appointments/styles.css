@@ -1,0 +1,1277 @@
+.rbc-day-slot .rbc-time-slot{
+  border-top: 1px solid lightgray !important;
+}
+.rbc-event-label{
+  font-size: 12px !important;
+}
+.rbc-events-container{
+  margin-right: 1px !important;
+}
+.rbc-event-content{
+  overflow-y: scroll !important;
+}
+.rbc-calendar{
+  min-width: 1000px !important;
+}
+.rbc-event-label {
+  color: black;
+  font-weight: bold;
+
+}
+.rbc-event {
+  background-color: #e5e5e5 !important;
+  border-color: lightgray !important;
+}
+
+.rbc-toolbar {
+  flex-direction: row-reverse !important;
+}
+
+.rbc-timeslot-group {
+  min-height: 250px !important;
+}
+
+.week-days {
+  font-weight: 400;
+  font-size: 15px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action-btn1 {
+  background-color: #e21818 !important;
+  color: white !important;
+}
+
+.week-body-div {
+  width: 100%;
+}
+
+.week-appointment {
+  border-bottom: 1px solid #cccc;
+  padding: 10px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 140px;
+  width: 100%;
+}
+
+.pendingD {
+  color: red;
+}
+
+.confirmedD {
+  color: #17c1e8;
+}
+
+.week-appointment::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ccc;
+}
+
+.week-appointment>.slot-info-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.slot-desc-container .pending-cancel-btn {
+  color: red;
+}
+
+.week-appointment-div {
+  display: inline-flex;
+  height: auto;
+  width: 100%;
+}
+
+.week-name {
+  text-align: center;
+}
+
+.week-day {
+  text-align: center;
+  border-bottom: 1px solid #cccc;
+  margin-bottom: 0px;
+}
+
+.week-div {
+  border: 1px solid #cccc;
+  min-width: 105px;
+}
+
+.beforeDay {
+  /* padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    height: auto;
+    width: 170px; */
+  background-color: #ededed;
+  border: 1px solid #cccc;
+  /* width: 124px; */
+  width: 100%;
+}
+
+.doctor-info {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-head {
+  /* position: fixed; */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: saturate(200%) blur(1.875rem);
+}
+
+.body-div {
+  position: relative;
+  top: 0;
+  /* overflow-y: scroll; */
+}
+
+.main-appointment-div {
+  display: flex;
+  height: 450px;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 60;
+  /* overflow-x:hidden; */
+}
+
+.slot-div {
+  height: max-content;
+  position: sticky;
+  left: 0;
+  z-index: 101;
+  background-color: #ffffff;
+}
+
+.slot-time-div-empty {
+  height: 40px;
+}
+
+.slot-time-div {
+  height: 140px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.slot-info {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin: 0;
+}
+
+.week-appointment:last-child {
+  display: none;
+}
+
+.btn-cancel {
+  margin: 10px;
+}
+
+button.cancle-btns {
+  padding: 0px 10px;
+  margin-top: 5px;
+  background-color: #17c1e8;
+  color: white;
+  cursor: pointer;
+  margin-right: 2px;
+  border: #17c1e8;
+  border-radius: 6px;
+  padding: 5px !important;
+}
+
+.form-Reason {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.modal-size {
+  position: fixed;
+  background: lightblue;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+}
+
+.cancelAppointment {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #364969;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 10px;
+  width: 600px;
+}
+
+.name3 {
+  display: "grid";
+  place-items: "center";
+}
+
+.name4 {
+  width: "100%";
+  display: "flex";
+  flex-direction: "row";
+  justify-content: "space-between";
+}
+
+/* .name3 + .name4 { */
+/* margin-top: 13px; */
+/* Add margin between the divs */
+/* } */
+
+button.cancle-btns {
+  padding: 4px 0px;
+  background-color: #17c1e8;
+  color: white;
+  cursor: pointer;
+
+  border: #17c1e8;
+  border-radius: 6px;
+}
+
+/* .color-detail {
+  margin-left: 3rem;
+} */
+
+@media (max-width: 422px) {
+  .color-detail {
+    margin-left: 1rem;
+  }
+}
+
+
+@media (max-width: 357px) {
+  .week-days {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment-div {
+    width: max-content;
+  }
+
+  .week-appointment button {
+    width: 42px;
+    padding: 3px 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .week-day {
+    padding: 0 3px;
+    min-width: 90px;
+  }
+
+  .week-div {
+    min-width: 90px;
+  }
+
+  .slot-info {
+    font-size: 10px;
+  }
+
+  .name3 {
+    font-size: 10px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -20px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 270px;
+  }
+
+  .form-Reason {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .cancelAppointment>.form-Reason {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+@media only screen and (min-width: 357px) and (max-width: 411px) {
+  .week-days {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment-div {
+    width: max-content;
+  }
+
+  .week-appointment button {
+    width: 43px;
+    padding: 3px 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .week-day {
+    padding: 0 3px;
+    min-width: 90px;
+  }
+
+  .week-div {
+    min-width: 90px;
+  }
+
+  .slot-info {
+    font-size: 10px;
+  }
+
+  .name3 {
+    font-size: 10px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -23px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 270px;
+  }
+
+  .form-Reason {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .cancelAppointment>.form-Reason {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 450px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 276px;
+  }
+
+  .form-Reason {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -23px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 43px;
+    padding: 3px 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .week-day {
+    padding: 0 3px;
+    min-width: 90px;
+  }
+
+  .week-div {
+    width: 100%;
+    min-width: 90px;
+  }
+
+  .slot-info {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 499px) {
+  .slot-time-div:first-child {
+    margin-top: -17px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 90px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 47px;
+    padding: 3px 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .week-div {
+    min-width: 90px;
+  }
+
+  .slot-info {
+    font-size: 12px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 340px;
+  }
+
+  .form-Reason {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 601px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 331px;
+  }
+
+  .form-Reason {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -17px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 90px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 50px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    min-width: 90px;
+  }
+
+  .slot-info {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 602px) and (max-width: 700px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 370px;
+  }
+
+  .form-Reason {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -10px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 109px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 60px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 12px;
+  }
+
+  .name3+.name4 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 750px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 500px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -10px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 109px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 70px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 805px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 550px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -10px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 109px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 80px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 805px) and (max-width: 849px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 550px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -10px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 80px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 15px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 109px;
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 901px) {
+  .slot-time-div:first-child {
+    margin-top: -10px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 109px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 85px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 15px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 974px) {
+  .week-days {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -10px;
+  }
+
+  .week-day {
+    padding: 0 5px;
+    min-width: 109px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 85px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 15px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 974px) and (max-width: 1020px) {
+  .slot-time-div:first-child {
+    margin-top: -7;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .week-day {
+    padding: 0 11px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 85px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 15px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 550px;
+  }
+}
+
+@media only screen and (min-width: 1020px) and (max-width: 1050px) {
+  .week-days {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .week-day {
+    padding: 0 14px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 85px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 15px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1051px) and (max-width: 1123px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 550px;
+  }
+
+  .week-days {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .week-day {
+    padding: 0 16px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment div {
+    height: 100%;
+  }
+
+  .week-appointment button {
+    width: 85px;
+    padding: 3px 0px;
+    margin-left: 0;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .slot-info {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1124px) and (max-width: 1200px) {
+  .slot-time-div:first-child {
+    margin-top: -7px;
+  }
+
+  .week-days {
+    width: 100%;
+  }
+
+  .week-day {
+    padding: 0 27px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 70px;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1290px) {
+  .slot-time-div:first-child {
+    margin-top: -7px;
+  }
+
+  .week-days {
+    width: 100%;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    width: 62px;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .week-day {
+    padding: 0 13px;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1291px) and (max-width: 1330px) {
+  .slot-time-div:first-child {
+    margin-top: -7px;
+  }
+
+  .week-days {
+    /* width: 128px; */
+    width: 100%;
+  }
+
+  .week-day {
+    padding: 0 19px;
+  }
+
+  .beforeDay {
+    /* width: 128px; */
+    width: 100%;
+  }
+
+  .week-appointment {
+    /* width: 128px; */
+    width: 100%;
+  }
+
+  .week-appointment button {
+    padding: 4px 13px;
+    width: 68px;
+  }
+
+  .week-div {
+    width: 100%;
+    /* width: 128px; */
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1331px) and (max-width: 1360px) {
+  .slot-time-div:first-child {
+    margin-top: -7px;
+  }
+
+  .week-days {
+    width: 100%;
+  }
+
+  .week-day {
+    padding: 0 22px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    padding: 4px 0px;
+    width: 60px;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1361px) and (max-width: 1380px) {
+  .slot-time-div:first-child {
+    margin-top: -7px;
+  }
+
+  .week-days {
+    width: 100%;
+  }
+
+  .week-day {
+    padding: 0 24px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    padding: 4px 16px;
+    width: 66px;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+@media only screen and (min-width: 1381px) {
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+
+  .slot-time-div:first-child {
+    margin-top: -7px;
+  }
+
+  .week-days {
+    width: 100%;
+  }
+
+  .week-appointment button {
+    padding: 4px 0px;
+    width: 70px;
+  }
+
+  .week-day {
+    padding: 0 26px;
+  }
+
+  .beforeDay {
+    width: 100%;
+  }
+
+  .week-appointment {
+    width: 100%;
+  }
+
+  .week-div {
+    width: 100%;
+  }
+
+  .cancelAppointment {
+    background-color: #fff;
+    box-shadow: 24px;
+    padding: 10px;
+    width: 504px;
+  }
+}
+
+.slot-info_container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  height: 100%;
+}

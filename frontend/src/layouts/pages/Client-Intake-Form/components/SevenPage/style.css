@@ -1,0 +1,148 @@
+.Datequit input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 44%;
+  border-bottom: 1px solid black;
+  /* max-width: auto;/ */
+  height: 27px !important;
+  margin-left: 5px !important;
+}
+
+.Datequit input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.otherfood input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 40%;
+  border-bottom: 1px solid black;
+  /* max-width: auto;/ */
+  height: 27px !important;
+  margin-left: 5px !important;
+}
+
+.otherfood input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.Water input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: auto;
+  border-bottom: 1px solid black;
+  /* max-width: auto;/ */
+  height: 27px !important;
+  margin-left: 5px !important;
+}
+
+.Water input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.excercise-intake {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+}
+.food {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+}
+.tabledata-line {
+  border-top: none !important;
+  border-left: none !important;
+  border-bottom: none !important;
+  border-right: 1px solid black;
+  border-style: dashed;
+}
+
+@media only screen and (max-width: 320px) {
+  .gridmajor {
+    margin-left: 0px !important;
+  }
+  .excercise-intake {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .food {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .otherfood input {
+    width: auto;
+  }
+  .food-table {
+    overflow-x: auto !important;
+  }
+  .table-food-title{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: center !important;
+  }
+  .datequitinput{
+    margin-right: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .excercise-intake {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .food {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .otherfood input {
+    width: auto;
+  }
+  .food-table {
+    overflow-x: auto !important;
+  }
+     .table-food-title {
+       padding-left: 0px !important;
+       padding-right: 0px !important;
+       text-align: center !important;
+     }
+         .datequitinput {
+           margin-right: 20px !important;
+         }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .excercise-intake {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .food {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .otherfood input {
+    width: auto;
+  }
+  .food-table {
+    overflow-x: auto !important;
+  }
+     .table-food-title {
+       padding-left: 0px !important;
+       padding-right: 0px !important;
+       text-align: center !important;
+     }
+         .datequitinput {
+           margin-right: 20px !important;
+         }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .table-food-title {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      text-align: center !important;
+    }
+        .datequitinput {
+          margin-right: 20px !important;
+        }
+}

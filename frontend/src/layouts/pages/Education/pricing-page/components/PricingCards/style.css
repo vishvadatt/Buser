@@ -1,0 +1,40 @@
+.purchaseButton {
+  width: 600px !important;
+  /* background-color: aliceblue; */
+  height: 30px !important;
+}
+
+.arrow_forward {
+  display: inline-block;
+  height: 16.8px;
+}
+.allevent-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  gap: 20px;
+}
+.event-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  padding: 12px;
+  gap: 5px;
+  width: 200px;
+}
+.date-box {
+  font-size: 14px;
+  background: rgb(101, 202, 221) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(101, 202, 221, 1) 0%,
+    rgba(12, 107, 219, 1) 100%
+  ) !important;
+  color: rgb(247, 247, 247) !important;
+  padding: 5px;
+  border-radius: 5px;
+}

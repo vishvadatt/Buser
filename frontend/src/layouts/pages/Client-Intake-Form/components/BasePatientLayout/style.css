@@ -1,0 +1,126 @@
+/* .scrollbar >::-webkit-scrollbar
+.        {            height: 0px  !important;      } */
+.css-z288wr {
+  padding: 0px !important;
+}
+.step {
+  padding-top: 25px !important;
+}
+.soap-back {
+  margin-top: 10px !important;
+}
+.oap-back {
+  margin-top: 10px;
+}
+.doctor-soap-btn {
+  margin-top: 20px;
+}
+
+.MuiStepper-root {
+  overflow-x: scroll !important;
+  padding: 10px 0px;
+}
+.MuiStepper-root > :-webkit-scrollbar {
+  display: none !important;
+}
+
+.docConfirm {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #364969;
+  background-color: #fff;
+  box-shadow: 24px;
+  padding: 10px;
+  width: 50%;
+  color: #364969;
+}
+.cancel-divc {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+/* .btn-cancelc {
+    margin: 20px;
+  } */
+@media screen and (max-width: 822px) {
+  .docConfirm {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 422px) {
+    .docConfirm {
+      width: 80%;
+    }
+  }
+@media screen and (min-width: 372px) and (max-width: 375px) {
+  .soap-control-btn {
+    padding-left: 0px !important;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 412px) and (max-width: 414px) {
+  .soap-control-btn {
+    padding-left: 0px !important;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 388px) and (max-width: 390px) {
+  .soap-control-btn {
+    padding-left: 0px !important;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 393px) {
+  .soap-control-btn {
+    padding-left: 0px !important;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 357px) and (max-width: 360px) {
+  .soap-control-btn {
+    padding-left: 0px !important;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 357px) and (max-width: 360px) {
+  .soap-control-btn {
+    padding-left: 0px !important;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 817px) and (max-width: 820px) {
+  .soap-control-btn {
+    margin-left: -4%;
+  }
+}
+@media screen and (min-width: 766px) and (max-width: 768px) {
+  .soap-control-btn {
+    margin-left: -3%;
+  }
+}
+@media screen and (min-width: 895px) and (max-width: 912px) {
+  .soap-control-btn {
+    margin-left: -7%;
+  }
+}
+@media screen and (min-width: 535px) and (max-width: 540px) {
+  .soap-control-btn {
+    margin-left: -10%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 280px) {
+  .soap-control-btn {
+    margin-left: -60%;
+    justify-content: center;
+    display: flex;
+  }
+}

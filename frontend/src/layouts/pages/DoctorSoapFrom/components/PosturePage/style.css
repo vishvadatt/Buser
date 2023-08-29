@@ -1,0 +1,5252 @@
+.checkboxconainer {
+  position: relative;
+  margin-top: 20px !important;
+}
+.cbox {
+  position: absolute;
+  bottom: 360px;
+  right: 123px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.circle .fullbody-check {
+  width: 11px;
+  height: 11px;
+  background-color: #d3d3d3;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid gray;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.circle .fullbody-check:checked {
+  background-color: #e16e85;
+}
+
+/* .new */
+.checkBoxcontrol {
+  border-color: black;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* little dot full body */
+.lefteartop {
+  position: absolute;
+  top: 3%;
+  left: 39%;
+}
+.leftearbottom {
+  position: absolute;
+  top: 6.5%;
+  left: 40%;
+}
+.righteartop {
+  position: absolute;
+  top: 3%;
+  left: 58%;
+}
+.rightearbottom {
+  position: absolute;
+  top: 6.5%;
+  left: 57%;
+}
+.beardone {
+  position: absolute;
+  top: 9.5%;
+  left: 40%;
+}
+.beardtwo {
+  position: absolute;
+  top: 9.5%;
+  left: 43.5%;
+}
+.beardthree {
+  position: absolute;
+  top: 9.5%;
+  left: 47%;
+}
+.beardfour {
+  position: absolute;
+  top: 9.5%;
+  left: 50.7%;
+}
+.bearfive {
+  position: absolute;
+  top: 9.5%;
+  left: 53.9%;
+}
+.bearsix {
+  position: absolute;
+  top: 9.5%;
+  left: 57.3%;
+}
+/* throat */
+.thoratone {
+  position: absolute;
+  top: 12.5%;
+  left: 46.5%;
+}
+.thorattwo {
+  position: absolute;
+  top: 12.5%;
+  left: 50.3%;
+}
+/* shoulder */
+.sholdertopone {
+  position: absolute;
+  top: 11.5%;
+  left: 28.7%;
+}
+.sholdertoptwo {
+  position: absolute;
+  top: 14%;
+  left: 28.7%;
+}
+.shoulderone {
+  position: absolute;
+  top: 16.5%;
+  left: 18%;
+}
+.shouldertwo {
+  position: absolute;
+  top: 16.5%;
+  left: 22%;
+}
+.shoulderthree {
+  position: absolute;
+  top: 16.5%;
+  left: 26%;
+}
+.shoulderfour {
+  position: absolute;
+  top: 16.5%;
+  left: 29.5%;
+}
+.shoulderfive {
+  position: absolute;
+  top: 16.5%;
+  left: 33%;
+}
+.shouldersix {
+  position: absolute;
+  top: 16.5%;
+  left: 36.3%;
+}
+.shoulderbottomone {
+  position: absolute;
+  top: 19%;
+  left: 28.7%;
+}
+.shoulderbottomtwo {
+  position: absolute;
+  top: 21.5%;
+  left: 28.7%;
+}
+/* @media (max-width: 320px){
+  .lefteartop {
+    position: absolute;
+    top: 4%;
+    left: 42%;
+  }
+  .leftearbottom {
+    position: absolute;
+    top: 7%;
+    left: 43%;
+  }
+  .righteartop {
+    position: absolute;
+    top: 4%;
+    left: 61%;
+  }
+  .rightearbottom {
+    position: absolute;
+    top: 7%;
+    left: 61%;
+  }
+  .beardone {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+  }
+  .beardtwo {
+    position: absolute;
+    top: 10%;
+    left: 45.5%;
+  }
+  .beardthree {
+    position: absolute;
+    top: 10%;
+    left: 49.5%;
+  }
+  .beardfour {
+    position: absolute;
+    top: 10%;
+    left: 54%;
+  }
+  .bearfive {
+    position: absolute;
+    top: 10%;
+    left: 58%;
+  }
+  .bearsix {
+    position: absolute;
+    top: 10%;
+    left: 61%;
+  }
+  
+  .thoratone {
+    position: absolute;
+    top: 12.5%;
+    left: 49%;
+  }
+  .thorattwo {
+    position: absolute;
+    top: 12.5%;
+    left: 53%;
+  }
+ 
+  .sholdertopone {
+    position: absolute;
+    top: 11.5%;
+    left: 31%;
+  }
+  .sholdertoptwo {
+    position: absolute;
+    top: 14%;
+    left: 31%;
+  }
+  .shoulderone {
+    position: absolute;
+    top: 16.5%;
+    left: 19%;
+  }
+  .shouldertwo {
+    position: absolute;
+    top: 16.5%;
+    left: 23.5%;
+  }
+  .shoulderthree {
+    position: absolute;
+    top: 16.5%;
+    left: 27.5%;
+  }
+  .shoulderfour {
+    position: absolute;
+    top: 16.5%;
+    left: 31%;
+  }
+  .shoulderfive {
+    position: absolute;
+    top: 16.5%;
+    left: 34.5%;
+  }
+  .shouldersix {
+    position: absolute;
+    top: 16.5%;
+    left: 38%;
+  }
+  .shoulderbottomone {
+    position: absolute;
+    top: 19%;
+    left: 32%;
+  }
+  .shoulderbottomtwo {
+    position: absolute;
+    top: 21.5%;
+    left: 32%;
+  }
+  .shouldermiddleone {
+    position: absolute;
+    top: 16.5%;
+    left: 42%;
+  }
+  .shouldermiddletwo {
+    position: absolute;
+    top: 16.5%;
+    left: 45%;
+  }
+  .shouldermiddlethree {
+    position: absolute;
+    top: 16.5%;
+    left: 49%;
+  }
+  .shouldermiddlefour {
+    position: absolute;
+    top: 16.5%;
+    left: 53%;
+  }
+  .shouldermiddlefive {
+    position: absolute;
+    top: 16.5%;
+    left: 56.5%;
+  }
+  .shouldermiddlesix {
+    position: absolute;
+    top: 16.5%;
+    left: 60%;
+  }
+  
+ 
+  
+
+  
+} */
+
+
+
+
+
+/* shoulder middle */
+
+.shouldermiddleone {
+  position: absolute;
+  top: 16.5%;
+  left: 42%;
+}
+.shouldermiddletwo {
+  position: absolute;
+  top: 16.5%;
+  left: 45%;
+}
+.shouldermiddlethree {
+  position: absolute;
+  top: 16.5%;
+  left: 49%;
+}
+.shouldermiddlefour {
+  position: absolute;
+  top: 16.5%;
+  left: 53%;
+}
+.shouldermiddlefive {
+  position: absolute;
+  top: 16.5%;
+  left: 56.5%;
+}
+.shouldermiddlesix {
+  position: absolute;
+  top: 16.5%;
+  left: 60%;
+}
+
+/* shoulderRight */
+
+.shoulderrighttopone {
+  position: absolute;
+  top: 11.5%;
+  left: 69%;
+}
+.shoulderrighttoptwo {
+  position: absolute;
+  top: 14%;
+  left: 69%;
+}
+.shoulderrightone {
+  position: absolute;
+  top: 16.5%;
+  left: 64%;
+}
+.shoulderrighttwo {
+  position: absolute;
+  top: 16.5%;
+  left: 67.5%;
+}
+.shoulderrightthree {
+  position: absolute;
+  top: 16.5%;
+  left: 71%;
+}
+.shoulderrightfour {
+  position: absolute;
+  top: 16.5%;
+  left: 74%;
+}
+.shoulderrightfive {
+  position: absolute;
+  top: 16.5%;
+  left: 77.5%;
+}
+.shoulderrightsix {
+  position: absolute;
+  top: 16.5%;
+  left: 81%;
+}
+.shoulderrightbottomone {
+  position: absolute;
+  top: 19%;
+  left: 69%;
+}
+.shoulderrightbottomtwo {
+  position: absolute;
+  top: 21.5%;
+  left: 69%;
+}
+
+/* left chest */
+.chestlefttopone {
+  position: absolute;
+  top: 19%;
+  left: 37.5%;
+}
+.chestlefttoptwo {
+  position: absolute;
+  top: 21.5%;
+  left: 37.5%;
+}
+.chestleftone {
+  position: absolute;
+  top: 24%;
+  left: 32%;
+}
+.chestlefttwo {
+  position: absolute;
+  top: 24%;
+  left: 35.5%;
+}
+.chestleftthree {
+  position: absolute;
+  top: 24%;
+  left: 39%;
+}
+.chestleftfour {
+  position: absolute;
+  top: 24%;
+  left: 42.5%;
+}
+.chestleftbottomone {
+  position: absolute;
+  top: 26.5%;
+  left: 37.5%;
+}
+.chestleftbottomtwo {
+  position: absolute;
+  top: 29.5%;
+  left: 37.5%;
+}
+
+/* middle chest */
+
+.chestmiddleone {
+  position: absolute;
+  top: 24%;
+  left: 46%;
+}
+.chestmiddletwo {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+}
+
+/* right chest */
+.chestrighttopone {
+  position: absolute;
+  top: 19%;
+  left: 59%;
+}
+
+.chestrighttoptwo {
+  position: absolute;
+  top: 21.5%;
+  left: 59%;
+}
+
+.chestrightone {
+  position: absolute;
+  top: 24%;
+  left: 54%;
+}
+
+.chestrighttwo {
+  position: absolute;
+  top: 24%;
+  left: 57.5%;
+}
+
+.chestrightthree {
+  position: absolute;
+  top: 24%;
+  left: 61%;
+}
+
+.chestrightfour {
+  position: absolute;
+  top: 24%;
+  left: 64.5%;
+}
+
+.chestrightbottomone {
+  position: absolute;
+  top: 26.5%;
+  left: 59%;
+}
+
+.chestrightbottomtwo {
+  position: absolute;
+  top: 29.5%;
+  left: 59%;
+}
+
+/* middle body */
+.middlebodyone {
+  position: absolute;
+  top: 26.5%;
+  left: 42.5%;
+}
+.middlebodytwo {
+  position: absolute;
+  top: 26.5%;
+  left: 46%;
+}
+.middlebodythree {
+  position: absolute;
+  top: 26.5%;
+  left: 50%;
+}
+.middlebodyfour {
+  position: absolute;
+  top: 26.5%;
+  left: 54%;
+}
+
+/* left hand middle */
+
+.lefthandone {
+  position: absolute;
+  top: 33%;
+  left: 16%;
+}
+.lefthandtwo {
+  position: absolute;
+  top: 33%;
+  left: 19.5%;
+}
+.lefthandthree {
+  position: absolute;
+  top: 33%;
+  left: 24.5%;
+}
+.lefthandfour {
+  position: absolute;
+  top: 33%;
+  left: 28%;
+}
+
+/* right hand middle */
+.righthandone {
+  position: absolute;
+  top: 33%;
+  left: 68%;
+}
+
+.righthandtwo {
+  position: absolute;
+  top: 33%;
+  left: 71.5%;
+}
+
+.righthandthree {
+  position: absolute;
+  top: 33%;
+  left: 75.5%;
+}
+
+.righthandfour {
+  position: absolute;
+  top: 33%;
+  left: 79%;
+}
+
+/* left stomach */
+.leftstomachtopone {
+  position: absolute;
+  top: 30%;
+  left: 43%;
+}
+.leftstomachtoptwo {
+  position: absolute;
+  top: 32.5%;
+  left: 43%;
+}
+.leftstomachone {
+  position: absolute;
+  top: 35.3%;
+  left: 29.5%;
+}
+.leftstomachtwo {
+  position: absolute;
+  top: 35.3%;
+  left: 33%;
+}
+.leftstomachthree {
+  position: absolute;
+  top: 35.3%;
+  left: 36.5%;
+}
+.leftstomachfour {
+  position: absolute;
+  top: 35.3%;
+  left: 40%;
+}
+.leftstomachfive {
+  position: absolute;
+  top: 35.3%;
+  left: 43.5%;
+}
+.leftstomachsix {
+  position: absolute;
+  top: 35.3%;
+  left: 47%;
+}
+.leftstomachbottomone {
+  position: absolute;
+  top: 38%;
+  left: 43%;
+}
+.leftstomachbottomtwo {
+  position: absolute;
+  top: 40.5%;
+  left: 43%;
+}
+
+/* top stomach */
+.topstomachone {
+  position: absolute;
+  top: 31%;
+  left: 46%;
+}
+.topstomachtwo {
+  position: absolute;
+  top: 31%;
+  left: 49.3%;
+}
+
+/* bottom stomach */
+.bottomstomachone {
+  position: absolute;
+  top: 39.5%;
+  left: 46%;
+}
+
+.bottomstomachtwo {
+  position: absolute;
+  top: 39.5%;
+  left: 49.3%;
+}
+/* right stomach */
+
+.rightstomachtopone {
+  position: absolute;
+  top: 30%;
+  left: 52.5%;
+}
+
+.rightstomachtoptwo {
+  position: absolute;
+  top: 32.5%;
+  left: 52.5%;
+}
+
+.rightstomachone {
+  position: absolute;
+  top: 35.3%;
+  left: 51%;
+}
+
+.rightstomachtwo {
+  position: absolute;
+  top: 35.3%;
+  left: 54.5%;
+}
+
+.rightstomachthree {
+  position: absolute;
+  top: 35.3%;
+  left: 58%;
+}
+
+.rightstomachfour {
+  position: absolute;
+  top: 35.3%;
+  left: 61.5%;
+}
+
+.rightstomachfive {
+  position: absolute;
+  top: 35.3%;
+  left: 65%;
+}
+
+.rightstomachsix {
+  position: absolute;
+  top: 35.3%;
+  left: 68.5%;
+}
+
+.rightstomachbottomone {
+  position: absolute;
+  top: 38%;
+  left: 52.5%;
+}
+
+.rightstomachbottomtwo {
+  position: absolute;
+  top: 40.5%;
+  left: 52.5%;
+}
+
+/* lefthand plam */
+.lefthandplamone {
+  position: absolute;
+  top: 44%;
+  left: 10.3%;
+}
+.lefthandplamtwo {
+  position: absolute;
+  top: 44%;
+  left: 14%;
+}
+.lefthandplamthree {
+  position: absolute;
+  top: 44%;
+  left: 18%;
+}
+.lefthandplamfour {
+  position: absolute;
+  top: 44%;
+  left: 21.5%;
+}
+
+/* righthand plam */
+.righthandplamone {
+  position: absolute;
+  top: 44%;
+  left: 73.5%;
+}
+
+.righthandplamtwo {
+  position: absolute;
+  top: 44%;
+  left: 77%;
+}
+
+.righthandplamthree {
+  position: absolute;
+  top: 44%;
+  left: 81.5%;
+}
+
+.righthandplamfour {
+  position: absolute;
+  top: 44%;
+  left: 85%;
+}
+
+/* left abdomen  */
+.leftabdomentopone {
+  position: absolute;
+  top: 38.5%;
+  left: 39%;
+}
+.leftabdomentoptwo {
+  position: absolute;
+  top: 41%;
+  left: 39%;
+}
+.leftabdomenone {
+  position: absolute;
+  top: 43.5%;
+  left: 27%;
+}
+.leftabdomentwo {
+  position: absolute;
+  top: 43.5%;
+  left: 30.5%;
+}
+.leftabdomenthree {
+  position: absolute;
+  top: 43.5%;
+  left: 34%;
+}
+.leftabdomenfour {
+  position: absolute;
+  top: 43.5%;
+  left: 37.5%;
+}
+.leftabdomenfive {
+  position: absolute;
+  top: 43.5%;
+  left: 41%;
+}
+.leftabdomensix {
+  position: absolute;
+  top: 43.5%;
+  left: 44.5%;
+}
+.leftabdomenonebottomone {
+  position: absolute;
+  top: 46%;
+  left: 39%;
+}
+.leftabdomenonebottomtwo {
+  position: absolute;
+  top: 48.3%;
+  left: 39%;
+}
+
+/* right abdomen  */
+.rightabdomentopone {
+  position: absolute;
+  top: 38.5%;
+  left: 57%;
+}
+
+.rightabdomentoptwo {
+  position: absolute;
+  top: 41%;
+  left: 57%;
+}
+
+.rightabdomenone {
+  position: absolute;
+  top: 43.5%;
+  left: 49%;
+}
+
+.rightabdomentwo {
+  position: absolute;
+  top: 43.5%;
+  left: 52.5%;
+}
+
+.rightabdomenthree {
+  position: absolute;
+  top: 43.5%;
+  left: 56%;
+}
+
+.rightabdomenfour {
+  position: absolute;
+  top: 43.5%;
+  left: 59.5%;
+}
+
+.rightabdomenfive {
+  position: absolute;
+  top: 43.5%;
+  left: 63%;
+}
+
+.rightabdomensix {
+  position: absolute;
+  top: 43.5%;
+  left: 66.5%;
+}
+
+.rightabdomenonebottomone {
+  position: absolute;
+  top: 46%;
+  left: 57%;
+}
+
+.rightabdomenonebottomtwo {
+  position: absolute;
+  top: 48.3%;
+  left: 57%;
+}
+
+/* left knee */
+
+.leftkneetopone {
+  position: absolute;
+  top: 65%;
+  left: 32%;
+}
+.leftkneetoptwo {
+  position: absolute;
+  top: 65%;
+  left: 35.5%;
+}
+.leftkneetopthree {
+  position: absolute;
+  top: 65%;
+  left: 40%;
+}
+.leftkneetopfour {
+  position: absolute;
+  top: 65%;
+  left: 43%;
+}
+.leftkneeone {
+  position: absolute;
+  top: 68.5%;
+  left: 28%;
+}
+.leftkneetwo {
+  position: absolute;
+  top: 68.5%;
+  left: 31.5%;
+}
+.leftkneethree {
+  position: absolute;
+  top: 68.5%;
+  left: 35%;
+}
+.leftkneefour {
+  position: absolute;
+  top: 68.5%;
+  left: 38.5%;
+}
+.leftkneefive {
+  position: absolute;
+  top: 68.5%;
+  left: 42%;
+}
+.leftkneesix {
+  position: absolute;
+  top: 68.5%;
+  left: 45.5%;
+}
+.leftkneebottomone {
+  position: absolute;
+  top: 71%;
+  left: 32%;
+}
+.leftkneebottomtwo {
+  position: absolute;
+  top: 71%;
+  left: 35.5%;
+}
+.leftkneebottomthree {
+  position: absolute;
+  top: 71%;
+  left: 40%;
+}
+.leftkneebottomfour {
+  position: absolute;
+  top: 71%;
+  left: 43%;
+}
+
+/* right knee */
+
+.rightkneetopone {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+}
+
+.rightkneetoptwo {
+  position: absolute;
+  top: 65%;
+  left: 53.5%;
+}
+
+.rightkneetopthree {
+  position: absolute;
+  top: 65%;
+  left: 57.5%;
+}
+
+.rightkneetopfour {
+  position: absolute;
+  top: 65%;
+  left: 61%;
+}
+
+.rightkneeone {
+  position: absolute;
+  top: 68.5%;
+  left: 50%;
+}
+
+.rightkneetwo {
+  position: absolute;
+  top: 68.5%;
+  left: 53.5%;
+}
+
+.rightkneethree {
+  position: absolute;
+  top: 68.5%;
+  left: 57%;
+}
+
+.rightkneefour {
+  position: absolute;
+  top: 68.5%;
+  left: 60.5%;
+}
+
+.rightkneefive {
+  position: absolute;
+  top: 68.5%;
+  left: 64%;
+}
+
+.rightkneesix {
+  position: absolute;
+  top: 68.5%;
+  left: 67.5%;
+}
+
+.rightkneebottomone {
+  position: absolute;
+  top: 71%;
+  left: 50%;
+}
+
+.rightkneebottomtwo {
+  position: absolute;
+  top: 71%;
+  left: 53.5%;
+}
+
+.rightkneebottomthree {
+  position: absolute;
+  top: 71%;
+  left: 57.5%;
+}
+
+.rightkneebottomfour {
+  position: absolute;
+  top: 71%;
+  left: 61%;
+}
+
+/* top foot */
+
+.topfootone {
+  position: absolute;
+  top: 84%;
+  left: 45.5%;
+}
+.topfoottwo {
+  position: absolute;
+  top: 84%;
+  left: 50%;
+}
+.topfootthree {
+  position: absolute;
+  top: 87%;
+  left: 45.5%;
+}
+.topfootfour {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+}
+
+/* left ankle */
+
+.leftankleone {
+  position: absolute;
+  top: 90.5%;
+  left: 28%;
+}
+
+.leftankletwo {
+  position: absolute;
+  top: 90.5%;
+  left: 31.5%;
+}
+
+.leftanklethree {
+  position: absolute;
+  top: 90.5%;
+  left: 35%;
+}
+
+.leftanklefour {
+  position: absolute;
+  top: 90.5%;
+  left: 38.5%;
+}
+.leftanklefive {
+  position: absolute;
+  top: 90.5%;
+  left: 42%;
+}
+
+.leftanklesix {
+  position: absolute;
+  top: 90.5%;
+  left: 45.5%;
+}
+
+/* right ankle */
+
+.rightankleone {
+  position: absolute;
+  top: 90.5%;
+  left: 50%;
+}
+
+.rightankletwo {
+  position: absolute;
+  top: 90.5%;
+  left: 53.5%;
+}
+
+.rightanklethree {
+  position: absolute;
+  top: 90.5%;
+  left: 57%;
+}
+
+.rightanklefour {
+  position: absolute;
+  top: 90.5%;
+  left: 60.5%;
+}
+
+.rightanklefive {
+  position: absolute;
+  top: 90.5%;
+  left: 64%;
+}
+
+.rightanklesix {
+  position: absolute;
+  top: 90.5%;
+  left: 67.5%;
+}
+
+/* bottom foot */
+
+.bottomfootone {
+  position: absolute;
+  top: 93%;
+  left: 45.5%;
+}
+
+.bottomfoottwo {
+  position: absolute;
+  top: 93%;   
+  left: 50%;
+}
+
+.bottomfootthree {
+  position: absolute;
+  top: 96%;
+  left: 45.5%;
+}
+
+.bottomfootfour {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+}
+
+/* left toe */
+
+.lefttoeone {
+  position: absolute;
+  top: 96%;
+  left: 35%;
+}
+.lefttoetwo {
+  position: absolute;
+  top: 96%;
+  left: 40%;
+}
+
+/* middle toe */
+
+.middletoeone {
+  position: absolute;
+  top: 99%;
+  left: 45%;
+}
+
+.middletoetwo {
+  position: absolute;
+  top: 99%;
+  left: 50%;
+}
+
+/* right toe */
+
+.righttoeone {
+  position: absolute;
+  top: 96%;
+  left: 54.5%;
+}
+
+.righttoetwo {
+  position: absolute;
+  top: 96%;
+  left: 59%;
+}
+
+/* left body parts */
+
+/* ears */
+.eartopone {
+  position: absolute;
+  top: 1%;
+  left: 29%;
+}
+.eartoptwo {
+  position: absolute;
+  top: 3.5%;
+  left: 29%;
+}
+.eartopthree {
+  position: absolute;
+  top: 3.5%;
+  left: 33%;
+}
+.earone {
+  position: absolute;
+  top: 6.3%;
+  left: 17%;
+}
+.eartwo {
+  position: absolute;
+  top: 6.3%;
+  left: 21%;
+}
+.earthree {
+  position: absolute;
+  top: 6.3%;
+  left: 25%;
+}
+.earfour {
+  position: absolute;
+  top: 6.3%;
+  left: 29%;
+}
+.earfive {
+  position: absolute;
+  top: 6.3%;
+  left: 33%;
+}
+.earsix {
+  position: absolute;
+  top: 6.3%;
+  left: 37%;
+}
+.earseven {
+  position: absolute;
+  top: 6.3%;
+  left: 41%;
+}
+.eartopeight {
+  position: absolute;
+  top: 9%;
+  left: 33%;
+}
+
+.earrightone {
+  position: absolute;
+  top: 6.3%;
+  left: 51.5%;
+}
+.earrighttwo {
+  position: absolute;
+  top: 6.3%;
+  left: 55.5%;
+}
+.earrightthree {
+  position: absolute;
+  top: 6.3%;
+  left: 59.5%;
+}
+.earrightfour {
+  position: absolute;
+  top: 6.3%;
+  left: 63.5%;
+}
+.earrightfive {
+  position: absolute;
+  top: 6.3%;
+  left: 67.5%;
+}
+.earrightsix {
+  position: absolute;
+  top: 6.3%;
+  left: 71.5%;
+}
+.earrightseven {
+  position: absolute;
+  top: 6.3%;
+  left: 75.5%;
+}
+
+/* throat */
+.throatone{
+  position: absolute;
+    top: 12%;
+    left: 42.5%;
+}
+.throattwo {
+  position: absolute;
+  top: 12%;
+  left: 49.5%;
+}
+
+
+/* left shoulder */
+
+.leftshoulderone {
+  position: absolute;
+  top: 15.5%;
+  left: 17%;
+}
+.leftshouldertwo {
+  position: absolute;
+  top: 15.5%;
+  left: 21%;
+}
+.leftshoulderthree {
+  position: absolute;
+  top: 15.5%;
+  left: 25%;
+}
+.leftshoulderfour {
+  position: absolute;
+  top: 15.5%;
+  left: 29%;
+}
+.leftshoulderfive {
+  position: absolute;
+  top: 15.5%;
+  left: 33%;
+}
+.leftshouldersix {
+  position: absolute;
+  top: 15.5%;
+  left: 37%;
+}
+.leftshoulderseven {
+  position: absolute;
+  top: 15.5%;
+  left: 41%;
+}
+
+.leftshouldereight {
+  position: absolute;
+  top: 18.5%;
+  left: 17%;
+}
+.leftshouldernine {
+  position: absolute;
+  top: 18.5%;
+  left: 21%;
+}
+.leftshoulderten {
+  position: absolute;
+  top: 18.5%;
+  left: 25%;
+}
+.leftshouldereleven {
+  position: absolute;
+  top: 18.5%;
+  left: 29%;
+}
+.leftshouldertwleve {
+  position: absolute;
+  top: 18.5%;
+  left: 33%;
+}
+.leftshoulderithirteen {
+  position: absolute;
+  top: 18.5%;
+  left: 37%;
+}
+.leftshoulderfourteen {
+  position: absolute;
+  top: 18.5%;
+  left: 41%;
+}
+
+/* right shoulder */
+
+.rightshoulderone {
+  position: absolute;
+  top: 15.5%;
+  left: 50.5%;
+}
+
+.rightshouldertwo {
+  position: absolute;
+  top: 15.5%;
+  left: 54.5%;
+}
+
+.rightshoulderthree {
+  position: absolute;
+  top: 15.5%;
+  left: 58.5%;
+}
+
+.rightshoulderfour {
+  position: absolute;
+  top: 15.5%;
+  left: 62.5%;
+}
+
+.rightshoulderfive {
+  position: absolute;
+  top: 15.5%;
+  left: 66.5%;
+}
+
+.rightshouldersix {
+  position: absolute;
+  top: 15.5%;
+  left: 70.5%;
+}
+
+.rightshoulderseven {
+  position: absolute;
+  top: 15.5%;
+  left: 74.5%;
+}
+
+.rightshouldereight {
+  position: absolute;
+  top: 18.5%;
+  left: 50.5%;
+}
+
+.rightshouldernine {
+  position: absolute;
+  top: 18.5%;
+  left: 54.5%;
+}
+
+.rightshoulderten {
+  position: absolute;
+  top: 18.5%;
+  left: 58.5%;
+}
+
+.rightshouldereleven {
+  position: absolute;
+  top: 18.5%;
+  left: 62.5%;
+}
+
+.rightshouldertwleve {
+  position: absolute;
+  top: 18.5%;
+  left: 66.5%;
+}
+
+.rightshoulderithirteen {
+  position: absolute;
+  top: 18.5%;
+  left: 70.5%;
+}
+
+.rightshoulderfourteen {
+  position: absolute;
+  top: 18.5%;
+  left: 74.5%;
+}
+
+/* left arm */
+.leftarmone{
+  position: absolute;
+    top: 23%;
+    left: 48%;
+}
+.leftarmtwo{
+  position: absolute;
+    top: 23%;
+    left: 43.5%;
+}
+
+/* left albow */
+.righalbowone{
+  position: absolute;
+    top: 27.5%;
+    left: 51%;
+}
+.righalbowtwo{
+  position: absolute;
+    top: 27.5%;
+    left: 54.5%;
+}
+.rightalbowthree{
+  position: absolute;
+    top: 27.5%;
+    left: 58.5%;
+}
+.rightalbowfour{
+  position: absolute;
+    top: 27.5%;
+    left: 62%;
+}
+.rightalbowfive{
+  position: absolute;
+    top: 27.5%;
+    left: 66%;
+}
+.rightalbowsix{
+  position: absolute;
+    top: 27.5%;
+    left: 70%;
+}
+.rightalbowseven{
+  position: absolute;
+    top: 27.5%;
+    left: 74%;
+}
+
+/* left albow */
+.leftalbowone{
+  position: absolute;
+    top: 27.5%;
+    left: 40.5%;
+  }
+.leftalbowtwo {
+  position: absolute;
+    top: 27.5%;
+    left: 36.5%;
+    }
+.leftalbowthree{
+  position: absolute;
+    top: 27.5%;
+    left: 33%;
+}
+.leftalbowfour{
+  position: absolute;
+    top: 27.5%;
+    left: 29%;
+}
+.leftalbowfive{
+  position: absolute;
+    top: 27.5%;
+    left: 25%;
+}
+.leftalbowsix{
+  position: absolute;
+    top: 27.5%;
+    left: 21%;
+}
+.leftalbowseven{
+  position: absolute;
+    top: 27.5%;
+    left: 17%;
+}
+/* left alboe one */
+
+.leftalboweight{
+  position: absolute;
+    top: 31%;
+    left: 48%;
+}
+.leftalbownine{
+  position: absolute;
+    top: 31%;
+    left: 43.5%;
+}
+
+/* left hend */
+.leftbodyhandone{
+  position: absolute;
+    top: 35.5%;
+    left: 40%;
+}
+.leftbodyhandtwo{
+  position: absolute;
+    top: 35.5%;
+    left: 36%;
+}
+.leftbodyhandthree{
+  position: absolute;
+    top: 35.5%;
+    left: 32%;
+}
+.leftbodyhandfour{
+  position: absolute;
+    top: 35.5%;
+    left: 28%;
+}
+.leftbodyhandfive{
+  position: absolute;
+    top: 35.5%;
+    left: 24%;
+}
+.leftbodyhandsix{
+  position: absolute;
+    top: 35.5%;
+    left: 20%;
+}
+.leftbodyhandseven{
+  position: absolute;
+    top: 35.5%;
+    left: 16%;
+}
+
+/* right hend */
+.righthandone{
+  position: absolute;
+    top: 35.5%;
+    left: 50%;
+}
+.righthandtwo{
+  position: absolute;
+    top: 35.5%;
+    left: 54%;
+}
+.righthandthree{
+  position: absolute;
+    top: 35.5%;
+    left: 58%;
+}
+.righthandfour {
+  position: absolute;
+  top: 35.5%;
+  left: 62%;
+}
+.righthandfive{
+  position: absolute;
+    top: 35.5%;
+    left: 66%;
+}
+.righthandsix {
+  position: absolute;
+  top: 35.5%;
+  left: 70%;
+}
+.righthandseven {
+  position: absolute;
+  top: 35.5%;
+  left: 74%;
+}
+.righthandeight{
+  position: absolute;
+    top: 38%;
+    left: 54%;
+}
+.righthandnine {
+  position: absolute;
+  top: 41%;
+  left: 54%;
+}
+
+
+/* left hip  */
+.lefthipone{
+  position: absolute;
+    top: 44.5%;
+    left: 33.8%;
+}
+.lefthiptwo{
+position: absolute;
+  top: 44.5%;
+  left: 30%;
+}
+.lefthipthree{
+  position: absolute;
+    top: 44.5%;
+    left: 26%;
+}
+.lefthipfour{
+  position: absolute;
+    top: 44.5%;
+    left: 22%;
+}
+.lefthipfive{
+  position: absolute;
+    top: 44.5%;
+    left: 18%;
+}
+.lefthipsix{
+    position: absolute;
+      top: 44.5%;
+      left: 14%;
+}
+.lefthipseven {
+  position: absolute;
+  top: 44.5%;
+  left: 10%;
+}
+
+/* left hip  */
+.righthipone{
+  position: absolute;
+    top: 44.5%;
+    left: 43%;
+}
+.righthiptwo{
+  position: absolute;
+    top: 44.5%;
+    left: 47%;
+}
+.righthipthree{
+  position: absolute;
+    top: 44.5%;
+    left: 51%;
+}
+.righthipfour{
+  position: absolute;
+    top: 44.5%;
+    left: 55%;
+}
+.righthipfive{
+  position: absolute;
+    top: 44.5%;
+    left: 59%;
+}
+.righthipsix{
+  position: absolute;
+    top: 44.5%;
+    left: 63%;
+}
+.righthipseven{
+  position: absolute;
+    top: 44.5%;
+    left: 67%;
+}
+
+/* knee */
+
+.leftkneeone1{
+  position: absolute;
+    top: 68%;
+    left: 39%;
+}
+.leftkneetwo2{
+  position: absolute;
+    top: 68%;
+    left: 35%;
+}
+.leftkneethree3{
+  position: absolute;
+    top: 68%;
+    left: 31%;
+}
+.leftkneefour4{
+  position: absolute;
+    top: 68%;
+    left: 27%;
+}
+.leftkneefive5{
+  position: absolute;
+    top: 68%;
+    left: 23%;
+}
+.leftkneesix6{
+  position: absolute;
+    top: 68%;
+    left: 19%;
+}
+.leftkneeseven7{
+  position: absolute;
+    top: 68%;
+    left: 15%;
+}
+
+/* Right knee */
+ 
+.rightkneeone1{
+  position: absolute;
+    top: 68%;
+    left: 49%;
+}
+.rightkneetwo2{
+  position: absolute;
+    top: 68%;
+    left: 53%;
+}
+.rightkneethree3{
+  position: absolute;
+    top: 68%;
+    left: 57%;
+}
+.rightkneefour4{
+  position: absolute;
+    top: 68%;
+    left: 61%;
+}
+.rightkneefive5{
+  position: absolute;
+    top: 68%;
+    left: 65%;
+}
+.rightkneesix6{
+  position: absolute;
+    top: 68%;
+    left: 69%;
+}
+.rightkneeseven7{
+  position: absolute;
+    top: 68%;
+    left: 73%;
+}
+
+/* left ankle */
+
+.leftankleone1{
+    position: absolute;
+      top: 90.7%;
+      left: 40%;
+}
+.leftankletwo2{
+  position: absolute;
+    top: 90.7%;
+    left: 36%;
+}
+.leftanklethree3{
+  position: absolute;
+    top: 90.7%;
+    left: 32%;
+}
+.leftanklefour4{
+  position: absolute;
+    top: 90.7%;
+    left: 28%;
+}
+.leftanklefive5{
+  position: absolute;
+    top: 90.7%;
+    left: 24%;
+}
+.leftanklesix6{
+  position: absolute;
+    top: 90.7%;
+    left: 20%;
+}
+.leftankleseven7{
+  position: absolute;
+    top: 90.7%;
+    left: 16%;
+}
+
+/* Right ankle */
+
+.rightankleone1{
+  position: absolute;
+    top: 90.7%;
+    left: 50%;
+}
+.rightankletwo2{
+  position: absolute;
+    top: 90.7%;
+    left: 54%;
+}
+.rightanklethree3{
+  position: absolute;
+    top: 90.7%;
+    left: 58%;
+}
+.rightanklefour4{
+  position: absolute;
+    top: 90.7%;
+    left: 62%;
+}
+.rightanklefive5{
+  position: absolute;
+    top: 90.7%;
+    left: 66%;
+}
+.rightanklesix6{
+  position: absolute;
+    top: 90.7%;
+    left: 70%;
+}
+.rightankleseven7{
+  position: absolute;
+    top: 90.7%;
+    left: 74%;
+}
+
+/* Left Body finger */
+.leftbodyfingerone{
+  position: absolute;
+    top: 94%;
+    left: 24%;
+}
+.leftbodyfingertwo {
+  position: absolute;
+  top: 97%;
+  left: 24%;
+}
+
+/* Left Body Sole */
+.leftbodysoleone{
+  position: absolute;
+    top: 96%;
+    left: 38%;
+}
+.leftbodysoletwo {
+  position: absolute;
+  top: 96%;
+  left: 45%;
+}
+
+
+/* right ears part */
+
+.righteartopone{
+  position: absolute;
+    top: 1%;
+    left: 54%;
+}
+.righteartoptwo{
+    position: absolute;
+      top: 3.5%;
+      left: 51%;
+}
+.righteartopthree {
+  position: absolute;
+  top: 3.5%;
+  left: 55%;
+}
+.rightbodyearone{
+position: absolute;
+  top: 7%;
+  left: 35%;
+}
+.rightbodyeartwo{
+position: absolute;
+  top: 7%;
+  left: 31%;
+}
+.rightbodyearthree{
+  position: absolute;
+    top: 7%;
+    left: 27%;
+}
+.rightbodyearfour{
+  position: absolute;
+    top: 7%;
+    left: 23%;
+}
+.rightbodyearfive{
+  position: absolute;
+    top: 7%;
+    left: 19%;
+}
+.rightbodyearsix{
+  position: absolute;
+    top: 7%;
+    left: 15%;
+}
+.rightbodyearseven{
+  position: absolute;
+    top: 7%;
+    left: 11%;
+}
+.rightbodyleftearone{
+  position: absolute;
+    top: 7%;
+    left: 45%;
+}
+.rightbodylefteartwo{
+    position: absolute;
+      top: 7%;
+      left: 49%;
+}
+.rightbodyleftearthree{
+    position: absolute;
+      top: 7%;
+      left: 53%;
+}
+.rightbodyleftearfour{
+  position: absolute;
+    top: 7%;
+    left: 57%;
+}
+.rightbodyleftearfive{
+  position: absolute;
+    top: 7%;
+    left: 61%;
+}
+.rightbodyleftearsix{
+    position: absolute;
+      top: 7%;
+      left: 65%;
+}
+.rightbodyleftearseven{
+  position: absolute;
+    top: 7%;
+    left: 69%;
+}
+
+/* right neck */
+
+.rightneckone{
+  position: absolute;
+    top: 14%;
+    left: 41%;
+}
+.rightnecktwo{
+  position: absolute;
+    top: 14%;
+    left: 37%;
+}
+
+/* Right sholder */
+
+.rightsholderone{
+  position: absolute;
+    top: 19.5%;
+    left: 41%;
+}
+.rightsholdertwo{
+  position: absolute;
+    top: 19.5%;
+    left: 45%;
+}
+.rightsholderthree{
+  position: absolute;
+    top: 19.5%;
+    left: 49%;
+}
+.rightsholderfour{
+    position: absolute;
+      top: 19.5%;
+      left: 53%;
+}
+.rightsholderfive{
+  position: absolute;
+    top: 19.5%;
+    left: 57%;
+}
+.rightsholdersix{
+  position: absolute;
+    top: 19.5%;
+    left: 61%;
+}
+.rightsholderseven{
+  position: absolute;
+    top: 19.5%;
+    left: 65%;
+}
+.rightsholdereight{
+  position: absolute;
+    top: 23%;
+    left: 41%;
+}
+.rightsholdernine{
+  position: absolute;
+    top: 23%;
+    left: 45%;
+}
+.rightsholderten{
+  position: absolute;
+    top: 23%;
+    left: 49%;
+}
+.rightsholdereleven{
+  position: absolute;
+    top: 23%;
+    left: 53%;
+}
+.rightsholdertwelve{
+  position: absolute;
+    top: 23%;
+    left: 57%;
+}
+.rightsholdertherteen{
+  position: absolute;
+    top: 23%;
+    left: 61%;
+}
+.rightsholderfourteen{
+  position: absolute;
+    top: 23%;
+    left: 65%;
+}
+
+/* Right leftsholder */
+.rightbodyleftsholderone{
+  position: absolute;
+    top: 19.5%;
+    left: 33%;
+}
+.rightbodyleftsholdertwo {
+  position: absolute;
+  top: 19.5%;
+  left: 29%;
+}
+.rightbodyleftsholderthree {
+  position: absolute;
+  top: 19.5%;
+  left: 25%;
+}
+.rightbodyleftsholderfour {
+  position: absolute;
+  top: 19.5%;
+  left: 21%;
+}
+.rightbodyleftsholderfive {
+  position: absolute;
+  top: 19.5%;
+  left: 17%;
+}
+.rightbodyleftsholdersix {
+  position: absolute;
+  top: 19.5%;
+  left: 13%;
+}
+.rightbodyleftsholderseven {
+  position: absolute;
+  top: 19.5%;
+  left: 9%;
+}
+.rightbodyleftsholdereight{
+  position: absolute;
+    top: 23%;
+    left: 33%;
+}
+.rightbodyleftsholdernine{
+  position: absolute;
+    top: 23%;
+    left: 29%;
+}
+.rightbodyleftsholderten{
+  position: absolute;
+    top: 23%;
+    left: 25%;
+}
+.rightbodyleftsholdereleven{
+  position: absolute;
+    top: 23%;
+    left: 21%;
+}
+.rightbodyleftsholdertwelve{
+  position: absolute;
+    top: 23%;
+    left: 17%;
+}
+.rightbodyleftsholdertherteen{
+  position: absolute;
+    top: 23%;
+    left: 13%;
+}
+.rightbodyleftsholderfourteen{
+  position: absolute;
+    top: 23%;
+    left: 9%;
+}
+
+/* right arm */
+.armone{
+  position: absolute;
+    top: 27%;
+    left: 35%;
+}
+.armtwo {
+  position: absolute;
+  top: 27%;
+  left: 39%;
+}
+
+
+/* rightbody albow */
+
+.rightbodyalbowone{
+  position: absolute;
+    top: 31%;
+    left: 42%;
+}
+.rightbodyalbowtwo{
+  position: absolute;
+    top: 31%;
+    left: 46%;
+}
+.rightbodyalbowthree{
+  position: absolute;
+    top: 31%;
+    left: 50%;
+}
+.rightbodyalbowfour{
+    position: absolute;
+      top: 31%;
+      left: 54%;
+}
+.rightbodyalbowfive{
+    position: absolute;
+      top: 31%;
+      left: 58%;
+}
+.rightbodyalbowsix{
+  position: absolute;
+    top: 31%;
+    left: 62%;
+}
+.rightbodyalbowseven{
+  position: absolute;
+    top: 31%;
+    left: 66%;
+}
+.rightbodyalboweight{
+  position: absolute;
+    top: 31%;
+    left: 32%;
+}
+.rightbodyalbownine{
+  position: absolute;
+    top: 31%;
+    left: 28%;
+}
+.rightbodyalbowten{
+    position: absolute;
+      top: 31%;
+      left: 24%;
+}
+.rightbodyalboweleven{
+  position: absolute;
+    top: 31%;
+    left: 20%;
+}
+.rightbodyalbowtweleve{
+    position: absolute;
+      top: 31%;
+      left: 16%;
+}
+.rightbodyalbowtherteen{
+  position: absolute;
+    top: 31%;
+    left: 12%;
+}
+.rightbodyalbowfourteen{
+  position: absolute;
+    top: 31%;
+    left: 8%;
+}
+.rightbodyalbowfifteen{
+position: absolute;
+  top: 35%;
+  left: 34%;
+}
+.rightbodyalbowsixteen{
+position: absolute;
+  top: 35%;
+  left: 38%;
+}
+
+/* Right body hand */
+.rightbodyhandone{
+  position: absolute;
+    top: 39%;
+    left: 41%;
+}
+.rightbodyhandtwo{
+  position: absolute;
+    top: 39%;
+    left: 45%;
+}
+.rightbodyhandthree {
+  position: absolute;
+  top: 39%;
+  left: 49%;
+}
+.rightbodyhandfour {
+  position: absolute;
+  top: 39%;
+  left: 53%;
+}
+.rightbodyhandfive {
+  position: absolute;
+  top: 39%;
+  left: 57%;
+}
+.rightbodyhandsix {
+  position: absolute;
+  top: 39%;
+  left: 61%;
+}
+.rightbodyhandseven {
+  position: absolute;
+  top: 39%;
+  left: 65%;
+}
+.rightbodyhandeight {
+  position: absolute;
+  top: 39%;
+  left: 30%;
+}
+.rightbodyhandnine {
+  position: absolute;
+  top: 39%;
+  left: 26%;
+}
+.rightbodyhandten {
+  position: absolute;
+  top: 39%;
+  left: 22%;
+}
+.rightbodyhandeleven {
+  position: absolute;
+  top: 39%;
+  left: 18%;
+}
+.rightbodyhandtwelve {
+  position: absolute;
+  top: 39%;
+  left: 14%;
+}
+.rightbodyhandtherteen {
+  position: absolute;
+  top: 39%;
+  left: 10%;
+}
+.rightbodyhandfourteen {
+  position: absolute;
+  top: 39%;
+  left: 6%;
+}
+.rightbodyhandfiftineen {
+  position: absolute;
+  top: 41.5%;
+  left: 26%;
+}
+.rightbodyhandsixteen{
+  position: absolute;
+    top: 44%;
+    left: 26%;
+}
+
+/* Right body hip */
+.hipone{
+  position: absolute;
+    top: 47%;
+    left: 40%;
+}
+.hiptwo {
+  position: absolute;
+  top: 47%;
+  left: 44%;
+}
+.hipthree {
+  position: absolute;
+  top: 47%;
+  left: 48%;
+}
+.hipfour {
+  position: absolute;
+  top: 47%;
+  left: 52%;
+}
+.hipfive {
+  position: absolute;
+  top: 47%;
+  left: 56%;
+}
+.hipsix {
+  position: absolute;
+  top: 47%;
+  left: 60%;
+}
+.hipseven {
+  position: absolute;
+  top: 47%;
+  left: 64%;
+}
+.hipeight {
+  position: absolute;
+  top: 47%;
+  left: 29%;
+}
+.hipnine {
+  position: absolute;
+  top: 47%;
+  left: 25%;
+}
+.hipten {
+  position: absolute;
+  top: 47%;
+  left: 21%;
+}
+.hipeleven {
+  position: absolute;
+  top: 47%;
+  left: 17%;
+}
+.hiptwelve {
+  position: absolute;
+  top: 47%;
+  left: 13%;
+}
+.hiptherteen {
+  position: absolute;
+  top: 47%;
+  left: 9%;
+}
+.hipfourteen {
+  position: absolute;
+  top: 47%;
+  left: 5%;
+}
+
+
+/* Right Body Knee */
+.kneeone{
+  position: absolute;
+    top: 69%;
+    left: 37%;
+}
+.kneetwo {
+  position: absolute;
+  top: 69%;
+  left: 41%;
+}
+.kneethree {
+  position: absolute;
+  top: 69%;
+  left: 45%;
+}
+.kneefour {
+  position: absolute;
+  top: 69%;
+  left: 49%;
+}
+.kneefive {
+  position: absolute;
+  top: 69%;
+  left: 53%;
+}
+.kneesix {
+  position: absolute;
+  top: 69%;
+  left: 57%;
+}
+.kneeseven {
+  position: absolute;
+  top: 69%;
+  left: 61%;
+}
+.kneeeight{
+    position: absolute;
+      top: 69%;
+      left: 26%;
+}
+.kneenine {
+  position: absolute;
+  top: 69%;
+  left: 22%;
+}
+.kneeten {
+  position: absolute;
+  top: 69%;
+  left: 18%;
+}
+.kneeeleven {
+  position: absolute;
+  top: 69%;
+  left: 14%;
+}
+.kneetwelve {
+  position: absolute;
+  top: 69%;
+  left: 10%;
+}
+.kneetherteen {
+  position: absolute;
+  top: 69%;
+  left: 6%;
+}
+.kneefourteen {
+  position: absolute;
+  top: 69%;
+  left: 2%;
+}
+
+/* Right body Ankle */
+
+.Rightbodyankleone{
+  position: absolute;
+    top: 93%;
+    left: 35%;
+}
+.Rightbodyankletwo {
+  position: absolute;
+  top: 93%;
+  left: 39%;
+}
+.Rightbodyanklethree {
+  position: absolute;
+  top: 93%;
+  left: 43%;
+}
+.Rightbodyanklefour {
+  position: absolute;
+  top: 93%;
+  left: 47%;
+}
+.Rightbodyanklefive {
+  position: absolute;
+  top: 93%;
+  left: 51%;
+}
+.Rightbodyanklesix {
+  position: absolute;
+  top: 93%;
+  left: 55%;
+}
+.Rightbodyankleseven {
+  position: absolute;
+  top: 93%;
+  left: 59%;
+}
+.Rightbodyankleeight{
+  position: absolute;
+    top: 93%;
+    left: 23%;
+}
+.Rightbodyanklenine {
+  position: absolute;
+  top: 93%;
+  left: 19%;
+}
+.Rightbodyankleten {
+  position: absolute;
+  top: 93%;
+  left: 15%;
+}
+.Rightbodyankleeleven {
+  position: absolute;
+  top: 93%;
+  left: 11%;
+}
+.Rightbodyankletwelve {
+  position: absolute;
+  top: 93%;
+  left: 7%;
+}
+.Rightbodyankletherteen {
+  position: absolute;
+  top: 93%;
+  left: 3%;
+}
+.Rightbodyanklefourteen {
+  position: absolute;
+  top: 93%;
+  left: -1%;
+}
+
+/* Right finger */
+
+.Rightfingerone{
+  position: absolute;
+    top: 96%;
+    left: 52%;
+}
+.Rightfingertwo {
+  position: absolute;
+  top: 99%;
+  left: 52%;
+}
+
+/* Right sole */
+
+.Rightsoleone{
+  position: absolute;
+    top: 97%;
+    left: 26%;
+}
+.Rightsoletwo {
+  position: absolute;
+  top: 97%;
+  left: 33%;
+}
+
+
+
+
+/* main Points */
+.ficon1 {
+  position: absolute;
+  top: 16.5%;
+  left: 28%;
+}
+.ficon2 {
+  position: absolute;
+  top: 16.5%;
+  left: 47%;
+}
+.ficon3 {
+  position: absolute;
+  top: 16.5%;
+  left: 67%;
+}
+.ficon4 {
+  position: absolute;
+  top: 24.5%;
+  left: 47%;
+}
+.ficon5 {
+  position: absolute;
+  top: 34.5%;
+  left: 41.7%;
+}
+.ficon6 {
+  position: absolute;
+  top: 33%;
+  left: 47%;
+}
+.ficon7 {
+  position: absolute;
+  top: 34.5%;
+  left: 52%;
+}
+.ficon8 {
+  position: absolute;
+  top: 44%;
+  left: 41.7%;
+}
+.ficon9 {
+  position: absolute;
+  top: 44%;
+  left: 52%;
+}
+.ficon10 {
+  position: absolute;
+  top: 68%;
+  left: 39.5%;
+}
+.ficon11 {
+  position: absolute;
+  top: 68%;
+  left: 52%;
+}
+.ficon12 {
+  position: absolute;
+  top: 91.5%;
+  left: 42.2%;
+}
+.ficon13 {
+  position: absolute;
+  top: 91.5%;
+  left: 51%;
+}
+
+.cbox1 {
+  position: absolute;
+  bottom: 360px;
+  right: 85px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.cbox2 {
+  position: absolute;
+  bottom: 360px;
+  right: 45px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.cbox3 {
+  position: absolute;
+  bottom: 322px;
+  right: 85px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.cbox4 {
+  position: absolute;
+  bottom: 278px;
+  right: 102px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.cbox5 {
+  position: absolute;
+  bottom: 285px;
+  right: 85px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.cbox6 {
+  position: absolute;
+  bottom: 278px;
+  right: 68px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox7 {
+  position: absolute;
+  bottom: 245px;
+  right: 102px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox8 {
+  position: absolute;
+  bottom: 245px;
+  right: 68px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox9 {
+  position: absolute;
+  bottom: 127px;
+  right: 69px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox10 {
+  position: absolute;
+  bottom: 127px;
+  right: 105px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox11 {
+  position: absolute;
+  bottom: 30px;
+  right: 98px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox12 {
+  position: absolute;
+  bottom: 30px;
+  right: 73px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox13 {
+  position: absolute;
+  bottom: 421px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox14 {
+  position: absolute;
+  bottom: 364px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox15 {
+  position: absolute;
+  bottom: 330px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox16 {
+  position: absolute;
+  bottom: 280px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox17 {
+  position: absolute;
+  bottom: 248px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox18 {
+  position: absolute;
+  bottom: 140px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox19 {
+  position: absolute;
+  bottom: 30px;
+  right: 66px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox20 {
+  position: absolute;
+  bottom: 415px;
+  right: 78px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox21 {
+  position: absolute;
+  bottom: 353px;
+  right: 82px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox22 {
+  position: absolute;
+  bottom: 315px;
+  right: 82px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox23 {
+  position: absolute;
+  bottom: 266px;
+  right: 88px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox24 {
+  position: absolute;
+  bottom: 234px;
+  right: 87px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox25 {
+  position: absolute;
+  bottom: 140px;
+  right: 92px;
+  border-color: rgb(8, 8, 8) !important;
+}
+.cbox26 {
+  position: absolute;
+  bottom: 28px;
+  right: 98px;
+  border-color: rgb(8, 8, 8) !important;
+}
+
+.checkboxdiagram {
+  position: absolute;
+  top: 5.5%;
+  left: 32.5%;
+}
+.checkboxdiagram1 {
+  position: absolute;
+  top: 8.5%;
+  left: 32.5%;
+}
+.checkboxdiagram2 {
+  position: absolute;
+  top: 5.5%;
+  left: 52%;
+}
+.checkboxdiagram3 {
+  position: absolute;
+  top: 8.5%;
+  left: 52%;
+}
+.checkboxdiagram4 {
+  position: absolute;
+  top: 13.9%;
+  left: 32%;
+}
+.checkboxdiagram5 {
+  position: absolute;
+  top: 17.3%;
+  left: 32%;
+}
+.checkboxdiagram6 {
+  position: absolute;
+  top: 13.9%;
+  left: 53%;
+}
+.checkboxdiagram7 {
+  position: absolute;
+  top: 17.3%;
+  left: 53%;
+}
+.checkboxdiagram8 {
+  position: absolute;
+  top: 19.1%;
+  left: 36%;
+}
+.checkboxdiagram9 {
+  position: absolute;
+  top: 17.1%;
+  left: 36%;
+}
+.checkboxdiagram10 {
+  position: absolute;
+  top: 22.5%;
+  left: 36%;
+}
+.checkboxdiagram11 {
+  position: absolute;
+  top: 24.9%;
+  left: 36%;
+}
+.checkboxdiagram12 {
+  position: absolute;
+  top: 19.1%;
+  left: 48.5%;
+}
+.checkboxdiagram13 {
+  position: absolute;
+  top: 17%;
+  left: 48.5%;
+}
+.checkboxdiagram14 {
+  position: absolute;
+  top: 22.8%;
+  left: 48.5%;
+}
+.checkboxdiagram15 {
+  position: absolute;
+  top: 25%;
+  left: 48.5%;
+}
+.checkboxdiagram16 {
+  position: absolute;
+  top: 24.5%;
+  left: 26%;
+}
+.checkboxdiagram17 {
+  position: absolute;
+  top: 22.5%;
+  left: 26%;
+}
+.checkboxdiagram18 {
+  position: absolute;
+  top: 20.5%;
+  left: 26%;
+}
+.checkboxdiagram19 {
+  position: absolute;
+  top: 28.2%;
+  left: 26%;
+}
+.checkboxdiagram20 {
+  position: absolute;
+  top: 31.2%;
+  left: 26%;
+}
+.checkboxdiagram21 {
+  position: absolute;
+  top: 33.5%;
+  left: 26%;
+}
+.checkboxdiagram22 {
+  position: absolute;
+  top: 24.4%;
+  left: 60.2%;
+}
+.checkboxdiagram23 {
+  position: absolute;
+  top: 22.3%;
+  left: 60.2%;
+}
+.checkboxdiagram24 {
+  position: absolute;
+  top: 20%;
+  left: 60.2%;
+}
+.checkboxdiagram25 {
+  position: absolute;
+  top: 28.2%;
+  left: 60.2%;
+}
+.checkboxdiagram26 {
+  position: absolute;
+  top: 31%;
+  left: 60.2%;
+}
+.checkboxdiagram27 {
+  position: absolute;
+  top: 33.3%;
+  left: 60.2%;
+}
+.checkboxdiagram28 {
+  position: absolute;
+  top: 26.5%;
+  left: 10%;
+}
+.checkboxdiagram29 {
+  position: absolute;
+  top: 26.5%;
+  left: 7%;
+}
+.checkboxdiagram30 {
+  position: absolute;
+  top: 26.5%; 
+  left: 16%;
+}
+.checkboxdiagram31 {
+  position: absolute;
+  top: 26.5%;
+  left: 19%;
+}
+.checkboxdiagram32 {
+  position: absolute;
+  top: 26.2%;
+  left: 71.3%;
+}
+.checkboxdiagram33 {
+  position: absolute;
+  top: 26.2%;
+  left: 68%;
+}
+.checkboxdiagram34 {
+  position: absolute;
+  top: 26.2%;
+  left: 77%;
+}
+.checkboxdiagram35 {
+  position: absolute;
+  top: 26.2%;
+  left: 80%;
+}
+.checkboxdiagram36 {
+  position: absolute;
+  top: 33.8%;
+  left: 19.3%;
+}
+.checkboxdiagram37 {
+  position: absolute;
+  top: 31.5%;
+  left: 19.3%;
+}
+.checkboxdiagram38 {
+  position: absolute;
+  top: 29%;
+  left: 19.3%;
+}
+.checkboxdiagram39 {
+  position: absolute;
+  top: 37.5%;
+  left: 19.3%;
+}
+.checkboxdiagram40 {
+  position: absolute;
+  top: 39.5%;
+  left: 19.3%;
+}
+.checkboxdiagram41 {
+  position: absolute;
+  top: 42%;
+  left: 19.3%;
+}
+.checkboxdiagram42 {
+  position: absolute;
+  top: 34%;
+  left: 68%;
+}
+.checkboxdiagram43 {
+  position: absolute;
+  top: 32%;
+  left: 68%;
+}
+.checkboxdiagram44 {
+  position: absolute;
+  top: 30%;
+  left: 68%;
+}
+.checkboxdiagram45 {
+  position: absolute;
+  top: 37.5%;
+  left: 68%;
+}
+.checkboxdiagram46 {
+  position: absolute;
+  top: 39.5%;
+  left: 68%;
+}
+.checkboxdiagram47 {
+  position: absolute;
+  top: 41.7%;
+  left: 68%;
+}
+.checkboxdiagram48 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.checkboxdiagram49 {
+  position: absolute;
+  top: 45%;
+  left: 7%;
+}
+.checkboxdiagram50 {
+  position: absolute;
+  top: 45%;
+  left: 16%;
+}
+.checkboxdiagram51 {
+  position: absolute;
+  top: 45%;
+  left: 19%;
+}
+.checkboxdiagram52 {
+  position: absolute;
+  top: 44%;
+  left: 72%;
+}
+.checkboxdiagram53 {
+  position: absolute;
+  top: 44%;
+  left: 69%;
+}
+.checkboxdiagram54 {
+  position: absolute;
+  top: 44%;
+  left: 77%;
+}
+.checkboxdiagram55 {
+  position: absolute;
+  top: 44%;
+  left: 80%;
+}
+.checkboxdiagram56 {
+  position: absolute;
+  top: 42.5%;
+  left: 32%;
+}
+.checkboxdiagram57 {
+  position: absolute;
+  top: 46.5%;
+  left: 32%;
+}
+.checkboxdiagram58 {
+  position: absolute;
+  top: 42.5%;
+  left: 53%;
+}
+.checkboxdiagram59 {
+  position: absolute;
+  top: 46.5%;
+  left: 53%;
+}
+.checkboxdiagram60 {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+}
+.checkboxdiagram61 {
+  position: absolute;
+  top: 47%;
+  left: 22%;
+}
+.checkboxdiagram62 {
+  position: absolute;
+  top: 45%;
+  left: 22%;
+}
+.checkboxdiagram63 {
+  position: absolute;
+  top: 54%;
+  left: 22%;
+}
+.checkboxdiagram64 {
+  position: absolute;
+  top: 56.5%;
+  left: 22%;
+}
+.checkboxdiagram65 {
+  position: absolute;
+  top: 59%;
+  left: 22%;
+}
+.checkboxdiagram66 {
+  position: absolute;
+  top: 50%;
+  left: 64.5%;
+}
+.checkboxdiagram67 {
+  position: absolute;
+  top: 47.5%;
+  left: 64.5%;
+}
+.checkboxdiagram68 {
+  position: absolute;
+  top: 45%;
+  left: 64.5%;
+}
+.checkboxdiagram69 {
+  position: absolute;
+  top: 54%;
+  left: 64.5%;
+}
+.checkboxdiagram70 {
+  position: absolute;
+  top: 56.5%;
+  left: 64.5%;
+}
+.checkboxdiagram71 {
+  position: absolute;
+  top: 59%;
+  left: 64.5%;
+}
+.checkboxdiagram72 {
+  position: absolute;
+  top: 64%;
+  left: 24%;
+}
+.checkboxdiagram73 {
+  position: absolute;
+  top: 64%;
+  left: 21%;
+}
+.checkboxdiagram74 {
+  position: absolute;
+  top: 64%;
+  left: 29.5%;
+}
+.checkboxdiagram75 {
+  position: absolute;
+  top: 64%;
+  left: 32.5%;
+}
+.checkboxdiagram76 {
+  position: absolute;
+  top: 64%;
+  left: 57.5%;
+}
+.checkboxdiagram77 {
+  position: absolute;
+  top: 64%;
+  left: 54.5%;
+}
+.checkboxdiagram78 {
+  position: absolute;
+  top: 64%;
+  left: 63%;
+}
+.checkboxdiagram79 {
+  position: absolute;
+  top: 64%;
+  left: 66%;
+}
+.checkboxdiagram80 {
+  position: absolute;
+  top: 58%;
+  left: 36.5%;
+}
+.checkboxdiagram81 {
+  position: absolute;
+  top: 62.5%;
+  left: 36.5%;
+}
+.checkboxdiagram82 {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+}
+.checkboxdiagram83 {
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+}
+.checkboxdiagram84 {
+  position: absolute;
+  top: 71%;
+  left: 17.5%;
+}
+.checkboxdiagram85 {
+  position: absolute;
+  top: 71%;
+  left: 14%;
+}
+.checkboxdiagram86 {
+  position: absolute;
+  top: 71%;
+  left: 11%;
+}
+.checkboxdiagram87 {
+  position: absolute;
+  top: 71%;
+  left: 24%;
+}
+.checkboxdiagram88 {
+  position: absolute;
+  top: 71%;
+  left: 27%;
+}
+.checkboxdiagram89 {
+  position: absolute;
+  top: 71%;
+  left: 30%;
+}
+.checkboxdiagram90 {
+  position: absolute;
+  top: 71%;
+  left: 62.5%;
+}
+.checkboxdiagram91 {
+  position: absolute;
+  top: 71%;
+  left: 59.5%;
+}
+.checkboxdiagram92 {
+  position: absolute;
+  top: 71%;
+  left: 56.5%;
+}
+.checkboxdiagram93 {
+  position: absolute;
+  top: 71%;
+  left: 68.5%;
+}
+.checkboxdiagram94 {
+  position: absolute;
+  top: 71%;
+  left: 71.5%;
+}
+.checkboxdiagram95 {
+  position: absolute;
+  top: 71%;
+  left: 74.5%;
+}
+.checkboxdiagram96 {
+  position: absolute;
+  top: 79.5%;
+  left: 17.5%;
+}
+.checkboxdiagram97 {
+  position: absolute;
+  top: 79.5%;
+  left: 14.5%;
+}
+.checkboxdiagram98 {
+  position: absolute;
+  top: 79.5%;
+  left: 11.5%;
+}
+.checkboxdiagram99 {
+  position: absolute;
+  top: 79.5%;
+  left: 23.5%;
+}
+.checkboxdiagram100 {
+  position: absolute;
+  top: 79.5%;
+  left: 26.5%;
+}
+.checkboxdiagram101 {
+  position: absolute;
+  top: 79.5%;
+  left: 29.5%;
+}
+.checkboxdiagram102 {
+  position: absolute;
+  top: 79.5%;
+  left: 63%;
+}
+.checkboxdiagram103 {
+  position: absolute;
+  top: 79.5%;
+  left: 60%;
+}
+.checkboxdiagram104 {
+  position: absolute;
+  top: 79.5%;
+  left: 57%;
+}
+.checkboxdiagram105 {
+  position: absolute;
+  top: 79.5%;
+  left: 68%;
+}
+.checkboxdiagram106  {
+  position: absolute;
+  top: 79.5%;
+  left: 71%;
+}
+.checkboxdiagram107 {
+  position: absolute;
+  top: 79.5%;
+  left: 74%;
+}
+.checkboxdiagram108 {
+  position: absolute;
+  top: 89%;
+  left: 18%;
+}
+.checkboxdiagram109 {
+  position: absolute;
+  top: 89%;
+  left: 15%;
+}
+.checkboxdiagram110 {
+  position: absolute;
+  top: 89%;
+  left: 12%;
+}
+.checkboxdiagram111 {
+  position: absolute;
+  top: 89%;
+  left: 23.5%;
+}
+.checkboxdiagram112 {
+  position: absolute;
+  top: 89%;
+  left: 26.5%;
+}
+.checkboxdiagram113 {
+  position: absolute;
+  top: 89%;
+  left: 29.5%;
+}
+.checkboxdiagram114 {
+  position: absolute;
+  top: 89%;
+  left: 63%;
+}
+.checkboxdiagram115 {
+  position: absolute;
+  top: 89%;
+  left: 60%;
+}
+.checkboxdiagram116 {
+  position: absolute;
+  top: 89%;
+  left: 57%;
+}
+.checkboxdiagram117 {
+  position: absolute;
+  top: 89%;
+  left: 68%;
+}
+.checkboxdiagram118 {
+  position: absolute;
+  top: 89%;
+  left: 71%;
+}
+.checkboxdiagram119 {
+  position: absolute;
+  top: 89%;
+  left: 74%;
+}
+
+.selectvalue {
+  margin-right: 8px;
+  width: 100% !important;
+  padding: 3px;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+}
+select:focus-visible {
+  outline: none !important;
+}
+.analysis {
+  display: flex;
+}
+.analysisinputs input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 13px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 33px !important;
+}
+.analysisinputs input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysistitle {
+  font-size: 15px;
+  color: black;
+  margin-left: 60px;
+  margin-bottom: 11px;
+}
+.analysistitle span {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+.hbb {
+  font-size: 12px !important;
+}
+.analysissubtitle p {
+  font-size: 10px;
+  color: black;
+  justify-content: flex-start;
+  margin-right: 8px;
+}
+.analysisinputs1 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 240px;
+}
+.analysisinputs1 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs2 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 242px;
+}
+
+.analysisinputs2 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs3 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 242px;
+}
+
+.analysisinputs3 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs4 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 216px;
+}
+.analysisinputs5 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 182px;
+}
+.analysisinputs5 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs6 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 163px;
+}
+
+.analysisinputs6 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs7 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 165px;
+}
+
+.analysisinputs7 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs8 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 171px;
+}
+
+.analysisinputs8 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs9 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 222px;
+}
+
+.analysisinputs9 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs10 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 233px;
+}
+
+.analysisinputs10 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs11 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 228px;
+}
+
+.analysisinputs11 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs12 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 339px;
+  margin-left: 60px;
+}
+
+.analysisinputs12 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs13 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 239px;
+}
+
+.analysisinputs13 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs14 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 212px;
+}
+
+.analysisinputs14 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs15 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 128px;
+}
+
+.analysisinputs15 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs16 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 302px;
+}
+
+.analysisinputs16 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs17 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 304px;
+}
+
+.analysisinputs17 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs18 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 185px;
+}
+
+.analysisinputs18 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs19 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 313px;
+}
+
+.analysisinputs19 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.analysisinputs20 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 177px;
+}
+
+.analysisinputs20 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.gaitnotes {
+  padding: 5px;
+  border: 1px solid black;
+}
+.gaitnotes p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+.gaitnotes textarea {
+  width: 100%;
+  height: 150px;
+  background-color: #f1f4ff;
+  border: none;
+  font-size: 15px;
+  resize: none;
+}
+.gaitnotes input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.page {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+}
+.page:focus-visible,
+textarea:focus-visible {
+  outline: none !important;
+}
+@media only screen and (max-width: 767px) {
+  .analysissubtitle p {
+    font-size: 12px !important;
+  }
+  .analysistitle {
+    padding-bottom: 25px;
+    font-size: 20px !important;
+  }
+  .MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6.css-4jxqa8-MuiGrid-root {
+    padding-top: 3px;
+  }
+  .analysisinputs {
+    padding-bottom: 5px;
+  }
+  .analysisinputs input {
+    background-color: #f1f4ff;
+    padding: 5px !important;
+    font-size: 15x !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .analysisinputs {
+    padding-bottom: 22px !important;
+  }
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 20px;
+  }
+  .rightbodymedia{
+    margin-left: 5px;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and(min-width: 320px) and (max-width: 375px) {
+  .analysisinputs {
+    padding-bottom: 22px !important;
+  }
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 30px;
+    width: 70%;
+  }
+  .rightbodymedia{
+    margin-left: 25px;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .analysisinputs {
+    padding-bottom: 22px !important;
+  }
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 43px;
+  }
+  .rightbodymedia{
+    margin-left: 25px;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .analysisinputs {
+    padding-bottom: 22px !important;
+  }
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 70px;
+  }
+  .rightbodymedia{
+    margin-left: 45px;
+  }
+  .rightleft{
+    /* margin-left: 8px; */
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .analysisinputs {
+    padding-bottom: 22px !important;
+  }
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    /* margin-left: 50px; */
+    /* margin-right: 50px !important; */
+    width: 45%;
+  }
+  .rightbodymedia{
+    /* margin-left: 40px; */
+    /* margin-right: 20px; */
+    width: 52%;
+  }
+  .rightleft{
+    /* margin-left: 8px; */
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1290px) {
+  .analysisinputs {
+    padding-bottom: 22px !important;
+  }
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    /* margin-left: 50px; */
+    /* margin-right: 50px !important; */
+    width: 77%;
+  }
+  .rightbodymedia{
+    /* margin-left: 40px; */
+    /* margin-right: 20px; */
+    width: 77%;
+  }
+  .rightleft{
+    /* margin-left: 8px; */
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 372px) and (max-width: 375px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 45px !important;
+  }
+  .rightbodymedia{
+    margin-left: 25px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media  only screen and (min-width: 411px) and (max-width: 414px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 60px !important;
+  }
+  .rightbodymedia{
+    margin-left: 40px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 387px) and (max-width: 390px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 50px !important;
+  }
+  .rightbodymedia{
+    margin-left: 30px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 391px) and  (max-width: 393px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 50px !important;
+  }
+  .rightbodymedia{
+    margin-left: 30px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 357px) and  (max-width: 360px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 35px !important;
+  }
+  .rightbodymedia{
+    margin-left: 20px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 818px) and  (max-width: 820px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 70px !important;
+  }
+  .rightbodymedia{
+    margin-left: 50px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 766px) and   (max-width: 768px){ 
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 66px !important;
+  }
+  .rightbodymedia{
+    margin-left: 43px !important;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media (max-width: 912px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 80px;
+  }
+  .rightbodymedia{
+    margin-left: 53px;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media (max-width: 540px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 120px;
+  }
+  .rightbodymedia{
+    margin-left: 90px;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+@media (max-width: 280px){
+  .fullboddyy{
+    
+    width: 100%;
+  }
+  .lestbodymedia{
+    margin-left: 0px;  
+  }
+  .rightbodymedia{
+    margin-left: -13px;
+  }
+  .rightleft{
+    margin-left: 30px;
+  }
+  .bodymap11{
+    width: 85%;
+  }
+}
+/* @media (max-width: 320px){
+  .lefteartop {
+    position: absolute;
+    top: 4%;
+    left: 42%;
+  }
+  .leftearbottom {
+    position: absolute;
+    top: 7%;
+    left: 43%;
+  }
+  .righteartop {
+    position: absolute;
+    top: 4%;
+    left: 61%;
+  }
+  .rightearbottom {
+    position: absolute;
+    top: 7%;
+    left: 61%;
+  }
+  .beardone {
+    position: absolute;
+    top: 10%;
+    left: 42%;
+  }
+  .beardtwo {
+    position: absolute;
+    top: 10%;
+    left: 45.5%;
+  }
+  .beardthree {
+    position: absolute;
+    top: 10%;
+    left: 49.5%;
+  }
+  .beardfour {
+    position: absolute;
+    top: 10%;
+    left: 54%;
+  }
+  .bearfive {
+    position: absolute;
+    top: 10%;
+    left: 58%;
+  }
+  .bearsix {
+    position: absolute;
+    top: 10%;
+    left: 61%;
+  }
+ 
+  .thoratone {
+    position: absolute;
+    top: 12.5%;
+    left: 49%;
+  }
+  .thorattwo {
+    position: absolute;
+    top: 12.5%;
+    left: 53%;
+  }
+  
+  .sholdertopone {
+    position: absolute;
+    top: 11.5%;
+    left: 31%;
+  }
+  .sholdertoptwo {
+    position: absolute;
+    top: 14%;
+    left: 31%;
+  }
+  .shoulderone {
+    position: absolute;
+    top: 16.5%;
+    left: 19%;
+  }
+  .shouldertwo {
+    position: absolute;
+    top: 16.5%;
+    left: 23.5%;
+  }
+  .shoulderthree {
+    position: absolute;
+    top: 16.5%;
+    left: 27.5%;
+  }
+  .shoulderfour {
+    position: absolute;
+    top: 16.5%;
+    left: 31%;
+  }
+  .shoulderfive {
+    position: absolute;
+    top: 16.5%;
+    left: 34.5%;
+  }
+  .shouldersix {
+    position: absolute;
+    top: 16.5%;
+    left: 38%;
+  }
+  .shoulderbottomone {
+    position: absolute;
+    top: 19%;
+    left: 32%;
+  }
+  .shoulderbottomtwo {
+    position: absolute;
+    top: 21.5%;
+    left: 32%;
+  }
+  .shouldermiddleone {
+    position: absolute;
+    top: 16.5%;
+    left: 42%;
+  }
+  .shouldermiddletwo {
+    position: absolute;
+    top: 16.5%;
+    left: 45%;
+  }
+  .shouldermiddlethree {
+    position: absolute;
+    top: 16.5%;
+    left: 49%;
+  }
+  .shouldermiddlefour {
+    position: absolute;
+    top: 16.5%;
+    left: 53%;
+  }
+  .shouldermiddlefive {
+    position: absolute;
+    top: 16.5%;
+    left: 56.5%;
+  }
+  .shouldermiddlesix {
+    position: absolute;
+    top: 16.5%;
+    left: 60%;
+  }
+  
+  .middlebodyone {
+    position: absolute;
+    top: 26.5%;
+    left: 46%;
+  }
+  .middlebodytwo {
+    position: absolute;
+    top: 26.5%;
+    left: 49%;
+  }
+  .middlebodythree {
+    position: absolute;
+    top: 26.5%;
+    left: 53%;
+  }
+  .middlebodyfour {
+    position: absolute;
+    top: 26.5%;
+    left: 56%;
+  }
+  
+  
+  
+  .lefthandone {
+    position: absolute;
+    top: 33%;
+    left: 17.5%;
+  }
+  .lefthandtwo {
+    position: absolute;
+    top: 33%;
+    left: 20.5%;
+  }
+  .lefthandthree {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+  }
+  .lefthandfour {
+    position: absolute;
+    top: 33%;
+    left: 29%;
+  }
+  
+  
+  .righthandone {
+    position: absolute;
+    top: 33%;
+    left: 71%;
+  }
+  
+  .righthandtwo {
+    position: absolute;
+    top: 33%;
+    left: 74%;
+  }
+  
+  .righthandthree {
+    position: absolute;
+    top: 33%;
+    left: 78%;
+  }
+  
+  .righthandfour {
+    position: absolute;
+    top: 33%;
+    left: 82%;
+  }
+  .leftstomachtopone {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+  }
+  .leftstomachtoptwo {
+    position: absolute;
+    top: 32.5%;
+    left: 47%;
+  }
+  .leftstomachone {
+    position: absolute;
+    top: 35.3%;
+    left: 31%;
+  }
+  .leftstomachtwo {
+    position: absolute;
+    top: 35.3%;
+    left: 34%;
+  }
+  .leftstomachthree {
+    position: absolute;
+    top: 35.3%;
+    left: 37.5%;
+  }
+  .leftstomachfour {
+    position: absolute;
+    top: 35.3%;
+    left: 41%;
+  }
+  .leftstomachfive {
+    position: absolute;
+    top: 35.3%;
+    left: 44.5%;
+  }
+  .leftstomachsix {
+    position: absolute;
+    top: 35.3%;
+    left: 47%;
+  }
+  .leftstomachbottomone {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+  }
+  .leftstomachbottomtwo {
+    position: absolute;
+    top: 40.5%;
+    left: 46%;
+  }
+  
+ 
+  .topstomachone {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+  }
+  .topstomachtwo {
+    position: absolute;
+    top: 31%;
+    left: 53%;
+  }
+  
+
+  .bottomstomachone {
+    position: absolute;
+    top: 39.5%;
+    left: 49%;
+  }
+  
+  .bottomstomachtwo {
+    position: absolute;
+    top: 39.5%;
+    left: 52%;
+  }
+
+  
+  .rightstomachtopone {
+    position: absolute;
+    top: 30%;
+    left: 55.5%;
+  }
+  
+  .rightstomachtoptwo {
+    position: absolute;
+    top: 32.5%;
+    left: 56%;
+  }
+  
+  .rightstomachone {
+    position: absolute;
+    top: 35.3%;
+    left: 53%;
+  }
+  
+  .rightstomachtwo {
+    position: absolute;
+    top: 35.3%;
+    left: 55%;
+  }
+  
+  .rightstomachthree {
+    position: absolute;
+    top: 35.3%;
+    left: 58%;
+  }
+  
+  .rightstomachfour {
+    position: absolute;
+    top: 35.3%;
+    left: 61.5%;
+  }
+  
+  .rightstomachfive {
+    position: absolute;
+    top: 35.3%;
+    left: 65%;
+  }
+  
+  .rightstomachsix {
+    position: absolute;
+    top: 35.3%;
+    left: 68.5%;
+  }
+  
+  .rightstomachbottomone {
+    position: absolute;
+    top: 38%;
+    left: 54%;
+  }
+  
+  .rightstomachbottomtwo {
+    position: absolute;
+    top: 40.5%;
+    left: 54%;
+  }
+
+ 
+.lefthandplamone {
+  position: absolute;
+  top: 44%;
+  left: 11.5%;
+}
+.lefthandplamtwo {
+  position: absolute;
+  top: 44%;
+  left: 15.5%;
+}
+.lefthandplamthree {
+  position: absolute;
+  top: 44%;
+  left: 19%;
+}
+.lefthandplamfour {
+  position: absolute;
+  top: 44%;
+  left: 22.5%;
+}
+
+
+.righthandplamone {
+  position: absolute;
+  top: 44%;
+  left: 77%;
+}
+
+.righthandplamtwo {
+  position: absolute;
+  top: 44%;
+  left: 81%;
+}
+
+.righthandplamthree {
+  position: absolute;
+  top: 44%;
+  left: 86%;
+}
+
+.righthandplamfour {
+  position: absolute;
+  top: 44%;
+  left: 90%;
+}
+
+
+.leftabdomentopone {
+  position: absolute;
+  top: 38.5%;
+  left: 41%;
+}
+.leftabdomentoptwo {
+  position: absolute;
+  top: 41%;
+  left: 41%;
+}
+.leftabdomenone {
+  position: absolute;
+  top: 43.5%;
+  left: 30%;
+}
+.leftabdomentwo {
+  position: absolute;
+  top: 43.5%;
+  left: 33.5%;
+}
+.leftabdomenthree {
+  position: absolute;
+  top: 43.5%;
+  left: 37%;
+}
+.leftabdomenfour {
+  position: absolute;
+  top: 43.5%;
+  left: 40.5%;
+}
+.leftabdomenfive {
+  position: absolute;
+  top: 43.5%;
+  left: 45%;
+}
+.leftabdomensix {
+  position: absolute;
+  top: 43.5%;
+  left: 49%;
+}
+.leftabdomenonebottomone {
+  position: absolute;
+  top: 46%;
+  left: 41%;
+}
+.leftabdomenonebottomtwo {
+  position: absolute;
+  top: 48.3%;
+  left: 41%;
+}
+
+
+.rightabdomentopone {
+  position: absolute;
+  top: 38.5%;
+  left: 59%;
+}
+
+.rightabdomentoptwo {
+  position: absolute;
+  top: 41%;
+  left: 59%;
+}
+
+.rightabdomenone {
+  position: absolute;
+  top: 43.5%;
+  left: 53%;
+}
+
+.rightabdomentwo {
+  position: absolute;
+  top: 43.5%;
+  left: 56%;
+}
+
+.rightabdomenthree {
+  position: absolute;
+  top: 43.5%;
+  left: 59%;
+}
+
+.rightabdomenfour {
+  position: absolute;
+  top: 43.5%;
+  left: 62%;
+}
+
+.rightabdomenfive {
+  position: absolute;
+  top: 43.5%;
+  left: 66%;
+}
+
+.rightabdomensix {
+  position: absolute;
+  top: 43.5%;
+  left: 68.5%;
+}
+
+.rightabdomenonebottomone {
+  position: absolute;
+  top: 46%;
+  left: 57%;
+}
+
+.rightabdomenonebottomtwo {
+  position: absolute;
+  top: 48.3%;
+  left: 57%;
+}
+  
+.leftkneetopone {
+  position: absolute;
+  top: 65%;
+  left: 34%;
+}
+.leftkneetoptwo {
+  position: absolute;
+  top: 65%;
+  left: 37.5%;
+}
+.leftkneetopthree {
+  position: absolute;
+  top: 65%;
+  left: 41%;
+}
+.leftkneetopfour {
+  position: absolute;
+  top: 65%;
+  left: 45%;
+}
+.leftkneeone {
+  position: absolute;
+  top: 68.5%;
+  left: 30%;
+}
+.leftkneetwo {
+  position: absolute;
+  top: 68.5%;
+  left: 33%;
+}
+.leftkneethree {
+  position: absolute;
+  top: 68.5%;
+  left: 37%;
+}
+.leftkneefour {
+  position: absolute;
+  top: 68.5%;
+  left: 40.5%;
+}
+.leftkneefive {
+  position: absolute;
+  top: 68.5%;
+  left: 44%;
+}
+.leftkneesix {
+  position: absolute;
+  top: 68.5%;
+  left: 47.5%;
+}
+.leftkneebottomone {
+  position: absolute;
+  top: 71%;
+  left: 34%;
+}
+.leftkneebottomtwo {
+  position: absolute;
+  top: 71%;
+  left: 37.5%;
+}
+.leftkneebottomthree {
+  position: absolute;
+  top: 71%;
+  left: 42%;
+}
+.leftkneebottomfour {
+  position: absolute;
+  top: 71%;
+  left: 45%;
+}
+
+
+
+.rightkneetopone {
+  position: absolute;
+  top: 65%;
+  left: 52%;
+}
+
+.rightkneetoptwo {
+  position: absolute;
+  top: 65%;
+  left: 55.5%;
+}
+
+.rightkneetopthree {
+  position: absolute;
+  top: 65%;
+  left: 59.5%;
+}
+
+.rightkneetopfour {
+  position: absolute;
+  top: 65%;
+  left: 63%;
+}
+
+.rightkneeone {
+  position: absolute;
+  top: 68.5%;
+  left: 52%;
+}
+
+.rightkneetwo {
+  position: absolute;
+  top: 68.5%;
+  left: 55.5%;
+}
+
+.rightkneethree {
+  position: absolute;
+  top: 68.5%;
+  left: 59%;
+}
+
+.rightkneefour {
+  position: absolute;
+  top: 68.5%;
+  left: 62.5%;
+}
+
+.rightkneefive {
+  position: absolute;
+  top: 68.5%;
+  left: 66.5%;
+}
+
+.rightkneesix {
+  position: absolute;
+  top: 68.5%;
+  left: 70%;
+}
+
+.rightkneebottomone {
+  position: absolute;
+  top: 71%;
+  left: 50%;
+}
+
+.rightkneebottomtwo {
+  position: absolute;
+  top: 71%;
+  left: 53.5%;
+}
+
+.rightkneebottomthree {
+  position: absolute;
+  top: 71%;
+  left: 57.5%;
+}
+
+.rightkneebottomfour {
+  position: absolute;
+  top: 71%;
+  left: 61%;
+}
+
+.topfootone {
+  position: absolute;
+  top: 84%;
+  left: 49%;
+}
+.topfoottwo {
+  position: absolute;
+  top: 84%;
+  left: 54%;
+}
+.topfootthree {
+  position: absolute;
+  top: 87%;
+  left: 49%;
+}
+.topfootfour {
+  position: absolute;
+  top: 87%;
+  left: 54%;
+}
+
+
+
+.leftankleone {
+  position: absolute;
+  top: 90.5%;
+  left: 30%;
+}
+
+.leftankletwo {
+  position: absolute;
+  top: 90.5%;
+  left: 33.5%;
+}
+
+.leftanklethree {
+  position: absolute;
+  top: 90.5%;
+  left: 37%;
+}
+
+.leftanklefour {
+  position: absolute;
+  top: 90.5%;
+  left: 40.5%;
+}
+.leftanklefive {
+  position: absolute;
+  top: 90.5%;
+  left: 44%;
+}
+
+.leftanklesix {
+  position: absolute;
+  top: 90.5%;
+  left: 47.5%;
+}
+
+
+
+.rightankleone {
+  position: absolute;
+  top: 90.5%;
+  left: 53%;
+}
+
+.rightankletwo {
+  position: absolute;
+  top: 90.5%;
+  left: 56.5%;
+}
+
+.rightanklethree {
+  position: absolute;
+  top: 90.5%;
+  left: 60.5%;
+}
+
+.rightanklefour {
+  position: absolute;
+  top: 90.5%;
+  left: 63.5%;
+}
+
+.rightanklefive {
+  position: absolute;
+  top: 90.5%;
+  left: 67.5%;
+}
+
+.rightanklesix {
+  position: absolute;
+  top: 90.5%;
+  left: 70.5%;
+}
+
+
+
+.bottomfootone {
+  position: absolute;
+  top: 93%;
+  left: 49%;
+}
+
+.bottomfoottwo {
+  position: absolute;
+  top: 93%;   
+  left: 53%;
+}
+
+.bottomfootthree {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+}
+
+.bottomfootfour {
+  position: absolute;
+  top: 96%;
+  left: 54%;
+}
+
+
+
+.lefttoeone {
+  position: absolute;
+  top: 96%;
+  left: 41%;
+}
+.lefttoetwo {
+  position: absolute;
+  top: 96%;
+  left: 44%;
+}
+
+
+
+.middletoeone {
+  position: absolute;
+  top: 99%;
+  left: 48%;
+}
+
+.middletoetwo {
+  position: absolute;
+  top: 99%;
+  left: 53%;
+}
+
+
+
+.righttoeone {
+  position: absolute;
+  top: 96%;
+  left: 58%;
+}
+
+.righttoetwo {
+  position: absolute;
+  top: 96%;
+  left: 62%;
+}
+
+} */
+/* @media(max-width: 1024px){
+  .lefteartop {
+    position: absolute;
+    top: 3%;
+    left: 51%;
+  }
+  .leftearbottom {
+    position: absolute;
+    top: 6.5%;
+    left: 51%;
+  }
+  .righteartop {
+    position: absolute;
+    top: 3%;
+    left: 75%;
+  }
+  .rightearbottom {
+    position: absolute;
+    top: 6.5%;
+    left: 75%;
+  }
+  .beardone {
+    position: absolute;
+    top: 9.5%;
+    left: 50%;
+  }
+  .beardtwo {
+    position: absolute;
+    top: 9.5%;
+    left: 55%;
+  }
+  .beardthree {
+    position: absolute;
+    top: 9.5%;
+    left: 60%;
+  }
+  .beardfour {
+    position: absolute;
+    top: 9.5%;
+    left: 65%;
+  }
+  .bearfive {
+    position: absolute;
+    top: 9.5%;
+    left: 70%;
+  }
+  .bearsix {
+    position: absolute;
+    top: 9.5%;
+    left: 75%;
+  }
+  .thoratone {
+    position: absolute;
+    top: 12.5%;
+    left: 65%;
+  }
+  .thorattwo {
+    position: absolute;
+    top: 12.5%;
+    left: 60%;
+  }
+  .sholdertopone {
+    position: absolute;
+    top: 11.5%;
+    left: 36%;
+  }
+  .sholdertoptwo {
+    position: absolute;
+    top: 14%;
+    left: 36%;
+  }
+  .shoulderone {
+    position: absolute;
+    top: 16.5%;
+    left: 28%;
+  }
+  .shouldertwo {
+    position: absolute;
+    top: 16.5%;
+    left: 90%;
+  }
+  .shoulderthree {
+    position: absolute;
+    top: 16.5%;
+    left: 87%;
+  }
+  .shoulderfour {
+    position: absolute;
+    top: 16.5%;
+    left: 31%;
+  }
+  .shoulderfive {
+    position: absolute;
+    top: 16.5%;
+    left: 35%;
+  }
+  .shouldersix {
+    position: absolute;
+    top: 16.5%;
+    left: 39.5%;
+  }
+  .shoulderbottomone {
+    position: absolute;
+    top: 19%;
+    left: 34%;
+  }
+  .shoulderbottomtwo {
+    position: absolute;
+    top: 21.5%;
+    left: 34%;
+  }
+
+  .shouldermiddleone {
+    position: absolute;
+    top: 16.5%;
+    left: 44%;
+  }
+  .shouldermiddletwo {
+    position: absolute;
+    top: 16.5%;
+    left: 48%;
+  }
+  .shouldermiddlethree {
+    position: absolute;
+    top: 16.5%;
+    left: 53%;
+  }
+  .shouldermiddlefour {
+    position: absolute;
+    top: 16.5%;
+    left: 57%;
+  }
+  .shouldermiddlefive {
+    position: absolute;
+    top: 16.5%;
+    left: 61%;
+  }
+  .shouldermiddlesix {
+    position: absolute;
+    top: 16.5%;
+    left: 65%;
+  } 
+
+  .shoulderrighttopone {
+    position: absolute;
+    top: 12%;
+    left: 88%;
+  }
+  .shoulderrighttoptwo {
+    position: absolute;
+    top: 14%;
+    left: 88%;
+  }
+  .shoulderrightone {
+    position: absolute;
+    top: 16.5%;
+    left: 69%;
+  }
+  .shoulderrighttwo {
+    position: absolute;
+    top: 16.5%;
+    left: 73%;
+  }
+  .shoulderrightthree {
+    position: absolute;
+    top: 16.5%;
+    left: 79%;
+  }
+  .shoulderrightfour {
+    position: absolute;
+    top: 16.5%;
+    left: 83%;
+  }
+  .shoulderrightfive {
+    position: absolute;
+    top: 16.5%;
+    left: 95%;
+  }
+  .shoulderrightsix {
+    position: absolute;
+    top: 16.5%;
+    left: 99%;
+  }
+  .shoulderrightbottomone {
+    position: absolute;
+    top: 19%;
+    left: 87%;
+  }
+  .shoulderrightbottomtwo {
+    position: absolute;
+    top: 21.5%;
+    left: 87%;
+  }
+
+  .chestlefttopone {
+    position: absolute;
+    top: 19%;
+    left: 50%;
+  }
+  .chestlefttoptwo {
+    position: absolute;
+    top: 21.5%;
+    left: 50%;
+  }
+  .chestleftone {
+    position: absolute;
+    top: 24%;
+    left: 43%;
+  }
+  .chestlefttwo {
+    position: absolute;
+    top: 24%;
+    left: 47%;
+  }
+  .chestleftthree {
+    position: absolute;
+    top: 24%;
+    left: 51%;
+  }
+  .chestleftfour {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+  }
+  .chestleftbottomone {
+    position: absolute;
+    top: 26.5%;
+    left: 37.5%;
+  }
+  .chestleftbottomtwo {
+    position: absolute;
+    top: 29.5%;
+    left: 37.5%;
+  }
+  
+  
+  .chestmiddleone {
+    position: absolute;
+    top: 24%;
+    left: 59.5%;
+  }
+  .chestmiddletwo {
+    position: absolute;
+    top: 24%;
+    left: 63.5%;
+  }
+  
+  .chestrighttopone {
+    position: absolute;
+    top: 20.5%;
+    left: 74%;
+  }
+  
+  .chestrighttoptwo {
+    position: absolute;
+    top: 22.5%;
+    left: 74%;
+  }
+  
+  .chestrightone {
+    position: absolute;
+    top: 24%;
+    left: 82%;
+  }
+  
+  .chestrighttwo {
+    position: absolute;
+    top: 24%;
+    left: 78%;
+  }
+  
+  .chestrightthree {
+    position: absolute;
+    top: 24%;
+    left: 73%;
+  }
+  
+  .chestrightfour {
+    position: absolute;
+    top: 24%;
+    left: 69%;
+  }
+  
+  .chestrightbottomone {
+    position: absolute;
+    top: 26.5%;
+    left: 59%;
+  }
+  
+  .chestrightbottomtwo {
+    position: absolute;
+    top: 29.5%;
+    left: 59%;
+  }
+  .middlebodyone {
+    position: absolute;
+    top: 26.5%;
+    left: 50%;
+  }
+  .middlebodytwo {
+    position: absolute;
+    top: 26.5%;
+    left: 65%;
+  }
+  .middlebodythree {
+    position: absolute;
+    top: 26.5%;
+    left: 69%;
+  }
+  .middlebodyfour {
+    position: absolute;
+    top: 26.5%;
+    left: 73%;
+  }
+
+  .lefthandone {
+    position: absolute;
+    top: 33%;
+    left: 20%;
+  }
+  .lefthandtwo {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+  }
+  .lefthandthree {
+    position: absolute;
+    top: 33%;
+    left: 30%;
+  }
+  .lefthandfour {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+  }
+  
+  .righthandone {
+    position: absolute;
+    top: 33%;
+    left: 68%;
+  }
+  
+  .righthandtwo {
+    position: absolute;
+    top: 33%;
+    left: 71.5%;
+  }
+  
+  .righthandthree {
+    position: absolute;
+    top: 33%;
+    left: 75.5%;
+  }
+  
+  .righthandfour {
+    position: absolute;
+    top: 33%;
+    left: 79%;
+  }
+  
+  
+} */
+

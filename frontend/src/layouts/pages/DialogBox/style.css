@@ -1,0 +1,14 @@
+.titleNote{
+    text-align: center !important;
+}
+
+.noteButtonParent{
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.noteButtonChild{
+    background-color: #344767 !important;
+    color: white !important;
+}

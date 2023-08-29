@@ -1,0 +1,93 @@
+
+.additional input {
+    background-color: #f1f4ff;
+    /* padding: 5px !important; */
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 50% !important;
+    height: 65% !important;
+}
+
+.additional input:focus,
+textarea:focus {
+    outline: none !important;
+}
+@media only screen and (max-width:320px) {
+    .additional input {
+        background-color: #f1f4ff;
+        /* padding: 5px !important; */
+        font-size: 15px !important;
+        border: #f1f4ff;
+        border-bottom: 1px solid black;
+        width: 39% !important;
+        height: 65% !important;
+    }
+
+
+}
+@media screen and (min-width:321px) and (max-width:375px) {
+    .additional input {
+            background-color: #f1f4ff;
+            /* padding: 5px !important; */
+            font-size: 15px !important;
+            border: #f1f4ff;
+            border-bottom: 1px solid black;
+            width: 47% !important;
+            height: 65% !important;
+        }
+
+    
+}
+@media screen and (min-width:376px) and (max-width:425px) {
+    .additional input {
+        background-color: #f1f4ff;
+        /* padding: 5px !important; */
+        font-size: 15px !important;
+        border: #f1f4ff;
+        border-bottom: 1px solid black;
+        width: 47% !important;
+        height: 65% !important;
+    }
+
+
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+    .additional input {
+        background-color: #f1f4ff;
+        /* padding: 5px !important; */
+        font-size: 15px !important;
+        border: #f1f4ff;
+        border-bottom: 1px solid black;
+        width: 30% !important;
+        height: 65% !important;
+    }
+
+
+}
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .additional input {
+        background-color: #f1f4ff;
+        /* padding: 5px !important; */
+        font-size: 15px !important;
+        border: #f1f4ff;
+        border-bottom: 1px solid black;
+        width: 22% !important;
+        height: 65% !important;
+    }
+
+
+}
+@media screen and (min-width:1200px) and (max-width:1440px) {
+    .additional input {
+        background-color: #f1f4ff;
+        /* padding: 5px !important; */
+        font-size: 15px !important;
+        border: #f1f4ff;
+        border-bottom: 1px solid black;
+        width: 37% !important;
+        height: 65% !important;
+    }
+
+
+}

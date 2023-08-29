@@ -1,0 +1,122 @@
+.nx {
+  top: 42px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.MuiFormControl-root.no-change.css-1nrlq1o-MuiFormControl-root {
+  margin-left: 10px;
+}
+.MuiInputBase-root.MuiInputBase-colorPrimary.reportCss.css-y9gdep-MuiInputBase-root {
+  margin-top: -28px;
+}
+.MuiInputBase-root.MuiInputBase-colorPrimary.complaintDateCss.css-y9gdep-MuiInputBase-root {
+  margin-top: -28px;
+  margin-left: 10px;
+}
+.improve-input {
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: 38px !important;
+  width: 124px !important;
+  display: grid !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 40px !important;
+  color: #495057 !important;
+  border-radius: 8px !important;
+}
+.stylet :focus {
+  border-color: #35d1f5 !important;
+  box-shadow: 0rem 0rem 0rem 0.125rem rgb(129 227 249) !important;
+  outline: 0 !important;
+}
+
+.paddingLeftClass {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+@media screen and (max-width: 480px) {
+  .paddingLeftClass {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .paddingLeftClass {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+}
+
+.nxtbutton6 {
+  top: 20px;
+  position: absolute;
+  left: -88px;
+}
+.subjective-complaints-grid-container .subjective-complaints-text-container {
+  max-width: unset;
+  flex-basis: unset;
+}
+
+.subjective-complaints-text-container,
+.subjective-complaints-nochange-container,
+.subjective-complaints-followup-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  max-width: unset;
+  flex-basis: unset;
+}
+
+.subjective-complaints-followup-container {
+  align-items: baseline;
+}
+
+.subjective-complaints-followup-container > h6 {
+  margin-top: unset;
+}
+.client-reports-grid-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .improve-input {
+    width: 48px !important;
+  }
+  .client-reports-grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .client-reports-grid-container > div {
+    max-width: unset;
+    flex-basis: unset;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .improve-input {
+    width: 40px !important;
+  }
+}

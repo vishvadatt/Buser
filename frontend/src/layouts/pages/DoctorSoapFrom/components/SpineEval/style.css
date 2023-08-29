@@ -1,0 +1,4038 @@
+.container {
+  position: relative;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* float: left; */
+}
+
+.spinalimg {
+  justify-content: center;
+  display: flex;
+  position: relative;
+}
+
+/* front 1 to 7 */
+.sficon1 {
+  position: absolute;
+  top: 1.6%;
+  left: 45.2%;
+}
+
+.sficon2 {
+  position: absolute;
+  top: 3.9%;
+  left: 45.5%;
+}
+
+.sficon3 {
+  position: absolute;
+  top: 5.7%;
+  left: 45%;
+}
+
+.sficon4 {
+  position: absolute;
+  top: 7.6%;
+  left: 44.5%;
+}
+
+.sficon5 {
+  position: absolute;
+  top: 9.3%;
+  left: 42.8%;
+}
+
+.sficon6 {
+  position: absolute;
+  top: 11.4%;
+  left: 42%;
+}
+
+.sficon7 {
+  position: absolute;
+  top: 13.7%;
+  left: 40.2%;
+}
+
+/* front 1 to 12  */
+
+.sficons1 {
+  position: absolute;
+  top: 16.7%;
+  left: 38.7%;
+}
+
+.sficons2 {
+  position: absolute;
+  top: 20.2%;
+  left: 36.8%;
+}
+
+.sficons3 {
+  position: absolute;
+  top: 24%;
+  left: 35.4%;
+}
+
+.sficons4 {
+  position: absolute;
+  top: 27.9%;
+  left: 33.3%;
+}
+
+.sficons5 {
+  position: absolute;
+  top: 31.3%;
+  left: 33%;
+}
+
+.sficons6 {
+  position: absolute;
+  top: 35%;
+  left: 31.6%;
+}
+
+.sficons7 {
+  position: absolute;
+  top: 39.3%;
+  left: 32.4%;
+}
+
+.sficons8 {
+  position: absolute;
+  top: 42.4%;
+  left: 34.1%;
+}
+
+.sficons9 {
+  position: absolute;
+  top: 45.6%;
+  left: 35.2%;
+}
+
+.sficons10 {
+  position: absolute;
+  top: 50.2%;
+  left: 37.2%;
+}
+
+.sficons11 {
+  position: absolute;
+  top: 54.9%;
+  left: 39.3%;
+}
+
+.sficons12 {
+  position: absolute;
+  top: 59.4%;
+  left: 42%;
+}
+
+/* front 1 to 5 */
+.sficonssub1 {
+  position: absolute;
+  top: 62.4%;
+  left: 45.4%;
+}
+
+.sficonssub2 {
+  position: absolute;
+  top: 65.8%;
+  left: 47.2%;
+}
+
+.sficonssub3 {
+  position: absolute;
+  top: 69.7%;
+  left: 47.1%;
+}
+
+.sficonssub4 {
+  position: absolute;
+  top: 73.5%;
+  left: 46.9%;
+}
+
+.sficonssub5 {
+  position: absolute;
+  top: 76.6%;
+  left: 46.4%;
+}
+
+.sficonsubleft {
+  position: absolute;
+  top: 77.8%;
+  left: 52.6%;
+}
+
+.sficonsubright {
+  position: absolute;
+  top: 77.8%;
+  left: 57%;
+}
+
+.sficontopleft {
+  position: absolute;
+  top: 88.8%;
+  left: 48.3%;
+}
+
+.sficontopright {
+  position: absolute;
+  top: 88.9%;
+  left: 42.4%;
+}
+
+.sficonleftbottom {
+  position: absolute;
+  top: 93.7%;
+  left: 44.7%;
+}
+
+.sficonrightbottom {
+  position: absolute;
+  top: 93.7%;
+  left: 48%;
+}
+
+/* second back */
+.sbicononesub1 {
+  position: absolute;
+  top: 1.1%;
+  left: 51.8%;
+}
+
+.sbicononesub2 {
+  position: absolute;
+  top: 1.1%;
+  left: 57.9%;
+}
+
+.sbicononesub3 {
+  position: absolute;
+  top: 2.1%;
+  left: 51.8%;
+}
+
+.sbicononesub4 {
+  position: absolute;
+  top: 2.1%;
+  left: 57.9%;
+}
+
+.sbicontwosub1 {
+  position: absolute;
+  top: 3%;
+  left: 51.8%;
+}
+
+.sbicontwosub2 {
+  position: absolute;
+  top: 3.1%;
+  left: 57.9%;
+}
+
+.sbicontwosub3 {
+  position: absolute;
+  top: 3.9%;
+  left: 51.8%;
+}
+
+.sbicontwosub4 {
+  position: absolute;
+  top: 3.9%;
+  left: 57.9%;
+}
+
+.sbiconthreesub1 {
+  position: absolute;
+  top: 4.7%;
+  left: 51.8%;
+}
+
+.sbiconthreesub2 {
+  position: absolute;
+  top: 4.7%;
+  left: 57.9%;
+}
+
+.sbiconthreesub3 {
+  position: absolute;
+  top: 5.7%;
+  left: 51.8%;
+}
+
+.sbiconthreesub4 {
+  position: absolute;
+  top: 5.7%;
+  left: 57.9%;
+}
+
+.sbiconfoursub1 {
+  position: absolute;
+  top: 6.6%;
+  left: 51.8%;
+}
+
+.sbiconfoursub2 {
+  position: absolute;
+  top: 6.6%;
+  left: 57.9%;
+}
+
+.sbiconfoursub3 {
+  position: absolute;
+  top: 7.6%;
+  left: 51.8%;
+}
+
+.sbiconfoursub4 {
+  position: absolute;
+  top: 7.6%;
+  left: 57.9%;
+}
+
+.sbiconfivesub1 {
+  position: absolute;
+  top: 8.5%;
+  left: 51.7%;
+}
+
+.sbiconfivesub2 {
+  position: absolute;
+  top: 8.5%;
+  left: 57.9%;
+}
+
+.sbiconfivesub3 {
+  position: absolute;
+  top: 9.5%;
+  left: 51.7%;
+}
+
+.sbiconfivesub4 {
+  position: absolute;
+  top: 9.5%;
+  left: 57.9%;
+}
+
+.sbiconsixsub1 {
+  position: absolute;
+  top: 10.5%;
+  left: 51.7%;
+}
+
+.sbiconsixsub2 {
+  position: absolute;
+  top: 10.5%;
+  left: 57.9%;
+}
+
+.sbiconsixsub3 {
+  position: absolute;
+  top: 11.8%;
+  left: 51.5%;
+}
+
+.sbiconsixsub4 {
+  position: absolute;
+  top: 11.8%;
+  left: 57.8%;
+}
+
+.sbiconsevensub1 {
+  position: absolute;
+  top: 13.1%;
+  left: 51.5%;
+}
+
+.sbiconsevensub2 {
+  position: absolute;
+  top: 13.1%;
+  left: 57.6%;
+}
+
+.sbiconsevensub3 {
+  position: absolute;
+  top: 14.5%;
+  left: 51.5%;
+}
+
+.sbiconsevensub4 {
+  position: absolute;
+  top: 14.5%;
+  left: 57.9%;
+}
+
+.sbiconone1 {
+  position: absolute;
+  top: 16.1%;
+  left: 51.1%;
+}
+
+.sbiconone2 {
+  position: absolute;
+  top: 16.1%;
+  left: 57.3%;
+}
+
+.sbiconone3 {
+  position: absolute;
+  top: 17.7%;
+  left: 51.1%;
+}
+
+.sbiconone4 {
+  position: absolute;
+  top: 17.7%;
+  left: 57.3%;
+}
+
+.sbicontwo1 {
+  position: absolute;
+  top: 19.6%;
+  left: 51.1%;
+}
+
+.sbicontwo2 {
+  position: absolute;
+  top: 19.6%;
+  left: 57.3%;
+}
+
+.sbicontwo3 {
+  position: absolute;
+  top: 21.3%;
+  left: 51.1%;
+}
+
+.sbicontwo4 {
+  position: absolute;
+  top: 21.3%;
+  left: 57.3%;
+}
+
+.sbiconthree1 {
+  position: absolute;
+  top: 23.2%;
+  left: 51.1%;
+}
+
+.sbiconthree2 {
+  position: absolute;
+  top: 23.2%;
+  left: 57.3%;
+}
+
+.sbiconthree3 {
+  position: absolute;
+  top: 24.9%;
+  left: 51.1%;
+}
+
+.sbiconthree4 {
+  position: absolute;
+  top: 24.9%;
+  left: 57.3%;
+}
+
+.sbiconfour1 {
+  position: absolute;
+  top: 26.9%;
+  left: 51.1%;
+}
+
+.sbiconfour2 {
+  position: absolute;
+  top: 26.9%;
+  left: 57.3%;
+}
+
+.sbiconfour3 {
+  position: absolute;
+  top: 28.5%;
+  left: 51.1%;
+}
+
+.sbiconfour4 {
+  position: absolute;
+  top: 28.5%;
+  left: 57.3%;
+}
+
+.sbiconfive1 {
+  position: absolute;
+  top: 30.4%;
+  left: 51.1%;
+}
+
+.sbiconfive2 {
+  position: absolute;
+  top: 30.4%;
+  left: 57.3%;
+}
+
+.sbiconfive3 {
+  position: absolute;
+  top: 32.1%;
+  left: 51.1%;
+}
+
+.sbiconfive4 {
+  position: absolute;
+  top: 32.1%;
+  left: 57.3%;
+}
+
+.sbiconsix1 {
+  position: absolute;
+  top: 34.1%;
+  left: 51.1%;
+}
+
+.sbiconsix2 {
+  position: absolute;
+  top: 34.1%;
+  left: 57.3%;
+}
+
+.sbiconsix3 {
+  position: absolute;
+  top: 36.3%;
+  left: 51.1%;
+}
+
+.sbiconsix4 {
+  position: absolute;
+  top: 36.3%;
+  left: 57.3%;
+}
+
+.sbiconseven1 {
+  position: absolute;
+  top: 38.3%;
+  left: 51.1%;
+}
+
+.sbiconseven2 {
+  position: absolute;
+  top: 38.3%;
+  left: 57.3%;
+}
+
+.sbiconseven3 {
+  position: absolute;
+  top: 40.3%;
+  left: 51.1%;
+}
+
+.sbiconseven4 {
+  position: absolute;
+  top: 40.3%;
+  left: 57.3%;
+}
+
+.sbiconeight1 {
+  position: absolute;
+  top: 42.4%;
+  left: 57.3%;
+}
+
+.sbiconeight2 {
+  position: absolute;
+  top: 42.4%;
+  left: 51.1%;
+}
+
+.sbiconeight3 {
+  position: absolute;
+  top: 44.6%;
+  left: 51.1%;
+}
+
+.sbiconeight4 {
+  position: absolute;
+  top: 44.6%;
+  left: 57.3%;
+}
+
+.sbiconnine1 {
+  position: absolute;
+  top: 46.7%;
+  left: 51.1%;
+}
+
+.sbiconnine2 {
+  position: absolute;
+  top: 46.7%;
+  left: 57.3%;
+}
+
+.sbiconnine3 {
+  position: absolute;
+  top: 48.7%;
+  left: 51.1%;
+}
+
+.sbiconnine4 {
+  position: absolute;
+  top: 48.7%;
+  left: 57.3%;
+}
+
+.sbiconten1 {
+  position: absolute;
+  top: 50.9%;
+  left: 51.1%;
+}
+
+.sbiconten2 {
+  position: absolute;
+  top: 50.9%;
+  left: 57.3%;
+}
+
+.sbiconten3 {
+  position: absolute;
+  top: 53.1%;
+  left: 51.1%;
+}
+
+.sbiconten4 {
+  position: absolute;
+  top: 53.1%;
+  left: 57.3%;
+}
+
+.sbiconeleven1 {
+  position: absolute;
+  top: 55.2%;
+  left: 51.1%;
+}
+
+.sbiconeleven2 {
+  position: absolute;
+  top: 55.2%;
+  left: 57.3%;
+}
+
+.sbiconeleven3 {
+  position: absolute;
+  top: 57.3%;
+  left: 51.1%;
+}
+
+.sbiconeleven4 {
+  position: absolute;
+  top: 57.3%;
+  left: 57.3%;
+}
+
+.sbicontwleve1 {
+  position: absolute;
+  top: 59.4%;
+  left: 51.1%;
+}
+
+.sbicontwleve2 {
+  position: absolute;
+  top: 59.4%;
+  left: 57.3%;
+}
+
+.sbicontwleve3 {
+  position: absolute;
+  top: 61.5%;
+  left: 51.1%;
+}
+
+.sbicontwleve4 {
+  position: absolute;
+  top: 61.5%;
+  left: 57.3%;
+}
+
+.sbiconsubone1 {
+  position: absolute;
+  top: 63.5%;
+  left: 51.1%;
+}
+
+.sbiconsubone2 {
+  position: absolute;
+  top: 63.5%;
+  left: 57.3%;
+}
+
+.sbiconsubone3 {
+  position: absolute;
+  top: 65.5%;
+  left: 51.1%;
+}
+
+.sbiconsubone4 {
+  position: absolute;
+  top: 65.5%;
+  left: 57.3%;
+}
+
+.sbiconsubtwo1 {
+  position: absolute;
+  top: 67.4%;
+  left: 51.1%;
+}
+
+.sbiconsubtwo2 {
+  position: absolute;
+  top: 67.4%;
+  left: 57.3%;
+}
+
+.sbiconsubtwo3 {
+  position: absolute;
+  top: 69.3%;
+  left: 51.1%;
+}
+
+.sbiconsubtwo4 {
+  position: absolute;
+  top: 69.3%;
+  left: 57.3%;
+}
+
+.sbiconsubthree1 {
+  position: absolute;
+  top: 71.1%;
+  left: 51.1%;
+}
+
+.sbiconsubthree2 {
+  position: absolute;
+  top: 71.1%;
+  left: 57.3%;
+}
+
+.sbiconsubthree3 {
+  position: absolute;
+  top: 73%;
+  left: 51.1%;
+}
+
+.sbiconsubthree4 {
+  position: absolute;
+  top: 73%;
+  left: 57.3%;
+}
+
+.sbiconsubfour1 {
+  position: absolute;
+  top: 75%;
+  left: 51.1%;
+}
+
+.sbiconsubfour2 {
+  position: absolute;
+  top: 75%;
+  left: 57.3%;
+}
+
+.sbiconsubfour3 {
+  position: absolute;
+  top: 77%;
+  left: 51.1%;
+}
+
+.sbiconsubfour4 {
+  position: absolute;
+  top: 77%;
+  left: 57.3%;
+}
+
+.sbiconsubfive1 {
+  position: absolute;
+  top: 79%;
+  left: 51.1%;
+}
+
+.sbiconsubfive2 {
+  position: absolute;
+  top: 79%;
+  left: 57.3%;
+}
+
+.sbiconsubfive3 {
+  position: absolute;
+  top: 80.8%;
+  left: 51.1%;
+}
+
+.sbiconsubfive4 {
+  position: absolute;
+  top: 80.8%;
+  left: 57.3%;
+}
+
+.sbicontopleft {
+  position: absolute;
+  top: 80.1%;
+  left: 44%;
+}
+
+.sbicontopright {
+  position: absolute;
+  top: 80.1%;
+  left: 64.8%;
+}
+
+.sbiconmiddleleft {
+  position: absolute;
+  top: 90.5%;
+  left: 48.5%;
+}
+
+.sbiconmiddleright {
+  position: absolute;
+  top: 90.5%;
+  left: 60%;
+}
+
+.sbiconbottomleft {
+  position: absolute;
+  top: 96.3%;
+  left: 51.3%;
+}
+
+.sbiconbottomright {
+  position: absolute;
+  top: 96.4%;
+  left: 57.1%;
+}
+
+.newspinebtn button {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.spinaimg {
+  height: auto !important;
+  width: 130px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 425px) {
+
+  /* front 1 to 7 */
+  .sficon1 {
+    position: absolute;
+    top: 1.5%;
+    left: 42%;
+  }
+
+  .sficon2 {
+    position: absolute;
+    top: 3.8%;
+    left: 42.7%;
+  }
+
+  .sficon3 {
+    position: absolute;
+    top: 5.8%;
+    left: 41.7%;
+  }
+
+  .sficon4 {
+    position: absolute;
+    top: 7.7%;
+    left: 40.5%;
+  }
+
+  .sficon5 {
+    position: absolute;
+    top: 9.5%;
+    left: 38%;
+  }
+
+  .sficon6 {
+    position: absolute;
+    top: 11.6%;
+    left: 36.8%;
+  }
+
+  .sficon7 {
+    position: absolute;
+    top: 14%;
+    left: 34%;
+  }
+
+  /* front 1 to 12  */
+
+  .sficons1 {
+    position: absolute;
+    top: 17%;
+    left: 31.6%;
+  }
+
+  .sficons2 {
+    position: absolute;
+    top: 20.7%;
+    left: 28.1%;
+  }
+
+  .sficons3 {
+    position: absolute;
+    top: 24.5%;
+    left: 26%;
+  }
+
+  .sficons4 {
+    position: absolute;
+    top: 28.5%;
+    left: 22.5%;
+  }
+
+  .sficons5 {
+    position: absolute;
+    top: 32%;
+    left: 21.7%;
+  }
+
+  .sficons6 {
+    position: absolute;
+    top: 35.9%;
+    left: 19.7%;
+  }
+
+  .sficons7 {
+    position: absolute;
+    top: 40.2%;
+    left: 21%;
+  }
+
+  .sficons8 {
+    position: absolute;
+    top: 43.4%;
+    left: 23.5%;
+  }
+
+  .sficons9 {
+    position: absolute;
+    top: 46.7%;
+    left: 25.5%;
+  }
+
+  .sficons10 {
+    position: absolute;
+    top: 51.3%;
+    left: 28.5%;
+  }
+
+  .sficons11 {
+    position: absolute;
+    top: 56.2%;
+    left: 32%;
+  }
+
+  .sficons12 {
+    position: absolute;
+    top: 61%;
+    left: 37%;
+  }
+
+  /* front 1 to 5 */
+  .sficonssub1 {
+    position: absolute;
+    top: 63.8%;
+    left: 42%;
+  }
+
+  .sficonssub2 {
+    position: absolute;
+    top: 67.3%;
+    left: 45.3%;
+  }
+
+  .sficonssub3 {
+    position: absolute;
+    top: 71.5%;
+    left: 45.5%;
+  }
+
+  .sficonssub4 {
+    position: absolute;
+    top: 75.2%;
+    left: 44.7%;
+  }
+
+  .sficonssub5 {
+    position: absolute;
+    top: 78.4%;
+    left: 44.2%;
+  }
+
+  .sficonsubleft {
+    position: absolute;
+    top: 79.8%;
+    left: 54.5%;
+  }
+
+  .sficonsubright {
+    position: absolute;
+    top: 79.8%;
+    left: 61.8%;
+  }
+
+  .sficontopleft {
+    position: absolute;
+    top: 91.2%;
+    left: 47%;
+  }
+
+  .sficontopright {
+    position: absolute;
+    top: 91.2%;
+    left: 37.3%;
+  }
+
+  .sficonleftbottom {
+    position: absolute;
+    top: 96%;
+    left: 47%;
+  }
+
+  .sficonrightbottom {
+    position: absolute;
+    top: 96%;
+    left: 41%;
+  }
+
+  /* second back */
+  .sbicononesub1 {
+    position: absolute;
+    top: 1.1%;
+    left: 53.5%;
+  }
+
+  .sbicononesub2 {
+    position: absolute;
+    top: 1.1%;
+    left: 67.5%;
+  }
+
+  .sbicononesub3 {
+    position: absolute;
+    top: 2.1%;
+    left: 53.5%;
+  }
+
+  .sbicononesub4 {
+    position: absolute;
+    top: 2.1%;
+    left: 67.5%;
+  }
+
+  .sbicontwosub1 {
+    position: absolute;
+    top: 3%;
+    left: 53.5%;
+  }
+
+  .sbicontwosub2 {
+    position: absolute;
+    top: 3.1%;
+    left: 67.5%;
+  }
+
+  .sbicontwosub3 {
+    position: absolute;
+    top: 3.9%;
+    left: 53.5%;
+  }
+
+  .sbicontwosub4 {
+    position: absolute;
+    top: 3.9%;
+    left: 67.5%;
+  }
+
+  .sbiconthreesub1 {
+    position: absolute;
+    top: 4.7%;
+    left: 53.5%;
+  }
+
+  .sbiconthreesub2 {
+    position: absolute;
+    top: 4.7%;
+    left: 67.5%;
+  }
+
+  .sbiconthreesub3 {
+    position: absolute;
+    top: 5.7%;
+    left: 53.5%;
+  }
+
+  .sbiconthreesub4 {
+    position: absolute;
+    top: 5.7%;
+    left: 67.5%;
+  }
+
+  .sbiconfoursub1 {
+    position: absolute;
+    top: 6.6%;
+    left: 53.5%;
+  }
+
+  .sbiconfoursub2 {
+    position: absolute;
+    top: 6.6%;
+    left: 67.5%;
+  }
+
+  .sbiconfoursub3 {
+    position: absolute;
+    top: 7.6%;
+    left: 53.5%;
+  }
+
+  .sbiconfoursub4 {
+    position: absolute;
+    top: 7.6%;
+    left: 67.5%;
+  }
+
+  .sbiconfivesub1 {
+    position: absolute;
+    top: 8.5%;
+    left: 53.2%;
+  }
+
+  .sbiconfivesub2 {
+    position: absolute;
+    top: 8.5%;
+    left: 67.2%;
+  }
+
+  .sbiconfivesub3 {
+    position: absolute;
+    top: 9.5%;
+    left: 53.2%;
+  }
+
+  .sbiconfivesub4 {
+    position: absolute;
+    top: 9.5%;
+    left: 67.2%;
+  }
+
+  .sbiconsixsub1 {
+    position: absolute;
+    top: 10.5%;
+    left: 53.2%;
+  }
+
+  .sbiconsixsub2 {
+    position: absolute;
+    top: 10.5%;
+    left: 67.2%;
+  }
+
+  .sbiconsixsub3 {
+    position: absolute;
+    top: 11.6%;
+    left: 53.2%;
+  }
+
+  .sbiconsixsub4 {
+    position: absolute;
+    top: 11.6%;
+    left: 67.2%;
+  }
+
+  .sbiconsevensub1 {
+    position: absolute;
+    top: 13.1%;
+    left: 53%;
+  }
+
+  .sbiconsevensub2 {
+    position: absolute;
+    top: 13.1%;
+    left: 67%;
+  }
+
+  .sbiconsevensub3 {
+    position: absolute;
+    top: 14.5%;
+    left: 53%;
+  }
+
+  .sbiconsevensub4 {
+    position: absolute;
+    top: 14.5%;
+    left: 67%;
+  }
+
+  .sbiconone1 {
+    position: absolute;
+    top: 16.1%;
+    left: 52.2%;
+  }
+
+  .sbiconone2 {
+    position: absolute;
+    top: 16.1%;
+    left: 66.3%;
+  }
+
+  .sbiconone3 {
+    position: absolute;
+    top: 17.7%;
+    left: 52.2%;
+  }
+
+  .sbiconone4 {
+    position: absolute;
+    top: 17.7%;
+    left: 66.3%;
+  }
+
+  .sbicontwo1 {
+    position: absolute;
+    top: 19.6%;
+    left: 52.2%;
+  }
+
+  .sbicontwo2 {
+    position: absolute;
+    top: 19.6%;
+    left: 66.3%;
+  }
+
+  .sbicontwo3 {
+    position: absolute;
+    top: 21.3%;
+    left: 52.2%;
+  }
+
+  .sbicontwo4 {
+    position: absolute;
+    top: 21.3%;
+    left: 66.3%;
+  }
+
+  .sbiconthree1 {
+    position: absolute;
+    top: 23.2%;
+    left: 52.2%;
+  }
+
+  .sbiconthree2 {
+    position: absolute;
+    top: 23.2%;
+    left: 66.3%;
+  }
+
+  .sbiconthree3 {
+    position: absolute;
+    top: 24.9%;
+    left: 52.2%;
+  }
+
+  .sbiconthree4 {
+    position: absolute;
+    top: 24.9%;
+    left: 66.3%;
+  }
+
+  .sbiconfour1 {
+    position: absolute;
+    top: 26.9%;
+    left: 52.2%;
+  }
+
+  .sbiconfour2 {
+    position: absolute;
+    top: 26.9%;
+    left: 66.3%;
+  }
+
+  .sbiconfour3 {
+    position: absolute;
+    top: 28.5%;
+    left: 52.2%;
+  }
+
+  .sbiconfour4 {
+    position: absolute;
+    top: 28.6%;
+    left: 66.2%;
+  }
+
+  .sbiconfive1 {
+    position: absolute;
+    top: 30.4%;
+    left: 52.2%;
+  }
+
+  .sbiconfive2 {
+    position: absolute;
+    top: 30.4%;
+    left: 66.3%;
+  }
+
+  .sbiconfive3 {
+    position: absolute;
+    top: 32.1%;
+    left: 52.2%;
+  }
+
+  .sbiconfive4 {
+    position: absolute;
+    top: 32.1%;
+    left: 66.3%;
+  }
+
+  .sbiconsix1 {
+    position: absolute;
+    top: 34.1%;
+    left: 52.2%;
+  }
+
+  .sbiconsix2 {
+    position: absolute;
+    top: 34.1%;
+    left: 66.3%;
+  }
+
+  .sbiconsix3 {
+    position: absolute;
+    top: 36.3%;
+    left: 52.2%;
+  }
+
+  .sbiconsix4 {
+    position: absolute;
+    top: 36.3%;
+    left: 66.3%;
+  }
+
+  .sbiconseven1 {
+    position: absolute;
+    top: 38.3%;
+    left: 52.2%;
+  }
+
+  .sbiconseven2 {
+    position: absolute;
+    top: 38.3%;
+    left: 66.3%;
+  }
+
+  .sbiconseven3 {
+    position: absolute;
+    top: 40.3%;
+    left: 52.2%;
+  }
+
+  .sbiconseven4 {
+    position: absolute;
+    top: 40.3%;
+    left: 66.3%;
+  }
+
+  .sbiconeight1 {
+    position: absolute;
+    top: 42.4%;
+    left: 66.3%;
+  }
+
+  .sbiconeight2 {
+    position: absolute;
+    top: 42.4%;
+    left: 52.2%;
+  }
+
+  .sbiconeight3 {
+    position: absolute;
+    top: 44.6%;
+    left: 52.2%;
+  }
+
+  .sbiconeight4 {
+    position: absolute;
+    top: 44.6%;
+    left: 66.2%;
+  }
+
+  .sbiconnine1 {
+    position: absolute;
+    top: 46.7%;
+    left: 52.2%;
+  }
+
+  .sbiconnine2 {
+    position: absolute;
+    top: 46.7%;
+    left: 66.3%;
+  }
+
+  .sbiconnine3 {
+    position: absolute;
+    top: 48.7%;
+    left: 52.2%;
+  }
+
+  .sbiconnine4 {
+    position: absolute;
+    top: 48.7%;
+    left: 66.3%;
+  }
+
+  .sbiconten1 {
+    position: absolute;
+    top: 50.9%;
+    left: 52.2%;
+  }
+
+  .sbiconten2 {
+    position: absolute;
+    top: 50.9%;
+    left: 66.3%;
+  }
+
+  .sbiconten3 {
+    position: absolute;
+    top: 53.1%;
+    left: 52.2%;
+  }
+
+  .sbiconten4 {
+    position: absolute;
+    top: 53.1%;
+    left: 66.3%;
+  }
+
+  .sbiconeleven1 {
+    position: absolute;
+    top: 55.2%;
+    left: 52.2%;
+  }
+
+  .sbiconeleven2 {
+    position: absolute;
+    top: 55.2%;
+    left: 66.3%;
+  }
+
+  .sbiconeleven3 {
+    position: absolute;
+    top: 57.3%;
+    left: 52.2%;
+  }
+
+  .sbiconeleven4 {
+    position: absolute;
+    top: 57.3%;
+    left: 66.3%;
+  }
+
+  .sbicontwleve1 {
+    position: absolute;
+    top: 59.4%;
+    left: 52.2%;
+  }
+
+  .sbicontwleve2 {
+    position: absolute;
+    top: 59.4%;
+    left: 66.2%;
+  }
+
+  .sbicontwleve3 {
+    position: absolute;
+    top: 61.5%;
+    left: 52.2%;
+  }
+
+  .sbicontwleve4 {
+    position: absolute;
+    top: 61.5%;
+    left: 66.2%;
+  }
+
+  .sbiconsubone1 {
+    position: absolute;
+    top: 63.5%;
+    left: 52.2%;
+  }
+
+  .sbiconsubone2 {
+    position: absolute;
+    top: 63.5%;
+    left: 66.3%;
+  }
+
+  .sbiconsubone3 {
+    position: absolute;
+    top: 65.5%;
+    left: 52.2%;
+  }
+
+  .sbiconsubone4 {
+    position: absolute;
+    top: 65.5%;
+    left: 66.3%;
+  }
+
+  .sbiconsubtwo1 {
+    position: absolute;
+    top: 67.4%;
+    left: 52.2%;
+  }
+
+  .sbiconsubtwo2 {
+    position: absolute;
+    top: 67.4%;
+    left: 66.3%;
+  }
+
+  .sbiconsubtwo3 {
+    position: absolute;
+    top: 69.3%;
+    left: 52.2%;
+  }
+
+  .sbiconsubtwo4 {
+    position: absolute;
+    top: 69.3%;
+    left: 66.3%;
+  }
+
+  .sbiconsubthree1 {
+    position: absolute;
+    top: 71.1%;
+    left: 52.2%;
+  }
+
+  .sbiconsubthree2 {
+    position: absolute;
+    top: 71.1%;
+    left: 66.3%;
+  }
+
+  .sbiconsubthree3 {
+    position: absolute;
+    top: 73%;
+    left: 52.2%;
+  }
+
+  .sbiconsubthree4 {
+    position: absolute;
+    top: 73%;
+    left: 66.3%;
+  }
+
+  .sbiconsubfour1 {
+    position: absolute;
+    top: 75%;
+    left: 52.2%;
+  }
+
+  .sbiconsubfour2 {
+    position: absolute;
+    top: 75%;
+    left: 66.3%;
+  }
+
+  .sbiconsubfour3 {
+    position: absolute;
+    top: 77%;
+    left: 52.2%;
+  }
+
+  .sbiconsubfour4 {
+    position: absolute;
+    top: 77%;
+    left: 66.3%;
+  }
+
+  .sbiconsubfive1 {
+    position: absolute;
+    top: 79%;
+    left: 52.2%;
+  }
+
+  .sbiconsubfive2 {
+    position: absolute;
+    top: 79%;
+    left: 66.3%;
+  }
+
+  .sbiconsubfive3 {
+    position: absolute;
+    top: 80.8%;
+    left: 52.2%;
+  }
+
+  .sbiconsubfive4 {
+    position: absolute;
+    top: 80.8%;
+    left: 66.3%;
+  }
+
+  .sbicontopleft {
+    position: absolute;
+    top: 80.2%;
+    left: 36%;
+  }
+
+  .sbicontopright {
+    position: absolute;
+    top: 80.2%;
+    left: 82.6%;
+  }
+
+  .sbiconmiddleleft {
+    position: absolute;
+    top: 90.5%;
+    left: 47%;
+  }
+
+  .sbiconmiddleright {
+    position: absolute;
+    top: 90.5%;
+    left: 71.8%;
+  }
+
+  .sbiconbottomleft {
+    position: absolute;
+    top: 96.4%;
+    left: 52.6%;
+  }
+
+  .sbiconbottomright {
+    position: absolute;
+    top: 96.4%;
+    left: 65.8%;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+  /* front 1 to 7 */
+  .sficon1 {
+    position: absolute;
+    top: 1.5%;
+    left: 45.8%;
+  }
+
+  .sficon2 {
+    position: absolute;
+    top: 3.8%;
+    left: 46%;
+  }
+
+  .sficon3 {
+    position: absolute;
+    top: 5.7%;
+    left: 45.7%;
+  }
+
+  .sficon4 {
+    position: absolute;
+    top: 7.7%;
+    left: 45%;
+  }
+
+  .sficon5 {
+    position: absolute;
+    top: 9.5%;
+    left: 43.6%;
+  }
+
+  .sficon6 {
+    position: absolute;
+    top: 11.5%;
+    left: 42.9%;
+  }
+
+  .sficon7 {
+    position: absolute;
+    top: 13.9%;
+    left: 41.3%;
+  }
+
+  /* front 1 to 12  */
+
+  .sficons1 {
+    position: absolute;
+    top: 17%;
+    left: 40%;
+  }
+
+  .sficons2 {
+    position: absolute;
+    top: 20.5%;
+    left: 38.3%;
+  }
+
+  .sficons3 {
+    position: absolute;
+    top: 24.5%;
+    left: 37%;
+  }
+
+  .sficons4 {
+    position: absolute;
+    top: 28.5%;
+    left: 35.3%;
+  }
+
+  .sficons5 {
+    position: absolute;
+    top: 32%;
+    left: 35.2%;
+  }
+
+  .sficons6 {
+    position: absolute;
+    top: 35.8%;
+    left: 33.8%;
+  }
+
+  .sficons7 {
+    position: absolute;
+    top: 40.2%;
+    left: 34.6%;
+  }
+
+  .sficons8 {
+    position: absolute;
+    top: 43.4%;
+    left: 35.9%;
+  }
+
+  .sficons9 {
+    position: absolute;
+    top: 46.7%;
+    left: 37%;
+  }
+
+  .sficons10 {
+    position: absolute;
+    top: 51.2%;
+    left: 38.8%;
+  }
+
+  .sficons11 {
+    position: absolute;
+    top: 56.2%;
+    left: 40.7%;
+  }
+
+  .sficons12 {
+    position: absolute;
+    top: 61%;
+    left: 43%;
+  }
+
+  /* front 1 to 5 */
+  .sficonssub1 {
+    position: absolute;
+    top: 63.8%;
+    left: 46%;
+  }
+
+  .sficonssub2 {
+    position: absolute;
+    top: 67.3%;
+    left: 47.5%;
+  }
+
+  .sficonssub3 {
+    position: absolute;
+    top: 71.5%;
+    left: 47.5%;
+  }
+
+  .sficonssub4 {
+    position: absolute;
+    top: 75.2%;
+    left: 47.3%;
+  }
+
+  .sficonssub5 {
+    position: absolute;
+    top: 78.4%;
+    left: 47%;
+  }
+
+  .sficonsubleft {
+    position: absolute;
+    top: 79.8%;
+    left: 52.4%;
+  }
+
+  .sficonsubright {
+    position: absolute;
+    top: 79.8%;
+    left: 56.3%;
+  }
+
+  .sficontopleft {
+    position: absolute;
+    top: 91.2%;
+    left: 48.5%;
+  }
+
+  .sficontopright {
+    position: absolute;
+    top: 91.2%;
+    left: 43.5%;
+  }
+
+  .sficonleftbottom {
+    position: absolute;
+    top: 96%;
+    left: 48.3%;
+  }
+
+  .sficonrightbottom {
+    position: absolute;
+    top: 96%;
+    left: 45.3%;
+  }
+
+  /* second back */
+  .sbicononesub1 {
+    position: absolute;
+    top: 1.1%;
+    left: 51.3%;
+  }
+
+  .sbicononesub2 {
+    position: absolute;
+    top: 1.1%;
+    left: 57%;
+  }
+
+  .sbicononesub3 {
+    position: absolute;
+    top: 2.1%;
+    left: 51.3%;
+  }
+
+  .sbicononesub4 {
+    position: absolute;
+    top: 2.1%;
+    left: 57%;
+  }
+
+  .sbicontwosub1 {
+    position: absolute;
+    top: 3%;
+    left: 51.3%;
+  }
+
+  .sbicontwosub2 {
+    position: absolute;
+    top: 3.1%;
+    left: 57%;
+  }
+
+  .sbicontwosub3 {
+    position: absolute;
+    top: 3.9%;
+    left: 51.3%;
+  }
+
+  .sbicontwosub4 {
+    position: absolute;
+    top: 3.9%;
+    left: 57%;
+  }
+
+  .sbiconthreesub1 {
+    position: absolute;
+    top: 4.7%;
+    left: 51.3%;
+  }
+
+  .sbiconthreesub2 {
+    position: absolute;
+    top: 4.7%;
+    left: 57%;
+  }
+
+  .sbiconthreesub3 {
+    position: absolute;
+    top: 5.7%;
+    left: 51.3%;
+  }
+
+  .sbiconthreesub4 {
+    position: absolute;
+    top: 5.7%;
+    left: 57%;
+  }
+
+  .sbiconfoursub1 {
+    position: absolute;
+    top: 6.6%;
+    left: 51.3%;
+  }
+
+  .sbiconfoursub2 {
+    position: absolute;
+    top: 6.6%;
+    left: 57%;
+  }
+
+  .sbiconfoursub3 {
+    position: absolute;
+    top: 7.6%;
+    left: 51.3%;
+  }
+
+  .sbiconfoursub4 {
+    position: absolute;
+    top: 7.6%;
+    left: 57%;
+  }
+
+  .sbiconfivesub1 {
+    position: absolute;
+    top: 8.5%;
+    left: 51.3%;
+  }
+
+  .sbiconfivesub2 {
+    position: absolute;
+    top: 8.5%;
+    left: 57%;
+  }
+
+  .sbiconfivesub3 {
+    position: absolute;
+    top: 9.5%;
+    left: 51.3%;
+  }
+
+  .sbiconfivesub4 {
+    position: absolute;
+    top: 9.5%;
+    left: 57%;
+  }
+
+  .sbiconsixsub1 {
+    position: absolute;
+    top: 10.5%;
+    left: 51.3%;
+  }
+
+  .sbiconsixsub2 {
+    position: absolute;
+    top: 10.5%;
+    left: 57%;
+  }
+
+  .sbiconsixsub3 {
+    position: absolute;
+    top: 11.6%;
+    left: 51.3%;
+  }
+
+  .sbiconsixsub4 {
+    position: absolute;
+    top: 11.6%;
+    left: 57%;
+  }
+
+  .sbiconsevensub1 {
+    position: absolute;
+    top: 13.1%;
+    left: 51%;
+  }
+
+  .sbiconsevensub2 {
+    position: absolute;
+    top: 13.1%;
+    left: 56.6%;
+  }
+
+  .sbiconsevensub3 {
+    position: absolute;
+    top: 14.5%;
+    left: 51%;
+  }
+
+  .sbiconsevensub4 {
+    position: absolute;
+    top: 14.5%;
+    left: 56.6%;
+  }
+
+  .sbiconone1 {
+    position: absolute;
+    top: 16.1%;
+    left: 50.8%;
+  }
+
+  .sbiconone2 {
+    position: absolute;
+    top: 16.1%;
+    left: 56.4%;
+  }
+
+  .sbiconone3 {
+    position: absolute;
+    top: 17.7%;
+    left: 50.8%;
+  }
+
+  .sbiconone4 {
+    position: absolute;
+    top: 17.7%;
+    left: 56.4%;
+  }
+
+  .sbicontwo1 {
+    position: absolute;
+    top: 19.6%;
+    left: 50.8%;
+  }
+
+  .sbicontwo2 {
+    position: absolute;
+    top: 19.6%;
+    left: 56.4%;
+  }
+
+  .sbicontwo3 {
+    position: absolute;
+    top: 21.3%;
+    left: 50.8%;
+  }
+
+  .sbicontwo4 {
+    position: absolute;
+    top: 21.3%;
+    left: 56.4%;
+  }
+
+  .sbiconthree1 {
+    position: absolute;
+    top: 23.2%;
+    left: 50.8%;
+  }
+
+  .sbiconthree2 {
+    position: absolute;
+    top: 23.2%;
+    left: 56.4%;
+  }
+
+  .sbiconthree3 {
+    position: absolute;
+    top: 24.9%;
+    left: 50.8%;
+  }
+
+  .sbiconthree4 {
+    position: absolute;
+    top: 24.9%;
+    left: 56.4%;
+  }
+
+  .sbiconfour1 {
+    position: absolute;
+    top: 26.9%;
+    left: 50.8%;
+  }
+
+  .sbiconfour2 {
+    position: absolute;
+    top: 26.9%;
+    left: 56.4%;
+  }
+
+  .sbiconfour3 {
+    position: absolute;
+    top: 28.5%;
+    left: 50.8%;
+  }
+
+  .sbiconfour4 {
+    position: absolute;
+    top: 28.6%;
+    left: 56.4%;
+  }
+
+  .sbiconfive1 {
+    position: absolute;
+    top: 30.4%;
+    left: 50.8%;
+  }
+
+  .sbiconfive2 {
+    position: absolute;
+    top: 30.4%;
+    left: 56.4%;
+  }
+
+  .sbiconfive3 {
+    position: absolute;
+    top: 32.1%;
+    left: 50.8%;
+  }
+
+  .sbiconfive4 {
+    position: absolute;
+    top: 32.1%;
+    left: 56.4%;
+  }
+
+  .sbiconsix1 {
+    position: absolute;
+    top: 34.1%;
+    left: 50.8%;
+  }
+
+  .sbiconsix2 {
+    position: absolute;
+    top: 34.1%;
+    left: 56.4%;
+  }
+
+  .sbiconsix3 {
+    position: absolute;
+    top: 36.3%;
+    left: 50.8%;
+  }
+
+  .sbiconsix4 {
+    position: absolute;
+    top: 36.3%;
+    left: 56.4%;
+  }
+
+  .sbiconseven1 {
+    position: absolute;
+    top: 38.3%;
+    left: 50.8%;
+  }
+
+  .sbiconseven2 {
+    position: absolute;
+    top: 38.3%;
+    left: 56.4%;
+  }
+
+  .sbiconseven3 {
+    position: absolute;
+    top: 40.3%;
+    left: 50.7%;
+  }
+
+  .sbiconseven4 {
+    position: absolute;
+    top: 40.3%;
+    left: 56.4%;
+  }
+
+  .sbiconeight1 {
+    position: absolute;
+    top: 42.4%;
+    left: 50.7%;
+  }
+
+  .sbiconeight2 {
+    position: absolute;
+    top: 42.4%;
+    left: 56.4%;
+  }
+
+  .sbiconeight3 {
+    position: absolute;
+    top: 44.6%;
+    left: 50.7%;
+  }
+
+  .sbiconeight4 {
+    position: absolute;
+    top: 44.6%;
+    left: 56.4%;
+  }
+
+  .sbiconnine1 {
+    position: absolute;
+    top: 46.7%;
+    left: 50.7%;
+  }
+
+  .sbiconnine2 {
+    position: absolute;
+    top: 46.7%;
+    left: 56.4%;
+  }
+
+  .sbiconnine3 {
+    position: absolute;
+    top: 48.7%;
+    left: 50.7%;
+  }
+
+  .sbiconnine4 {
+    position: absolute;
+    top: 48.7%;
+    left: 56.4%;
+  }
+
+  .sbiconten1 {
+    position: absolute;
+    top: 50.9%;
+    left: 50.7%;
+  }
+
+  .sbiconten2 {
+    position: absolute;
+    top: 50.9%;
+    left: 56.4%;
+  }
+
+  .sbiconten3 {
+    position: absolute;
+    top: 53.1%;
+    left: 50.7%;
+  }
+
+  .sbiconten4 {
+    position: absolute;
+    top: 53.1%;
+    left: 56.4%;
+  }
+
+  .sbiconeleven1 {
+    position: absolute;
+    top: 55.2%;
+    left: 50.7%;
+  }
+
+  .sbiconeleven2 {
+    position: absolute;
+    top: 55.2%;
+    left: 56.4%;
+  }
+
+  .sbiconeleven3 {
+    position: absolute;
+    top: 57.3%;
+    left: 50.7%;
+  }
+
+  .sbiconeleven4 {
+    position: absolute;
+    top: 57.3%;
+    left: 56.4%;
+  }
+
+  .sbicontwleve1 {
+    position: absolute;
+    top: 59.4%;
+    left: 50.7%;
+  }
+
+  .sbicontwleve2 {
+    position: absolute;
+    top: 59.4%;
+    left: 56.4%;
+  }
+
+  .sbicontwleve3 {
+    position: absolute;
+    top: 61.5%;
+    left: 50.7%;
+  }
+
+  .sbicontwleve4 {
+    position: absolute;
+    top: 61.5%;
+    left: 56.4%;
+  }
+
+  .sbiconsubone1 {
+    position: absolute;
+    top: 63.5%;
+    left: 50.7%;
+  }
+
+  .sbiconsubone2 {
+    position: absolute;
+    top: 63.5%;
+    left: 56.4%;
+  }
+
+  .sbiconsubone3 {
+    position: absolute;
+    top: 65.5%;
+    left: 50.7%;
+  }
+
+  .sbiconsubone4 {
+    position: absolute;
+    top: 65.5%;
+    left: 56.4%;
+  }
+
+  .sbiconsubtwo1 {
+    position: absolute;
+    top: 67.4%;
+    left: 50.7%;
+  }
+
+  .sbiconsubtwo2 {
+    position: absolute;
+    top: 67.4%;
+    left: 56.4%;
+  }
+
+  .sbiconsubtwo3 {
+    position: absolute;
+    top: 69.3%;
+    left: 50.7%;
+  }
+
+  .sbiconsubtwo4 {
+    position: absolute;
+    top: 69.3%;
+    left: 56.4%;
+  }
+
+  .sbiconsubthree1 {
+    position: absolute;
+    top: 71.1%;
+    left: 50.7%;
+  }
+
+  .sbiconsubthree2 {
+    position: absolute;
+    top: 71.1%;
+    left: 56.4%;
+  }
+
+  .sbiconsubthree3 {
+    position: absolute;
+    top: 73%;
+    left: 50.7%;
+  }
+
+  .sbiconsubthree4 {
+    position: absolute;
+    top: 73%;
+    left: 56.4%;
+  }
+
+  .sbiconsubfour1 {
+    position: absolute;
+    top: 75%;
+    left: 50.7%;
+  }
+
+  .sbiconsubfour2 {
+    position: absolute;
+    top: 75%;
+    left: 56.4%;
+  }
+
+  .sbiconsubfour3 {
+    position: absolute;
+    top: 77%;
+    left: 50.7%;
+  }
+
+  .sbiconsubfour4 {
+    position: absolute;
+    top: 77%;
+    left: 56.4%;
+  }
+
+  .sbiconsubfive1 {
+    position: absolute;
+    top: 79%;
+    left: 50.7%;
+  }
+
+  .sbiconsubfive2 {
+    position: absolute;
+    top: 79%;
+    left: 56.4%;
+  }
+
+  .sbiconsubfive3 {
+    position: absolute;
+    top: 80.8%;
+    left: 50.7%;
+  }
+
+  .sbiconsubfive4 {
+    position: absolute;
+    top: 80.8%;
+    left: 56.4%;
+  }
+
+  .sbicontopleft {
+    position: absolute;
+    top: 80.2%;
+    left: 44.5%;
+  }
+
+  .sbicontopright {
+    position: absolute;
+    top: 80.2%;
+    left: 62.9%;
+  }
+
+  .sbiconmiddleleft {
+    position: absolute;
+    top: 90.5%;
+    left: 48.8%;
+  }
+
+  .sbiconmiddleright {
+    position: absolute;
+    top: 90.5%;
+    left: 58.5%;
+  }
+
+  .sbiconbottomleft {
+    position: absolute;
+    top: 96.4%;
+    left: 51.1%;
+  }
+
+  .sbiconbottomright {
+    position: absolute;
+    top: 96.4%;
+    left: 56.3%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+  /* front 1 to 7 */
+  .sficon1 {
+    position: absolute;
+    top: 1.4%;
+    left: 43%;
+  }
+
+  .sficon2 {
+    position: absolute;
+    top: 3.9%;
+    left: 43.5%;
+  }
+
+  .sficon3 {
+    position: absolute;
+    top: 5.5%;
+    left: 43%;
+  }
+
+  .sficon4 {
+    position: absolute;
+    top: 7.5%;
+    left: 42.3%;
+  }
+
+  .sficon5 {
+    position: absolute;
+    top: 9.5%;
+    left: 40%;
+  }
+
+  .sficon6 {
+    position: absolute;
+    top: 11.4%;
+    left: 39%;
+  }
+
+  .sficon7 {
+    position: absolute;
+    top: 13.7%;
+    left: 36.8%;
+  }
+
+  /* front 1 to 12  */
+
+  .sficons1 {
+    position: absolute;
+    top: 16.5%;
+    left: 34.8%;
+  }
+
+  .sficons2 {
+    position: absolute;
+    top: 20%;
+    left: 31.3%;
+  }
+
+  .sficons3 {
+    position: absolute;
+    top: 24%;
+    left: 30%;
+  }
+
+  .sficons4 {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+  }
+
+  .sficons5 {
+    position: absolute;
+    top: 31.3%;
+    left: 26.7%;
+  }
+
+  .sficons6 {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+  }
+
+  .sficons7 {
+    position: absolute;
+    top: 39.2%;
+    left: 25.8%;
+  }
+
+  .sficons8 {
+    position: absolute;
+    top: 42.3%;
+    left: 27.8%;
+  }
+
+  .sficons9 {
+    position: absolute;
+    top: 45.5%;
+    left: 29.3%;
+  }
+
+  .sficons10 {
+    position: absolute;
+    top: 50%;
+    left: 31.9%;
+  }
+
+  .sficons11 {
+    position: absolute;
+    top: 54.8%;
+    left: 34.9%;
+  }
+
+  .sficons12 {
+    position: absolute;
+    top: 59.5%;
+    left: 38.9%;
+  }
+
+  /* front 1 to 5 */
+  .sficonssub1 {
+    position: absolute;
+    top: 62.3%;
+    left: 43.3%;
+  }
+
+  .sficonssub2 {
+    position: absolute;
+    top: 65.8%;
+    left: 45.9%;
+  }
+
+  .sficonssub3 {
+    position: absolute;
+    top: 69.7%;
+    left: 46.3%;
+  }
+
+  .sficonssub4 {
+    position: absolute;
+    top: 73.5%;
+    left: 45.5%;
+  }
+
+  .sficonssub5 {
+    position: absolute;
+    top: 76.5%;
+    left: 45%;
+  }
+
+  .sficonsubleft {
+    position: absolute;
+    top: 77.8%;
+    left: 53.7%;
+  }
+
+  .sficonsubright {
+    position: absolute;
+    top: 77.8%;
+    left: 59.5%;
+  }
+
+  .sficontopleft {
+    position: absolute;
+    top: 88.8%;
+    left: 47.7%;
+  }
+
+  .sficontopright {
+    position: absolute;
+    top: 88.8%;
+    left: 39.5%;
+  }
+
+  .sficonleftbottom {
+    position: absolute;
+    top: 93.8%;
+    left: 47.7%;
+  }
+
+  .sficonrightbottom {
+    position: absolute;
+    top: 93.7%;
+    left: 42.6%;
+  }
+
+  /* second back */
+  .sbicononesub1 {
+    position: absolute;
+    top: 1.1%;
+    left: 52%;
+  }
+
+  .sbicononesub2 {
+    position: absolute;
+    top: 1.1%;
+    left: 61%;
+  }
+
+  .sbicononesub3 {
+    position: absolute;
+    top: 2.1%;
+    left: 52%;
+  }
+
+  .sbicononesub4 {
+    position: absolute;
+    top: 2.1%;
+    left: 61%;
+  }
+
+  .sbicontwosub1 {
+    position: absolute;
+    top: 3%;
+    left: 52%;
+  }
+
+  .sbicontwosub2 {
+    position: absolute;
+    top: 3.1%;
+    left: 61%;
+  }
+
+  .sbicontwosub3 {
+    position: absolute;
+    top: 3.9%;
+    left: 52%;
+  }
+
+  .sbicontwosub4 {
+    position: absolute;
+    top: 3.9%;
+    left: 61%;
+  }
+
+  .sbiconthreesub1 {
+    position: absolute;
+    top: 4.7%;
+    left: 52%;
+  }
+
+  .sbiconthreesub2 {
+    position: absolute;
+    top: 4.7%;
+    left: 61%;
+  }
+
+  .sbiconthreesub3 {
+    position: absolute;
+    top: 5.7%;
+    left: 52%;
+  }
+
+  .sbiconthreesub4 {
+    position: absolute;
+    top: 5.7%;
+    left: 61%;
+  }
+
+  .sbiconfoursub1 {
+    position: absolute;
+    top: 6.6%;
+    left: 52%;
+  }
+
+  .sbiconfoursub2 {
+    position: absolute;
+    top: 6.6%;
+    left: 61%;
+  }
+
+  .sbiconfoursub3 {
+    position: absolute;
+    top: 7.6%;
+    left: 52%;
+  }
+
+  .sbiconfoursub4 {
+    position: absolute;
+    top: 7.6%;
+    left: 61%;
+  }
+
+  .sbiconfivesub1 {
+    position: absolute;
+    top: 8.5%;
+    left: 52.1%;
+  }
+
+  .sbiconfivesub2 {
+    position: absolute;
+    top: 8.5%;
+    left: 60.7%;
+  }
+
+  .sbiconfivesub3 {
+    position: absolute;
+    top: 9.5%;
+    left: 52.1%;
+  }
+
+  .sbiconfivesub4 {
+    position: absolute;
+    top: 9.5%;
+    left: 60.7%;
+  }
+
+  .sbiconsixsub1 {
+    position: absolute;
+    top: 10.5%;
+    left: 52.1%;
+  }
+
+  .sbiconsixsub2 {
+    position: absolute;
+    top: 10.5%;
+    left: 60.7%;
+  }
+
+  .sbiconsixsub3 {
+    position: absolute;
+    top: 11.6%;
+    left: 52.1%;
+  }
+
+  .sbiconsixsub4 {
+    position: absolute;
+    top: 11.6%;
+    left: 60.7%;
+  }
+
+  .sbiconsevensub1 {
+    position: absolute;
+    top: 13.1%;
+    left: 51.9%;
+  }
+
+  .sbiconsevensub2 {
+    position: absolute;
+    top: 13.1%;
+    left: 60.5%;
+  }
+
+  .sbiconsevensub3 {
+    position: absolute;
+    top: 14.5%;
+    left: 51.9%;
+  }
+
+  .sbiconsevensub4 {
+    position: absolute;
+    top: 14.5%;
+    left: 60.5%;
+  }
+
+  .sbiconone1 {
+    position: absolute;
+    top: 16.1%;
+    left: 51.4%;
+  }
+
+  .sbiconone2 {
+    position: absolute;
+    top: 16.1%;
+    left: 60.1%;
+  }
+
+  .sbiconone3 {
+    position: absolute;
+    top: 17.7%;
+    left: 51.4%;
+  }
+
+  .sbiconone4 {
+    position: absolute;
+    top: 17.7%;
+    left: 60.1%;
+  }
+
+  .sbicontwo1 {
+    position: absolute;
+    top: 19.6%;
+    left: 51.4%;
+  }
+
+  .sbicontwo2 {
+    position: absolute;
+    top: 19.6%;
+    left: 60.1%;
+  }
+
+  .sbicontwo3 {
+    position: absolute;
+    top: 21.3%;
+    left: 51.4%;
+  }
+
+  .sbicontwo4 {
+    position: absolute;
+    top: 21.3%;
+    left: 60.1%;
+  }
+
+  .sbiconthree1 {
+    position: absolute;
+    top: 23.2%;
+    left: 51.4%;
+  }
+
+  .sbiconthree2 {
+    position: absolute;
+    top: 23.2%;
+    left: 60.1%;
+  }
+
+  .sbiconthree3 {
+    position: absolute;
+    top: 24.9%;
+    left: 51.4%;
+  }
+
+  .sbiconthree4 {
+    position: absolute;
+    top: 24.9%;
+    left: 60.1%;
+  }
+
+  .sbiconfour1 {
+    position: absolute;
+    top: 26.9%;
+    left: 51.4%;
+  }
+
+  .sbiconfour2 {
+    position: absolute;
+    top: 26.9%;
+    left: 60.1%;
+  }
+
+  .sbiconfour3 {
+    position: absolute;
+    top: 28.5%;
+    left: 51.4%;
+  }
+
+  .sbiconfour4 {
+    position: absolute;
+    top: 28.6%;
+    left: 60.1%;
+  }
+
+  .sbiconfive1 {
+    position: absolute;
+    top: 30.4%;
+    left: 51.4%;
+  }
+
+  .sbiconfive2 {
+    position: absolute;
+    top: 30.4%;
+    left: 60.1%;
+  }
+
+  .sbiconfive3 {
+    position: absolute;
+    top: 32.1%;
+    left: 51.4%;
+  }
+
+  .sbiconfive4 {
+    position: absolute;
+    top: 32.1%;
+    left: 60.1%;
+  }
+
+  .sbiconsix1 {
+    position: absolute;
+    top: 34.1%;
+    left: 51.4%;
+  }
+
+  .sbiconsix2 {
+    position: absolute;
+    top: 34.1%;
+    left: 60.1%;
+  }
+
+  .sbiconsix3 {
+    position: absolute;
+    top: 36.3%;
+    left: 51.4%;
+  }
+
+  .sbiconsix4 {
+    position: absolute;
+    top: 36.3%;
+    left: 60.1%;
+  }
+
+  .sbiconseven1 {
+    position: absolute;
+    top: 38.3%;
+    left: 51.4%;
+  }
+
+  .sbiconseven2 {
+    position: absolute;
+    top: 38.3%;
+    left: 60.1%;
+  }
+
+  .sbiconseven3 {
+    position: absolute;
+    top: 40.3%;
+    left: 51.4%;
+  }
+
+  .sbiconseven4 {
+    position: absolute;
+    top: 40.3%;
+    left: 60.1%;
+  }
+
+  .sbiconeight1 {
+    position: absolute;
+    top: 42.4%;
+    left: 51.4%;
+  }
+
+  .sbiconeight2 {
+    position: absolute;
+    top: 42.4%;
+    left: 60.1%;
+  }
+
+  .sbiconeight3 {
+    position: absolute;
+    top: 44.6%;
+    left: 51.4%;
+  }
+
+  .sbiconeight4 {
+    position: absolute;
+    top: 44.6%;
+    left: 60.1%;
+  }
+
+  .sbiconnine1 {
+    position: absolute;
+    top: 46.7%;
+    left: 51.4%;
+  }
+
+  .sbiconnine2 {
+    position: absolute;
+    top: 46.7%;
+    left: 60.1%;
+  }
+
+  .sbiconnine3 {
+    position: absolute;
+    top: 48.7%;
+    left: 51.4%;
+  }
+
+  .sbiconnine4 {
+    position: absolute;
+    top: 48.7%;
+    left: 60.1%;
+  }
+
+  .sbiconten1 {
+    position: absolute;
+    top: 50.9%;
+    left: 51.4%;
+  }
+
+  .sbiconten2 {
+    position: absolute;
+    top: 50.9%;
+    left: 60.1%;
+  }
+
+  .sbiconten3 {
+    position: absolute;
+    top: 53.1%;
+    left: 51.4%;
+  }
+
+  .sbiconten4 {
+    position: absolute;
+    top: 53.1%;
+    left: 60.1%;
+  }
+
+  .sbiconeleven1 {
+    position: absolute;
+    top: 55.2%;
+    left: 51.4%;
+  }
+
+  .sbiconeleven2 {
+    position: absolute;
+    top: 55.2%;
+    left: 60.1%;
+  }
+
+  .sbiconeleven3 {
+    position: absolute;
+    top: 57.3%;
+    left: 51.4%;
+  }
+
+  .sbiconeleven4 {
+    position: absolute;
+    top: 57.3%;
+    left: 60.1%;
+  }
+
+  .sbicontwleve1 {
+    position: absolute;
+    top: 59.4%;
+    left: 51.4%;
+  }
+
+  .sbicontwleve2 {
+    position: absolute;
+    top: 59.4%;
+    left: 60.1%;
+  }
+
+  .sbicontwleve3 {
+    position: absolute;
+    top: 61.5%;
+    left: 51.4%;
+  }
+
+  .sbicontwleve4 {
+    position: absolute;
+    top: 61.5%;
+    left: 60.1%;
+  }
+
+  .sbiconsubone1 {
+    position: absolute;
+    top: 63.5%;
+    left: 51.1%;
+  }
+
+  .sbiconsubone2 {
+    position: absolute;
+    top: 63.5%;
+    left: 60.1%;
+  }
+
+  .sbiconsubone3 {
+    position: absolute;
+    top: 65.5%;
+    left: 51.1%;
+  }
+
+  .sbiconsubone4 {
+    position: absolute;
+    top: 65.5%;
+    left: 60.1%;
+  }
+
+  .sbiconsubtwo1 {
+    position: absolute;
+    top: 67.4%;
+    left: 51.1%;
+  }
+
+  .sbiconsubtwo2 {
+    position: absolute;
+    top: 67.4%;
+    left: 60.1%;
+  }
+
+  .sbiconsubtwo3 {
+    position: absolute;
+    top: 69.3%;
+    left: 51.1%;
+  }
+
+  .sbiconsubtwo4 {
+    position: absolute;
+    top: 69.3%;
+    left: 60.1%;
+  }
+
+  .sbiconsubthree1 {
+    position: absolute;
+    top: 71.1%;
+    left: 51.1%;
+  }
+
+  .sbiconsubthree2 {
+    position: absolute;
+    top: 71.1%;
+    left: 60.1%;
+  }
+
+  .sbiconsubthree3 {
+    position: absolute;
+    top: 73%;
+    left: 51.1%;
+  }
+
+  .sbiconsubthree4 {
+    position: absolute;
+    top: 73%;
+    left: 60.1%;
+  }
+
+  .sbiconsubfour1 {
+    position: absolute;
+    top: 75%;
+    left: 51.1%;
+  }
+
+  .sbiconsubfour2 {
+    position: absolute;
+    top: 75%;
+    left: 60.1%;
+  }
+
+  .sbiconsubfour3 {
+    position: absolute;
+    top: 77%;
+    left: 51.1%;
+  }
+
+  .sbiconsubfour4 {
+    position: absolute;
+    top: 77%;
+    left: 60.1%;
+  }
+
+  .sbiconsubfive1 {
+    position: absolute;
+    top: 79%;
+    left: 51.1%;
+  }
+
+  .sbiconsubfive2 {
+    position: absolute;
+    top: 79%;
+    left: 60.1%;
+  }
+
+  .sbiconsubfive3 {
+    position: absolute;
+    top: 80.8%;
+    left: 51.1%;
+  }
+
+  .sbiconsubfive4 {
+    position: absolute;
+    top: 80.8%;
+    left: 60.1%;
+  }
+
+  .sbicontopleft {
+    position: absolute;
+    top: 80.2%;
+    left: 41.5%;
+  }
+
+  .sbicontopright {
+    position: absolute;
+    top: 80.2%;
+    left: 70.4%;
+  }
+
+  .sbiconmiddleleft {
+    position: absolute;
+    top: 90.5%;
+    left: 48.2%;
+  }
+
+  .sbiconmiddleright {
+    position: absolute;
+    top: 90.5%;
+    left: 63.5%;
+  }
+
+  .sbiconbottomleft {
+    position: absolute;
+    top: 96.3%;
+    left: 51.6%;
+  }
+
+  .sbiconbottomright {
+    position: absolute;
+    top: 96.3%;
+    left: 59.8%;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1440px) {
+
+  /* front 1 to 7 */
+  .sficon1 {
+    position: absolute;
+    top: 1.5%;
+    left: 45.3%;
+  }
+
+  .sficon2 {
+    position: absolute;
+    top: 3.8%;
+    left: 45.5%;
+  }
+
+  .sficon3 {
+    position: absolute;
+    top: 5.7%;
+    left: 45.2%;
+  }
+
+  .sficon4 {
+    position: absolute;
+    top: 7.5%;
+    left: 44.5%;
+  }
+
+  .sficon5 {
+    position: absolute;
+    top: 9.4%;
+    left: 43%;
+  }
+
+  .sficon6 {
+    position: absolute;
+    top: 11.3%;
+    left: 42.2%;
+  }
+
+  .sficon7 {
+    position: absolute;
+    top: 13.5%;
+    left: 40.5%;
+  }
+
+  /* front 1 to 12  */
+
+  .sficons1 {
+    position: absolute;
+    top: 16.8%;
+    left: 39%;
+  }
+
+  .sficons2 {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+  }
+
+  .sficons3 {
+    position: absolute;
+    top: 24%;
+    left: 35.7%;
+  }
+
+  .sficons4 {
+    position: absolute;
+    top: 27.9%;
+    left: 33.8%;
+  }
+
+  .sficons5 {
+    position: absolute;
+    top: 31.2%;
+    left: 33.5%;
+  }
+
+  .sficons6 {
+    position: absolute;
+    top: 35%;
+    left: 32%;
+  }
+
+  .sficons7 {
+    position: absolute;
+    top: 39.2%;
+    left: 33%;
+  }
+
+  .sficons8 {
+    position: absolute;
+    top: 42.3%;
+    left: 34.5%;
+  }
+
+  .sficons9 {
+    position: absolute;
+    top: 45.5%;
+    left: 35.5%;
+  }
+
+  .sficons10 {
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+  }
+
+  .sficons11 {
+    position: absolute;
+    top: 54.7%;
+    left: 39.4%;
+  }
+
+  .sficons12 {
+    position: absolute;
+    top: 59.4%;
+    left: 42.3%;
+  }
+
+  /* front 1 to 5 */
+  .sficonssub1 {
+    position: absolute;
+    top: 62.3%;
+    left: 45.7%;
+  }
+
+  .sficonssub2 {
+    position: absolute;
+    top: 65.7%;
+    left: 47.3%;
+  }
+
+  .sficonssub3 {
+    position: absolute;
+    top: 69.6%;
+    left: 47.5%;
+  }
+
+  .sficonssub4 {
+    position: absolute;
+    top: 73.5%;
+    left: 47%;
+  }
+
+  .sficonssub5 {
+    position: absolute;
+    top: 76.5%;
+    left: 46.6%;
+  }
+
+  .sficonsubleft {
+    position: absolute;
+    top: 77.8%;
+    left: 56.7%;
+  }
+
+  .sficonsubright {
+    position: absolute;
+    top: 77.8%;
+    left: 52.5%;
+
+  }
+
+  .sficontopleft {
+    position: absolute;
+    top: 88.9%;
+    left: 48.3%;
+  }
+
+  .sficontopright {
+    position: absolute;
+    top: 88.9%;
+    left: 42.5%;
+  }
+
+  .sficonleftbottom {
+    position: absolute;
+    top: 93.7%;
+    left: 48.3%;
+  }
+
+  .sficonrightbottom {
+    position: absolute;
+    top: 93.7%;
+    left: 44.8%;
+  }
+
+  /* second back */
+  .sbicononesub1 {
+    position: absolute;
+    top: 1.1%;
+    left: 51.5%;
+  }
+
+  .sbicononesub2 {
+    position: absolute;
+    top: 1.1%;
+    left: 57.5%;
+  }
+
+  .sbicononesub3 {
+    position: absolute;
+    top: 2.1%;
+    left: 51.5%;
+  }
+
+  .sbicononesub4 {
+    position: absolute;
+    top: 2.1%;
+    left: 57.5%;
+  }
+
+  .sbicontwosub1 {
+    position: absolute;
+    top: 3%;
+    left: 51.5%;
+  }
+
+  .sbicontwosub2 {
+    position: absolute;
+    top: 3.1%;
+    left: 57.5%;
+  }
+
+  .sbicontwosub3 {
+    position: absolute;
+    top: 3.9%;
+    left: 51.5%;
+  }
+
+  .sbicontwosub4 {
+    position: absolute;
+    top: 3.9%;
+    left: 57.5%;
+  }
+
+  .sbiconthreesub1 {
+    position: absolute;
+    top: 4.7%;
+    left: 51.5%;
+  }
+
+  .sbiconthreesub2 {
+    position: absolute;
+    top: 4.7%;
+    left: 57.5%;
+  }
+
+  .sbiconthreesub3 {
+    position: absolute;
+    top: 5.7%;
+    left: 51.5%;
+  }
+
+  .sbiconthreesub4 {
+    position: absolute;
+    top: 5.7%;
+    left: 57.5%;
+  }
+
+  .sbiconfoursub1 {
+    position: absolute;
+    top: 6.6%;
+    left: 51.5%;
+  }
+
+  .sbiconfoursub2 {
+    position: absolute;
+    top: 6.6%;
+    left: 57.5%;
+  }
+
+  .sbiconfoursub3 {
+    position: absolute;
+    top: 7.6%;
+    left: 51.5%;
+  }
+
+  .sbiconfoursub4 {
+    position: absolute;
+    top: 7.6%;
+    left: 57.5%;
+  }
+
+  .sbiconfivesub1 {
+    position: absolute;
+    top: 8.5%;
+    left: 51.4%;
+  }
+
+  .sbiconfivesub2 {
+    position: absolute;
+    top: 8.5%;
+    left: 57.4%;
+  }
+
+  .sbiconfivesub3 {
+    position: absolute;
+    top: 9.5%;
+    left: 51.4%;
+  }
+
+  .sbiconfivesub4 {
+    position: absolute;
+    top: 9.5%;
+    left: 57.4%;
+  }
+
+  .sbiconsixsub1 {
+    position: absolute;
+    top: 10.5%;
+    left: 51.4%;
+  }
+
+  .sbiconsixsub2 {
+    position: absolute;
+    top: 10.5%;
+    left: 57.4%;
+  }
+
+  .sbiconsixsub3 {
+    position: absolute;
+    top: 11.6%;
+    left: 51.4%;
+  }
+
+  .sbiconsixsub4 {
+    position: absolute;
+    top: 11.6%;
+    left: 57.4%;
+  }
+
+  .sbiconsevensub1 {
+    position: absolute;
+    top: 13.1%;
+    left: 51.4%;
+  }
+
+  .sbiconsevensub2 {
+    position: absolute;
+    top: 13.1%;
+    left: 57.4%;
+  }
+
+  .sbiconsevensub3 {
+    position: absolute;
+    top: 14.5%;
+    left: 51.4%;
+  }
+
+  .sbiconsevensub4 {
+    position: absolute;
+    top: 14.5%;
+    left: 57.4%;
+  }
+
+  .sbiconone1 {
+    position: absolute;
+    top: 16.1%;
+    left: 51%;
+  }
+
+  .sbiconone2 {
+    position: absolute;
+    top: 16.1%;
+    left: 57%;
+  }
+
+  .sbiconone3 {
+    position: absolute;
+    top: 17.7%;
+    left: 51%;
+  }
+
+  .sbiconone4 {
+    position: absolute;
+    top: 17.7%;
+    left: 57%;
+  }
+
+  .sbicontwo1 {
+    position: absolute;
+    top: 19.6%;
+    left: 51%;
+  }
+
+  .sbicontwo2 {
+    position: absolute;
+    top: 19.6%;
+    left: 57%;
+  }
+
+  .sbicontwo3 {
+    position: absolute;
+    top: 21.3%;
+    left: 51%;
+  }
+
+  .sbicontwo4 {
+    position: absolute;
+    top: 21.3%;
+    left: 57%;
+  }
+
+  .sbiconthree1 {
+    position: absolute;
+    top: 23.2%;
+    left: 51%;
+  }
+
+  .sbiconthree2 {
+    position: absolute;
+    top: 23.2%;
+    left: 57%;
+  }
+
+  .sbiconthree3 {
+    position: absolute;
+    top: 24.9%;
+    left: 51%;
+  }
+
+  .sbiconthree4 {
+    position: absolute;
+    top: 24.9%;
+    left: 57%;
+  }
+
+  .sbiconfour1 {
+    position: absolute;
+    top: 26.9%;
+    left: 51%;
+  }
+
+  .sbiconfour2 {
+    position: absolute;
+    top: 26.9%;
+    left: 57%;
+  }
+
+  .sbiconfour3 {
+    position: absolute;
+    top: 28.5%;
+    left: 51%;
+  }
+
+  .sbiconfour4 {
+    position: absolute;
+    top: 28.6%;
+    left: 57%;
+  }
+
+  .sbiconfive1 {
+    position: absolute;
+    top: 30.4%;
+    left: 51%;
+  }
+
+  .sbiconfive2 {
+    position: absolute;
+    top: 30.4%;
+    left: 57%;
+  }
+
+  .sbiconfive3 {
+    position: absolute;
+    top: 32.1%;
+    left: 51%;
+  }
+
+  .sbiconfive4 {
+    position: absolute;
+    top: 32.1%;
+    left: 57%;
+  }
+
+  .sbiconsix1 {
+    position: absolute;
+    top: 34.1%;
+    left: 51%;
+  }
+
+  .sbiconsix2 {
+    position: absolute;
+    top: 34.1%;
+    left: 57%;
+  }
+
+  .sbiconsix3 {
+    position: absolute;
+    top: 36.3%;
+    left: 51%;
+  }
+
+  .sbiconsix4 {
+    position: absolute;
+    top: 36.3%;
+    left: 57%;
+  }
+
+  .sbiconseven1 {
+    position: absolute;
+    top: 38.3%;
+    left: 51%;
+  }
+
+  .sbiconseven2 {
+    position: absolute;
+    top: 38.3%;
+    left: 57%;
+  }
+
+  .sbiconseven3 {
+    position: absolute;
+    top: 40.3%;
+    left: 51%;
+  }
+
+  .sbiconseven4 {
+    position: absolute;
+    top: 40.3%;
+    left: 57%;
+  }
+
+  .sbiconeight1 {
+    position: absolute;
+    top: 42.4%;
+    left: 51%;
+  }
+
+  .sbiconeight2 {
+    position: absolute;
+    top: 42.4%;
+    left: 57%;
+  }
+
+  .sbiconeight3 {
+    position: absolute;
+    top: 44.6%;
+    left: 51%;
+  }
+
+  .sbiconeight4 {
+    position: absolute;
+    top: 44.6%;
+    left: 57%;
+  }
+
+  .sbiconnine1 {
+    position: absolute;
+    top: 46.7%;
+    left: 51%;
+  }
+
+  .sbiconnine2 {
+    position: absolute;
+    top: 46.7%;
+    left: 57%;
+  }
+
+  .sbiconnine3 {
+    position: absolute;
+    top: 48.7%;
+    left: 51%;
+  }
+
+  .sbiconnine4 {
+    position: absolute;
+    top: 48.7%;
+    left: 57%;
+  }
+
+  .sbiconten1 {
+    position: absolute;
+    top: 50.9%;
+    left: 51%;
+  }
+
+  .sbiconten2 {
+    position: absolute;
+    top: 50.9%;
+    left: 57%;
+  }
+
+  .sbiconten3 {
+    position: absolute;
+    top: 53.1%;
+    left: 51%;
+  }
+
+  .sbiconten4 {
+    position: absolute;
+    top: 53.1%;
+    left: 57%;
+  }
+
+  .sbiconeleven1 {
+    position: absolute;
+    top: 55.2%;
+    left: 51%;
+  }
+
+  .sbiconeleven2 {
+    position: absolute;
+    top: 55.2%;
+    left: 57%;
+  }
+
+  .sbiconeleven3 {
+    position: absolute;
+    top: 57.3%;
+    left: 51%;
+  }
+
+  .sbiconeleven4 {
+    position: absolute;
+    top: 57.3%;
+    left: 57%;
+  }
+
+  .sbicontwleve1 {
+    position: absolute;
+    top: 59.4%;
+    left: 51%;
+  }
+
+  .sbicontwleve2 {
+    position: absolute;
+    top: 59.4%;
+    left: 57%;
+  }
+
+  .sbicontwleve3 {
+    position: absolute;
+    top: 61.5%;
+    left: 51%;
+  }
+
+  .sbicontwleve4 {
+    position: absolute;
+    top: 61.5%;
+    left: 57%;
+  }
+
+  .sbiconsubone1 {
+    position: absolute;
+    top: 63.5%;
+    left: 51%;
+  }
+
+  .sbiconsubone2 {
+    position: absolute;
+    top: 63.5%;
+    left: 57%;
+  }
+
+  .sbiconsubone3 {
+    position: absolute;
+    top: 65.5%;
+    left: 51%;
+  }
+
+  .sbiconsubone4 {
+    position: absolute;
+    top: 65.5%;
+    left: 57%;
+  }
+
+  .sbiconsubtwo1 {
+    position: absolute;
+    top: 67.4%;
+    left: 51%;
+  }
+
+  .sbiconsubtwo2 {
+    position: absolute;
+    top: 67.4%;
+    left: 57%;
+  }
+
+  .sbiconsubtwo3 {
+    position: absolute;
+    top: 69.3%;
+    left: 51%;
+  }
+
+  .sbiconsubtwo4 {
+    position: absolute;
+    top: 69.3%;
+    left: 57%;
+  }
+
+  .sbiconsubthree1 {
+    position: absolute;
+    top: 71.1%;
+    left: 51%;
+  }
+
+  .sbiconsubthree2 {
+    position: absolute;
+    top: 71.1%;
+    left: 57%;
+  }
+
+  .sbiconsubthree3 {
+    position: absolute;
+    top: 73%;
+    left: 51%;
+  }
+
+  .sbiconsubthree4 {
+    position: absolute;
+    top: 73%;
+    left: 57%;
+  }
+
+  .sbiconsubfour1 {
+    position: absolute;
+    top: 75%;
+    left: 51%;
+  }
+
+  .sbiconsubfour2 {
+    position: absolute;
+    top: 75%;
+    left: 57%;
+  }
+
+  .sbiconsubfour3 {
+    position: absolute;
+    top: 77%;
+    left: 51%;
+  }
+
+  .sbiconsubfour4 {
+    position: absolute;
+    top: 77%;
+    left: 57%;
+  }
+
+  .sbiconsubfive1 {
+    position: absolute;
+    top: 79%;
+    left: 51%;
+  }
+
+  .sbiconsubfive2 {
+    position: absolute;
+    top: 79%;
+    left: 57%;
+  }
+
+  .sbiconsubfive3 {
+    position: absolute;
+    top: 80.8%;
+    left: 51%;
+  }
+
+  .sbiconsubfive4 {
+    position: absolute;
+    top: 80.8%;
+    left: 57%;
+  }
+
+  .sbicontopleft {
+    position: absolute;
+    top: 80.2%;
+    left: 43.9%;
+  }
+
+  .sbicontopright {
+    position: absolute;
+    top: 80.2%;
+    left: 64.3%;
+  }
+
+  .sbiconmiddleleft {
+    position: absolute;
+    top: 90.5%;
+    left: 48.6%;
+  }
+
+  .sbiconmiddleright {
+    position: absolute;
+    top: 90.5%;
+    left: 59.4%;
+  }
+
+  .sbiconbottomleft {
+    position: absolute;
+    top: 96.3%;
+    left: 51%;
+  }
+
+  .sbiconbottomright {
+    position: absolute;
+    top: 96.3%;
+    left: 56.9%;
+  }
+
+  .leftSpineeval {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+
+  .rightSpineeval {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+  }
+}

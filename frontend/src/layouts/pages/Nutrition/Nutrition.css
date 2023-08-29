@@ -1,0 +1,218 @@
+/* .finalName{
+   justify-content: right;
+} */
+.sequenceInput {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 100% !important;
+  height: 27px !important;
+  outline: none !important;
+  border: none !important;
+  margin-left: 15px;
+  padding: 10px;
+  height: 50px !important;
+  border-radius: 10px;
+}
+
+.SearchingSequence {
+  max-height: 300px;
+  width: 45%;
+  padding-left: 20px;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 101;
+  background: white;
+}
+
+.rpv-default-layout-sidebar-headers {
+  display: none !important;
+}
+.rpv-open-button {
+  display: none !important;
+}
+.rpv-zoom-popover-target {
+  display: none !important;
+}
+.rpv-core-button {
+  margin-left: -9px !important;
+}
+.rpv-default-layout-container {
+  border: none !important;
+}
+.document {
+  border-radius: 25px !important;
+  border: none;
+}
+.nutritionTitle {
+  padding: 5px;
+  /* text-align: center; */
+  display: flex !important;
+  justify-content: space-around !important;
+  font-size: 22px;
+  background-color: white !important;
+}
+.deleteIcon {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.nutritionTitle p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.rpv-default-layout-toolbar {
+  overflow-y: scroll !important;
+  overflow-x: unset !important;
+}
+
+.maintitle {
+  font-size: 1.25rem !important;
+  font-weight: 500;
+}
+.audiocontrols {
+  /* height: 200px !important; */
+  margin-top: 73px;
+  margin-bottom: 73px !important;
+  width: auto !important;
+  /* background-color: red; */
+}
+.audio {
+  background-color: #f1f3f4 !important;
+}
+.lengthmsg {
+  display: contents !important;
+}
+.css-zow5z4-MuiGrid-root {
+  justify-content: center !important;
+  display: flex;
+}
+
+.tabClass {
+  border: none !important;
+  outline: none !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  /* body {
+      background-color: gray !important;
+    } */
+  .SoftInputClass2 div {
+    width: 450px !important;
+    /* background-color: aqua; */
+    margin-left: 11px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* body {
+      background-color: gray !important;
+    } */
+  .SoftInputClass2 div {
+    width: 325px !important;
+    /* background-color: aqua; */
+    margin-left: 11px;
+  }
+}
+
+.otherlang3 {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 445px !important;
+  height: 27px !important;
+  outline: none !important;
+  border: none !important;
+  margin-left: 15px;
+  padding: 10px;
+  height: 50px !important;
+  border-radius: 10px;
+}
+.select-item3 {
+  border-left: 1px solid #d8dde6;
+}
+.profile-details-select3 {
+  border-bottom: 1px solid #d8dde6;
+}
+.SearchingClientNutrition {
+  max-height: 300px;
+  width: 45%;
+  padding-left: 20px;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 101;
+  background: white;
+}
+
+.cardProperty {
+  border: 1px solid #d3d3d3;
+  padding-top: 15px;
+}
+.pdfCartNutrition {
+  width: 88%;
+  padding-left: 12%;
+  height: 200px;
+}
+.videoNutrition {
+  width: 90%;
+  padding-left: 10%;
+  height: 200px;
+}
+.imageNutrtion {
+  object-fit: contain;
+  height: 200px;
+  width: 90%;
+  padding-left: 10%;
+  /* padding-top: 10px; */
+}
+@media only screen and (max-width: 320px) {
+  .otherlang3 {
+    width: 90% !important;
+  }
+  .name-span3 {
+    margin-top: 13px !important;
+  }
+  .SearchingClientNutrition {
+    width: 77%;
+  }
+  .videoNutrition {
+    width: 95% !important;
+    padding-left: 5% !important;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .otherlang3 {
+    width: 49% !important;
+    margin-left: 0px !important;
+  }
+
+  .videoNutrition {
+    width: 95% !important;
+    padding-left: 5% !important;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .otherlang3 {
+    width: 91% !important;
+  }
+  .SearchingClientNutrition {
+    width: 77%;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .otherlang3 {
+    width: 46% !important;
+  }
+  .SearchingClientNutrition {
+    width: 44%;
+  }
+}
+
+/* .pdfCartNutrition >  */
+.rpv-toolbar__center,
+.rpv-toolbar__left {
+  display: none !important;
+}

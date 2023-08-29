@@ -1,0 +1,659 @@
+@media (max-width: 767px) {
+  .uperspace {
+    margin-top: 16px;
+  }
+
+}
+
+.functional-sub {
+  padding-top: 0px !important;
+}
+
+.maintitle span {
+  font-size: 17px !important;
+  border-bottom: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.analysis {
+  display: flex;
+}
+
+.selectvalue {
+  margin-right: 8px;
+  width: 55px !important;
+  padding: 3px;
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+}
+
+.analysisinput input {
+  background-color: #f1f4ff;
+  /* padding: 5px !important; */
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 100% !important;
+  /* padding-top: 0px !important; */
+}
+
+.analysisinput input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysissubtitle p {
+  /* font-size: 15px;
+  color: black;
+  font-weight: bold;
+  justify-content: flex-start;
+  display: flex;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 0px !important;
+   */
+   font-size: 15px;
+   font-weight: bold;
+   color: black;
+   margin-right: 8px;
+   margin-top: 8px;
+   justify-content: flex-start;
+   display: flex;
+}
+
+.analysissubtitleform p {
+  font-size: 15px;
+  color: black;
+  margin-right: 8px;
+  margin-top: 8px;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.analysisinput1 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 637px !important;
+}
+
+.analysisinput1 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput2 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 580px !important;
+}
+
+.analysisinput2 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput3 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 599px !important;
+}
+
+.analysisinput3 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput4 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 576px !important;
+}
+
+.analysisinput4 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput5 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 609px !important;
+}
+
+.analysisinput5 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput6 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 503px !important;
+}
+
+.analysisinput6 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput8 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 594px !important;
+}
+
+.analysisinput8 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput9 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 511px !important;
+}
+
+.analysisinput9 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput10 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 405px !important;
+}
+
+.analysisinput10 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput11 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 514px !important;
+}
+
+.analysisinput11 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput12 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 582px !important;
+}
+
+.analysisinput12 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput13 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 460px !important;
+}
+
+.analysisinput13 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput14 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 604px !important;
+}
+
+.analysisinput14 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput15 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 634px !important;
+}
+
+.analysisinput15 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput16 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 604px !important;
+}
+
+.analysisinput16 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput17 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 688px !important;
+}
+
+.analysisinput17 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput18 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 680px !important;
+}
+
+.analysisinput18 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput19 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 540px !important;
+}
+
+.analysisinput19 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput20 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 548px !important;
+}
+
+.analysisinput20 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput21 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 595px !important;
+}
+
+.analysisinput21 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput22 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 589px !important;
+}
+
+.analysisinput22 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput23 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 494px !important;
+}
+
+.analysisinput23 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput24 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 580px !important;
+}
+
+.analysisinput24 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput25 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 472px !important;
+}
+
+.analysisinput25 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput26 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 479px !important;
+}
+
+.analysisinput26 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput27 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 651px !important;
+}
+
+.analysisinput27 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput28 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 513px !important;
+}
+
+.analysisinput28 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput29 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 477px !important;
+}
+
+.analysisinput29 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.analysisinput30 input {
+  background-color: #f1f4ff;
+  padding: 5px !important;
+  font-size: 15x !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 534px !important;
+}
+
+.analysisinput30 input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.thead {
+  margin-bottom: 15px;
+}
+
+.tablehead {
+  padding-left: 90px;
+  overflow-x: auto;
+}
+
+.table {
+  /* padding-left: 60px !; */
+  /* margin-right:0px ; */
+  display: block;
+  overflow-x: auto;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.Teststitle {
+  font-size: 13px !important;
+  color: black;
+  font-weight: bold;
+  margin-left: 120px;
+  width: 60px;
+}
+
+.tableRow {
+  color: black;
+  font-size: 15px !important;
+}
+
+.tableCol {
+  font-size: 13px;
+  padding-right: 60px !important;
+  padding-left: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.tableCol1 {
+  padding-right: 20px !important;
+  padding-left: 12px;
+}
+
+.tableCols1 {
+  padding-left: 12px;
+  display: flex;
+  padding-top: 8px;
+}
+
+.tableCols1 span {
+  font-size: 13px !important;
+  color: black;
+}
+
+.tableCols2 {
+  font-size: 13px !important;
+  color: black;
+  display: flex;
+}
+
+.tableCol2 span {
+  font-size: 13px !important;
+  color: black;
+}
+
+.tablecolcommon {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.funactonalTestbtn {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.funactonalTestbtn:focus-visible,
+textarea:focus-visible {
+  outline: none !important;
+}
+
+.checkBox {
+  /* position: absolute !important; */
+  left: 0 !important;
+  top: 0 !important;
+  height: 20px !important;
+  width: 20px !important;
+  background-color: #eee !important;
+  border: 1px solid red !important;
+  accent-color: red;
+}
+
+.checkBox::after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.checkBoxTitle {
+  margin-left: 10px !important;
+}
+
+.round .checkbox-round {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.round .checkbox-round:checked {
+  background-color: #4fff4f;
+}
+
+.round .checkbox-round1 {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.round .checkbox-round1:checked {
+  background-color: red;
+}
+
+@media only screen and (max-width: 1300px) {
+  .table {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tablehead {
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .analysisinput {
+    padding: 0px !important;
+    padding-bottom: 15px !important;
+  }
+
+  .analysisinput input {
+    padding-bottom: 0px !important;
+  }
+
+  .MuiGrid-item {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .MuiGrid-item {
+    padding-top: 0px;
+  }
+}

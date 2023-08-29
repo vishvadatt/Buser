@@ -1,0 +1,92 @@
+
+.Reserved{
+  justify-content: center;
+  display: flex;
+}
+.clientaction1 input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 88%;
+    height: 27px !important;
+}
+.clientaction2 input {
+    background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    border-bottom: 1px solid black;
+    width: 24%;
+    height: 27px !important;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-lg-6.clientaction1.css-1442ydi-MuiGrid-root {
+    padding-top: 0px !important;
+
+}
+.cate-div {
+  display: flex;
+  /* padding-left: 10px; */
+  margin-top: 15px;
+}
+.partII-cate{
+  font-size: 16px;
+  font-weight:bold;
+  padding-left: 10px;
+}
+.assessment-css{
+  border-bottom: 2.5px solid;
+  vertical-align: super;
+  font-size: 33px;
+}
+.raion-span {
+  padding-right: 20px;
+  font-size: 16px;
+}
+.raion-span1{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.mfooter{
+    justify-content: center !important;
+    display: flex !important;
+    padding-left: 30px;
+  }
+  .mfooter p{
+    font-size: 15px ;
+  }
+  .mfooter span {
+    font-size: 10px !important;
+  }
+  .rate1 span{
+    margin-left: 7px !important;
+  }
+  span.texttt {
+    font-size: 33px;
+    font-weight: 500;
+    margin: -7px;
+}
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .cate-div {
+      display: contents;
+    }
+    .partII-cate{
+      padding-left: 0px;
+    }
+    
+ }
+ @media (max-width: 768px){
+  .assessment-css{
+    font-size: 16px !important;
+  }
+ }
+ @media (max-width: 297px){
+  .assessment-css{
+    font-size: 13px !important;
+  }
+ }
+ @media (max-width: 251px){
+  .assessment-css{
+    font-size: 10px !important;
+  }
+ }

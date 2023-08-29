@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "rage-italic";
+    src: url("../../../../../../rage-italic/RAGE.TTF");
+  }
+.terms{
+    font-size: 33px;
+    justify-content: center;
+    display: flex;
+}
+.digitally{
+    font-size: 16px;
+    padding-top: 20px;
+}
+.Cancellation{
+    padding-top: 17px;
+    font-size: 16px;
+}
+.business{
+    padding-top: 20px;
+    font-size: 16px;
+}
+.Insurance{
+    font-size: 16px;  
+    padding-top: 20px; 
+    font-weight: bold;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+.office{
+    font-size: 16px;
+    text-align: justify;
+    display: flex;
+}
+.read{
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: justify;
+    display: flex;
+}
+.Effect{
+    display: flex;
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: justify;
+    display: flex;
+}
+.Date{
+    display: flex;
+    font-size: 16px;
+}
+.Name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.blood{
+    font-size: 16px;
+    
+}
+.per{
+    font-weight: bold;
+}
+.NOTICE{
+    font-size: 16px;
+}
+@media (max-width:767px) {
+    .pad{
+    margin-top: 10px !important;
+    }
+}
+
+.rageItalicFont{
+    font-size: 2rem !important;
+    font-family: 'rage-italic' !important;
+    padding: 1% !important;
+}

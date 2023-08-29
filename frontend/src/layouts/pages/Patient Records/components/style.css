@@ -1,0 +1,78 @@
+.css-t3qchm {
+  margin-bottom: 24px;
+  padding: 8px;
+  opacity: 1;
+  background: transparent;
+  color: #344767;
+  border-radius: none;
+}
+.report-search {
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 20% !important;
+  outline: none !important;
+  border: none !important;
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .report-search {
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 422px) {
+  .report-search {
+    width: 80% !important;
+  }
+}
+.ant-table th {
+  color: #8392ab !important;
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+}
+
+.ant-table-thead > tr > th {
+  position: relative;
+  color: #8392ab !important;
+  font-weight: 500;
+  text-align: left;
+  background: #fafafa;
+}
+
+.workHistory {
+  width: 40%;
+}
+.client-records-container {
+  display: flex;
+  justify-content: space-between;
+}
+.client-records-search-bar-container {
+  display: flex;
+  align-items: center;
+}
+.client-records-search-bar-input {
+  background-color: transparent;
+  border: solid 1px #d2d6da;
+  height: 35px;
+  margin-right: 8px;
+  padding: 8px;
+  border-color: #d2d6da;
+  border-radius: 9px;
+  width: 100%;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.client-records-view-btn {
+  width: 140px;
+  height: 40px;
+  margin-right: 8px;
+  background-color: rgb(39, 48, 68);
+  color: white;
+  float: right;
+}

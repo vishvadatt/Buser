@@ -1,0 +1,128 @@
+.MuiGrid-root>.MuiGrid-item {
+  padding-top: 5px;
+  width: 100%;
+}
+
+.form2Name {
+  line-height: 0.6;
+}
+
+.othergender1 {
+  background-color: #f1f4ff !important;
+  font-size: 15px !important;
+  border: #f1f4ff !important;
+  border-bottom: 1px solid black !important;
+  width: 48% !important;
+  height: 27px !important;
+}
+
+.name_dropdown {
+  height: 0px !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.dropdown_item_name {
+  border-bottom: 1px solid #d8dde6;
+  border-right: 1px solid #d8dde6;
+  border-left: 1px solid #d8dde6;
+}
+
+.stylet {
+  width: 100% !important;
+  height: 40px !important;
+  /* color: #495057!important; */
+  border-radius: 8px !important;
+  border-color: #f5f5f5 !important;
+}
+
+.mandatory-dob-row-container,
+.mandatory-name-row-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.mandatory-address-row-container,
+.mandatory-phone-row-container,
+.health-address-row,
+.health-car-row-container,
+.health-adress2-row-container,
+.health-policy-row-container,
+.health-medical-payment-row-container,
+.health-law-firm-row-container,
+.car-accident-row-container,
+.car-medical-treatment-row-container,
+.car-income-row-container,
+.car-damage-row-container,
+.lastpart-adress2-row-container,
+.lastpart-label-row-container,
+.lastpart-section-name-row-container {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.mandatory-email-row-container {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.health-adjuster-row-container,
+.health-adjuster1-row-container,
+.health-agent-row-container,
+.health-lawyer-name-row-container {
+  margin-top: 0px;
+  padding-top: 10px;
+}
+
+.phone-input-label {
+  margin: unset;
+}
+
+.lastpart-section-name-row-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.MuiTypography-root {
+  text-transform: initial !important;
+}
+
+@media (max-width:420px) {
+  .MuiGrid-root>.MuiGrid-item {
+    padding-top: 10px;
+  }
+
+  .mandatory-address-row-container,
+  .mandatory-phone-row-container,
+  .health-address-row,
+  .health-car-row-container,
+  .health-adress2-row-container,
+  .health-policy-row-container,
+  .health-medical-payment-row-container,
+  .health-law-firm-row-container,
+  .car-accident-row-container,
+  .car-medical-treatment-row-container,
+  .car-income-row-container,
+  .car-damage-row-container,
+  .lastpart-adress2-row-container,
+  .lastpart-label-row-container,
+  .lastpart-section-name-row-container {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .mandatory-email-row-container {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .health-adjuster-row-container,
+  .health-adjuster1-row-container,
+  .health-agent-row-container,
+  .health-lawyer-name-row-container {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+}

@@ -1,0 +1,50 @@
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+.fc .fc-daygrid-day-top {
+  width: "74%";
+}
+
+.fc .fc-daygrid-day-frame {
+  width: "80px";
+}
+
+
+.fc-daygrid-block-event .fc-event-time,
+/* .fc-daygrid-block-event .fc-event-title {
+  white-space: normal;
+  width: 100%;
+  font-size: 12px !important;
+} */
+
+.fc-direction-ltr .fc-daygrid-event.fc-event-end,
+.fc-direction-rtl .fc-daygrid-event.fc-event-start {
+  font-size: "12px !important";
+  height: "29px !important";
+  max-height: "29px !important";
+}
+.fc-daygrid-day-frame,
+.fc-daygrid-day-events,
+.fc-daygrid-event-harness {
+  width: "82px !important";
+}
+.fc .fc-daygrid-body {
+  width: 100% !important;
+}
+
+.fc .fc-daygrid-body > table {
+  width: 100% !important;
+}
+@media only screen and (min-width: 250px) and (max-width: 400px) {
+  .fc .fc-toolbar.fc-header-toolbar {
+    display: flex;
+  }
+  .css-z8q62l .fc-header-toolbar {
+    justify-content: flex-start !important;
+  }
+  .css-z8q62l .fc-header-toolbar .fc-toolbar-chunk:nth-child(2) {
+    margin-left: 10px;
+  }
+}

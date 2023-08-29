@@ -1,0 +1,83 @@
+.MuiStepper-root {
+  padding: 25px 0px 0px 0px !important;
+}
+.step {
+  padding-top: 40px;
+  margin: unset;
+}
+.soap-back:focus {
+  outline: none !important;
+}
+
+.soap-form-nav-buttons {
+  display: flex;
+  width: 100%;
+  align-items: end;
+  justify-content: end;
+  padding-top: 66px;
+}
+
+@media only screen and (max-width: 320px) {
+  .soap-control-btn {
+    display: flex !important;
+    padding-left: 46% !important;
+    font-size: 14px !important;
+    padding-top: 30px !important;
+  }
+  .doctor-soap-btn {
+    margin-right: 10px !important;
+  }
+
+  .soap-form-nav-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: end;
+    justify-content: end;
+    padding-top: 66px;
+  }
+  .doctor-soap-btn.navbar-btn {
+    margin-bottom: 5px;
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .soap-control-btn {
+    display: flex !important;
+    padding-left: 54% !important;
+    font-size: 14px !important;
+  }
+  .doctor-soap-btn {
+    margin-right: 10px !important;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .soap-control-btn {
+    display: flex !important;
+    padding-left: 60% !important;
+    font-size: 14px !important;
+  }
+  .doctor-soap-btn {
+    margin-right: 10px !important;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .soap-control-btn {
+    display: flex !important;
+    padding-left: 75% !important;
+    font-size: 15px !important;
+  }
+  .doctor-soap-btn {
+    margin-right: 10px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .soap-control-btn {
+    padding-left: 76.5% !important;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+  .soap-control-btn {
+    padding-left: 81.5% !important;
+  }
+}

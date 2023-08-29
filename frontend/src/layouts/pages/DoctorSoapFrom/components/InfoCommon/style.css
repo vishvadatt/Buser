@@ -1,0 +1,802 @@
+.practitionerName label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+.practitionerName input {
+  /* background-color: #f1f4ff; */
+  /* width: 250px !important; */
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.practitionerName input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.NPI label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+.NPI input {
+  /* background-color: #f1f4ff; */
+  margin-left: 3px;
+  width: 200px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.NPI input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.TIN label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+.TIN input {
+  /* background-color: #f1f4ff; */
+  margin-left: 3px;
+  width: 185px !important;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.TIN input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.hourlyRate label {
+  font-size: 15px !important;
+  font-weight: normal !important;
+}
+.ratecontrol {
+  width: 10px !important;
+}
+
+.hourlyRate input {
+  /* background-color: #f1f4ff; */
+  margin-left: 3px;
+  /* width: 100px !important; */
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.hourlyRate input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.patientName input {
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  width: 100% !important;
+  display: inline-block !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.patientName label {
+  display: inline-block;
+}
+
+.patientName label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.doctorSignMain {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.doctorSignMain > div {
+  max-width: unset;
+  flex-basis: unset;
+}
+.doctorSign input {
+  /* background-color: #f1f4ff; */
+  margin-left: 3px;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  width: 425px !important;
+  display: inline-block !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.doctorSign label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.diagnosisHead {
+  color: rgb(193, 14, 101);
+  width: 505px;
+  display: inline-block;
+}
+.diagnosisRow {
+  display: block;
+  width: 100%;
+}
+
+.patientName input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.class2 {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin-bottom: 10px;
+  margin-left: 1%;
+}
+
+.class3 {
+  display: flex !important;
+  /* justify-content: space-between !important; */
+  margin-bottom: 10px;
+}
+
+.checkboxlabel {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+.visitno {
+  display: flex;
+  margin-bottom: 10px !important;
+}
+.visitno label {
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+
+.visitno input {
+  height: 28px !important;
+  /* background-color: #f1f4ff; */
+  margin-left: 3px;
+  width: 60px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.visitdate {
+  display: flex;
+  margin-bottom: 10px !important;
+  margin-left: 3%;
+}
+.visitdate label {
+  font-size: 14px !important;
+  font-weight: bold;
+  /* margin-left: 3px;
+    margin-right: 3px; */
+}
+
+.visitdate input {
+  /* margin-left: 3px; */
+  width: auto !important;
+  margin-right: 10px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  /* place-items: center !important; */
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.dob {
+  /* width: 400px !important ; */
+  display: flex;
+  margin-bottom: 10px !important;
+}
+
+.dob label {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+.dob input {
+  margin-left: 3px;
+  /* width: unset !important; */
+  margin-right: 20px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.dob input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.ageinput {
+  /* margin-left:10px; */
+}
+
+.ageinput label {
+  font-size: 14px !important;
+  font-weight: bold;
+}
+
+.ageinput input {
+  /* background-color: #f1f4ff; */
+  margin-left: 3px;
+  width: 50px !important;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.ageinput input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.heightwidth label {
+  font-size: 15px !important;
+  font-weight: bold;
+}
+
+.heightinputClass {
+  margin-right: 10px !important;
+  /* background-color: #f1f4ff; */
+  width: 70px !important;
+  margin-left: 5px;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.heightinputClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.htn label {
+  font-size: 15px !important;
+}
+
+.eigth-page-common-info-grid {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+}
+
+.eigth-info-common-patient-type-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.eigth-info-common-visit-row-container > div {
+  padding-top: unset !important;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 15px !important;
+  flex-basis: unset;
+  min-width: fit-content;
+  padding-left: unset !important;
+  margin-right: 25px;
+}
+
+.eigth-info-common-dob-row-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.eigth-info-common-dob-row-container > div {
+  margin-bottom: 15px;
+}
+.eigth-info-common-dob-row-container > div:nth-child(2) {
+  padding-left: 10px !important;
+}
+
+.eigth-info-common-htn-row > div {
+  margin-bottom: 15px;
+  min-width: 270px;
+}
+.eigth-info-common-height-row {
+  flex-wrap: wrap;
+}
+.eigth-info-common-height-row > div {
+  min-width: 270px;
+  margin-bottom: 15px;
+}
+
+.widthinputClass {
+  /* border-bottom: 1px solid black; */
+  margin-right: 10px !important;
+  /* background-color: #f1f4ff; */
+  width: 70px !important;
+  margin-left: 5px;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.htn1 {
+  display: flex;
+}
+
+.Cautions {
+  border-bottom: 1px solid red !important;
+  margin-right: 10px !important;
+  /* background-color: #f1f4ff; */
+  width: auto !important;
+  margin-left: 3px;
+
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  place-items: center !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.Cautions:focus,
+textarea:focus {
+  outline: none !important;
+}
+@media only screen and (max-width: 1024px) {
+  .ageinput {
+    margin-left: 0px !important;
+  }
+  .visitdate {
+    display: flex;
+    margin-bottom: 10px !important;
+    margin-left: 0%;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .NextReExamClass input {
+    /* width: 40% !important; */
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .flex-dir-row {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .flex-dir-row {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .flex-dir-row {
+    flex-direction: column;
+  }
+
+  .ageinput {
+    margin-left: 0px !important;
+  }
+  .eigth-page-common-info-grid {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .eigth-page-common-info-grid > div {
+    max-width: unset !important;
+    width: 100%;
+  }
+}
+
+.patitentNameClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 80%;
+  height: 27px !important;
+}
+.patitentNameClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.visitNumberClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  height: 30px !important;
+}
+.visitNumberClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+/* 
+  .TodaysDateClass {
+    background-color: #F1F4FF;
+    font-size: 15px !important;
+    border: #F1F4FF;
+    border-bottom: 1px solid black;
+    width: 18%;
+    height: 27px !important;
+  }
+  .TodaysDateClass:focus,
+  textarea:focus {
+    outline: none !important;
+  } */
+
+.TodaysDateClass {
+  display: flex;
+  margin-left: 0%;
+}
+
+.TodaysDateClass input {
+  /* margin-left: 3px; */
+  width: auto !important;
+  margin-right: 10px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.NextReExamClass {
+  display: flex;
+  margin-bottom: 5px !important;
+  margin-left: 0%;
+}
+
+.NextReExamClass input {
+  /* margin-left: 3px; */
+  width: auto;
+  margin-right: 10px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.DOBClass {
+  display: flex;
+  margin-bottom: 5px !important;
+  margin-left: 0%;
+}
+
+.DOBClass input {
+  /* margin-left: 3px; */
+  width: auto !important;
+  margin-right: 10px !important;
+  color: #495057;
+  padding: 0.5rem 0.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+  height: auto !important;
+  cursor: text;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.AgeClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  /* width:  ; */
+  height: 27px !important;
+}
+.AgeClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.CautionsClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid red;
+  width: 50%;
+  height: 27px !important;
+}
+.CautionsClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.practitionerNameClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 64%;
+  height: 27px !important;
+  margin-top: 10px;
+  flex-grow: 1;
+}
+
+.practitionerNameClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.NPIClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 81%;
+  height: 27px !important;
+  flex-grow: 1;
+}
+.NPIClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.TINClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 81%;
+  height: 27px !important;
+  flex-grow: 1;
+}
+.TINClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.hourlyRateClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  /* width: 64%; */
+  height: 27px !important;
+  flex-grow: 1;
+}
+.hourlyRateClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.weightClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 10%;
+  height: 27px !important;
+}
+.weightClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.HeightClass {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  border-bottom: 1px solid black;
+  width: 10%;
+  height: 27px !important;
+}
+.HeightClass:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .patitentNameClass {
+    width: 60%;
+  }
+  .CautionsClass {
+    width: 45%;
+  }
+  .hourRateDiv {
+    margin-top: 10px;
+  }
+  .hourlyRateClass {
+    /* margin-top: 11px;100 */
+    /* width: 94%; */
+  }
+}
+@media (max-width: 894px) {
+  .hourlyRateClass {
+    width: 40% !important;
+  }
+}
+@media screen and (min-width: 895px) and (max-width: 940px) {
+  .hourlyRateClass {
+    width: 40% !important;
+  }
+}
+.todayDate1 {
+  width: 53% !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+@media (max-width: 517px) {
+  .eigth-info-common-dob-row-container > div:nth-child(2) {
+    padding-left: 0px !important;
+  }
+  .doctorSign input {
+    width: 100% !important;
+
+  }
+  
+}

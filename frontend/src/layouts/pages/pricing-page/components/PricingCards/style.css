@@ -1,0 +1,35 @@
+.purchaseButton {
+  width: 600px !important;
+  /* background-color: aliceblue; */
+  height: 30px !important;
+}
+
+.arrow_forward {
+  display: inline-block;
+  height: 16.8px;
+  color: #2dceda;
+}
+.serviceImageDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serviceImageImg {
+  max-width: 22rem;
+  max-height: 18rem;
+  object-fit: contain;
+}
+.serviceDescription {
+  font-size: 1rem;
+  width: 100%;
+}
+.serviceDescription1 {
+  font-size: 15px;
+  color: red;
+}
+
+@media (max-width: 822px) {
+  .serviceDescription {
+    width: 100%;
+  }
+}

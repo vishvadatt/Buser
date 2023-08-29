@@ -1,0 +1,10 @@
+.purchaseButton {
+  width: 600px !important;
+  /* background-color: aliceblue; */
+  height: 30px !important;
+}
+
+.arrow_forward {
+  display: inline-block;
+  height: 16.8px;
+}

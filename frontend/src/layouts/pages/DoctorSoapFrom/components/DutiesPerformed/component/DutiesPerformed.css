@@ -1,0 +1,32 @@
+.patient-name-info-row-container {
+  width: 100%;
+  margin: 0px;
+}
+
+.patient-name-info-row-container .css-5qqzn3 {
+  margin: unset;
+}
+
+.patient-name-info-row-container > div {
+  padding-left: 0px !important;
+  /* margin-right: 10px; */
+}
+
+.patient-name-info-row-container > div:nth-child(2) {
+  padding-left: 10px !important;
+  padding-right: 10px;
+}
+
+@media (max-width: 575px) {
+  .patient-name-info-row-container > div:nth-child(2) {
+    padding-left: 0px !important;
+    padding-right: 0px;
+  }
+}
+/* .patient-name-info-row-container .css-1lrryfi-MuiGrid-root:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+.spanLab {
+  margin-right: 8px;
+}

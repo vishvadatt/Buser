@@ -1,0 +1,12 @@
+.my-ed-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  .my-ed-title {
+    font-size: 22px;
+  }
+}

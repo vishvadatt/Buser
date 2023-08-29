@@ -1,0 +1,50 @@
+.video-page-header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.video-page-title {
+  font-size: 2rem;
+  text-align: center;
+}
+.video-page-header-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.input-style {
+  width: 320px !important;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+  outline: none;
+}
+.input-style:focus {
+  border-color: #97badf;
+  box-shadow: 0 0 0 0.2rem rgba(143, 170, 199, 0.25);
+}
+.modal-content {
+  height: 400px;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.close-icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 22px;
+  .icon {
+    cursor: pointer;
+  }
+}
+.video-div {
+  flex: 1;
+}

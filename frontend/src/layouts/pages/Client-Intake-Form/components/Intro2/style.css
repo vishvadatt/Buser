@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "rage-italic";
+  src: url("../../../../../../rage-italic/RAGE.TTF");
+}
+.buser {
+  justify-content: center;
+  display: flex;
+}
+.tel {
+  justify-content: center;
+  display: flex;
+  font-size: 12px;
+}
+.Informed {
+  /* font-size: 30px; */
+  justify-content: center;
+  display: flex;
+  padding-top: 15px;
+  font-weight: bold;
+  /* border-bottom:1px solid black; */
+}
+.risks {
+  font-size: 17px;
+}
+.understand {
+  font-size: 16px;
+}
+.bold {
+  font-weight: bold;
+}
+.right {
+  padding-right: 10px;
+}
+.acknowledge {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 23px;
+}
+.bold1 {
+  font-weight: bold;
+  padding-left: 23px;
+}
+.name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rageItalicFont {
+  font-size: 2rem !important;
+  font-family: "rage-italic" !important;
+  padding: 1% !important;
+}
+.saveAndClear1 {
+  display: flex;
+  gap: 10px;
+}

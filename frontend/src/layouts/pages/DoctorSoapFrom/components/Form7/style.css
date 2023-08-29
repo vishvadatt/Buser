@@ -1,0 +1,81 @@
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-7djdx2-MuiTableCell-root {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #344767;
+  line-height: 1;
+  margin-right: 0.65rem;
+  width: 9.5%;
+}
+thead.MuiTableHead-root.th-symptoms.css-1a8ju2e-MuiTableHead-root {
+  display: table-caption;
+}
+/* th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-7djdx2-MuiTableCell-root {
+    width: 36%;
+} */
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1tkuz3b-MuiTableCell-root {
+  border: 1px solid #d2d6da;
+  padding: 0px 3px;
+  width: 115px;
+}
+.symtomsInput .therapiCss1 {
+  /* width: 70px; */
+  /* padding: 0px 61px; */
+  /* border: none; */
+  /* outline: transparent; */
+}
+.MuiInputBase-root.MuiInputBase-colorPrimary.symtomsInput.therapiCss1.css-y9gdep-MuiInputBase-root {
+  border: none;
+  padding: 0px 5px;
+  margin-top: -15px;
+  width: 100%;
+}
+
+.drsign-css {
+  width: 100%;
+  display: block;
+}
+.drspan1-css,
+.drspan2-css {
+  display: inline-block;
+  width: 50%;
+}
+.patient-sign {
+  width: 100%;
+}
+
+.SymptomsUpdateTable {
+  border: 1px solid #d2d6da;
+}
+
+.SymptomsUpdateTable td {
+  border: 1px solid #d2d6da;
+  border-collapse: collapse;
+  height: 50px;
+  font-size: 17px;
+  padding: 0px 10px;
+}
+
+.SymptomsUpdateTable th {
+  font-weight: 400;
+  font-size: 17px;
+  border: 1px solid #d2d6da;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table_input {
+  width: 100%;
+  border: none;
+  outline: none !important;
+}
+
+.table_input :focus {
+  outline-style: none !important;
+}
+.had {
+  width: 10%;
+}
+.symptoms-update-patient-name-row-container > div {
+  padding-top: 10px !important;
+  padding-left: 35px !important;
+}

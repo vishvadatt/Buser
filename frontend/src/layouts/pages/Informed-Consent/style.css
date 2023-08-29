@@ -1,0 +1,57 @@
+.CONSENT{
+    color: rgb(52, 71, 103);
+    justify-content: center;
+    display: flex;
+}
+.AGREEMENT{
+    font-size: 33px !important;
+}
+@font-face {
+    font-family: "rage-italic";
+    src: url('../../../../rage-italic/RAGE.TTF');
+}
+
+.initalName{
+    /* font-family: 'Rage italic' !important; */
+    font-family: "rage-italic" !important;
+    font-variant: small-caps !important;
+    font-size: 24px !important;
+}
+
+@media screen and (max-width : 576px) {
+    .step1{
+        padding: 0 !important;
+    }   
+    .spaceing{
+        padding-top: 10px !important;
+    }
+    .setInitalName{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width : 1286px) {
+    .setInitalName{
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width : 388px) {
+    .initialhere{
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width : 575px) {
+    .initialhere1{
+        margin-bottom: 0 !important;
+    }
+    .initialhere{
+        margin-bottom: 0 !important;
+    }
+    .clientInitialName{
+        margin-bottom: -20px !important;
+      }
+}

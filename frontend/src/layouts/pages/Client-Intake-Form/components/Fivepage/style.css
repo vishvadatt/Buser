@@ -1,0 +1,59 @@
+
+.dateslist{
+  display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dates input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  height: 27px !important;
+}
+
+.dates input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 320px) {
+.dateslist {
+  margin-left: 0px !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .list-title {
+margin-left: 5px !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+.dateslist {
+    margin-left: 0px !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .list-title {
+    margin-left: 5px !important;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+.dateslist {
+    margin-left: 0px !important;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .list-title {
+    margin-left: 5px !important;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .dateslist {
+      margin-left: 0px !important;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .list-title {
+      margin-left: 5px !important;
+    }
+}

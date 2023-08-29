@@ -1,0 +1,10 @@
+.entries {
+  font-weight: 600;
+  font-size: 12px;
+
+}
+@media only screen and (max-width: 769px) {
+  .page-select {
+    width: 40%;
+  }
+}

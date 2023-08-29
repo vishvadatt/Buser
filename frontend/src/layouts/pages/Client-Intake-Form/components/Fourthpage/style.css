@@ -1,0 +1,40 @@
+.SMGENTAF{
+  justify-content: center;
+  display: flex;
+}
+.maintitle-mediation {
+  display: flex !important;
+  background-color: #dbd4d4;
+  justify-content: center !important;
+  text-align: center !important;
+}
+.meditation{
+  display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media only screen and (max-width: 320px) {
+.meditation span{
+  font-size: 14px !important;
+}
+ .meditation-optional{
+/* display: none !important; */
+  grid-template-columns: repeat(1, 1fr);
+ }
+ .mediationspan{
+  margin-left: 8% !important;
+ }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .meditation-optional {
+      /* display: none !important; */
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .reversible{
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+}

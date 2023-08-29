@@ -1,0 +1,122 @@
+
+.sysmptonspatient input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 70%;
+  height: 27px !important;
+  margin-left: 5px !important;
+}
+
+.sysmptonspatient input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.sysptos-input{
+  background-color: #f1f4ff;
+    font-size: 15px !important;
+    border: #f1f4ff;
+    width: 80%;
+    border-bottom: 1px solid black;
+    height: 27px !important;
+    margin-left: 5px !important;
+}
+.sysptos-input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.medications-input input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 80%;
+  border-bottom: 1px solid black;
+  height: 27px !important;
+  margin-left: 5px !important;
+}
+
+.medications-input input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+.sysmptonsdate input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 50%;
+  height: 27px !important;
+  margin-left: 5px !important;
+}
+
+.sysmptonsdate input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.signature input{
+  background-color: #f1f4ff;
+    font-size: 16px !important;
+    border-bottom: 1px solid black !important;
+    border: #f1f4ff;
+    width: 45%;
+    height: 35px !important;
+    margin-left: 5px !important;
+}
+.signature input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 320px) {
+  .symptomsleft{
+    margin-left: 0px !important;
+  }
+  .signature {
+margin-right: 5px !important;
+  }
+    .signature input {
+            width: 100%;
+    }
+        .signature input{
+          margin-left: 0px !important;
+        }
+        .css-10sr3db-MuiGrid-root{
+          margin-left: 0px !important;
+        }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+.symptomsleft {
+    margin-left: 0px !important;
+  }
+    .signature input {
+      width: 100%;
+    }
+        .signature input {
+          margin-left: 0px !important;
+        }
+    
+        .css-10sr3db-MuiGrid-root {
+          margin-left: 0px !important;
+        }
+        
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+.symptomsleft {
+    margin-left: 0px !important;
+  }
+    .signature input {
+      width: 100%;
+    }.signature input {
+      margin-left: 0px !important;
+    }
+    
+    .css-10sr3db-MuiGrid-root {
+      margin-left: 0px !important;
+    }
+
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+}

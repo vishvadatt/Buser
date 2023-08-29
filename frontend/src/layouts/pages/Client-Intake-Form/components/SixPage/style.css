@@ -1,0 +1,37 @@
+
+
+
+.experienced input {
+  background-color: #f1f4ff;
+  font-size: 15px !important;
+  border: #f1f4ff;
+  width: 100%;
+  /* max-width: auto;/ */
+  height: 27px !important;
+  margin-left: 3px !important;
+}
+
+.experienced input:focus,
+textarea:focus {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 320px) {
+.experienced {
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+.experienced {
+    margin-left: 0px !important;
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+.experienced {
+    margin-left: 0px !important;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+}

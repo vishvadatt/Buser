@@ -1,0 +1,53 @@
+
+
+.tableContent3{
+    border-collapse: collapse !important;
+    font-size: 0.8em !important;
+    // box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.tableContent3 thead tr {
+    text-align: left !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.tableContent3 th,
+.tableContent3 td {
+    // padding: 3px 3px 3px 5px !important;
+    position: relative !important;
+    width: 200px !important;
+}
+
+.tableContent3 td div div {
+    width: 100% !important;
+}
+
+.tableContent3 td input {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    border: none;
+    outline: none !important;
+    border-right: 1px solid gray !important;
+    background-color: rgb(233, 231, 231);
+}
+.tableContent3 td label{
+    margin-left: 5px !important;
+}
+
+.nextButttonclass{
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+.table24-grid-container{
+    overflow-x: auto;
+
+}
+
+.page24-next-btn-container > button {
+    position: absolute;
+    right:0;
+}

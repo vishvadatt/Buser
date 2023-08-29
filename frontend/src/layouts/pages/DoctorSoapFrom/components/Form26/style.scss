@@ -1,0 +1,146 @@
+.tableContainer6 {
+    border-collapse: collapse !important;
+    font-size: 0.8em !important;
+    // box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.tableContainer6 thead tr {
+    text-align: left !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.tableContainer6 th,
+.tableContainer6 td {
+    // padding: 3px 3px 3px 5px !important;
+    position: relative !important;
+    width: 200px;
+}
+
+.tableContainer6 td div div {
+    width: 100% !important;
+}
+
+.tableContainer6 td input {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    border: none !important;
+    outline: none !important;
+    border: 1px solid gray !important;
+}
+
+.tableContainer6 th input {
+    // position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.KCInput {
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.inputTextAera {
+    width: 100%;
+    background: #F1F4FF;
+    border: none;
+    outline: none;
+}
+
+.widthOfPsmo {
+    width: 1% !important;
+    padding-left: 15px;
+    background-color: #c5bfbf;
+}
+
+.widthOfPsmo1 {
+    width: 1% !important;
+    padding: 5px;
+    background-color: #c5bfbf;
+}
+
+.nextButttonclass1 {
+    position: absolute;
+    right: 16px;
+    // top: 180px;
+    bottom: 14px;
+}
+
+@media only screen and (max-width:320px) {
+    .kc-checkbox {
+        margin-left: 20px !important;
+    }
+
+    .tableContainer6 td input {
+        position: absolute !important;
+        width: 30px !important;
+        height: 100% !important;
+        top: 0 !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+
+    .tableContainer6 th input {
+        // position: absolute !important;
+        width: 30px !important;
+        height: 100% !important;
+        top: 0 !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+}
+
+@media only screen and (min-width:321px) and (max-width:636px) {
+    .kc-checkbox {
+        margin-left: 20px !important;
+    }
+
+    .tableContainer6 td input {
+        position: absolute !important;
+        width: 38px !important;
+        height: 100% !important;
+        top: 0 !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+
+    .tableContainer6 th input {
+        // position: absolute !important;
+        width: 38px !important;
+        height: 100% !important;
+        top: 0 !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+}
+
+// @media only screen and (min-width:376px) and (max-width:425px) {
+//     .tableContainer6 td input {
+//         position: absolute !important;
+//         width: 38px !important;
+//         height: 100% !important;
+//         top: 0 !important;
+//         border: none !important;
+//         outline: none !important;
+//     }
+
+
+//     .tableContainer6 th input {
+//         // position: absolute !important;
+//         width: 38px !important;
+//         height: 100% !important;
+//         top: 0 !important;
+//         border: none !important;
+//         outline: none !important;
+//     }
+
+// }

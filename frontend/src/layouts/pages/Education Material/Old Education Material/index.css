@@ -1,0 +1,138 @@
+.mainDiv{
+    width: 100%;
+    margin: auto;
+}
+
+.parentDiv{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background: #fff;
+    /* padding: 25px; */
+    padding: 0px;
+    text-align: center;
+    filter: "drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.3))";
+    height: 350px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    font-size: 11px;
+    
+}
+
+.childDiv{
+    /* padding: 5px; */
+    padding: 0px;
+    text-align: center;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childDiv img{
+    max-width: 100%;
+    height: 100% !important;
+    vertical-align: middle;
+    object-fit: contain !important;
+}
+.educationPurchaseButton{
+    background: #344767 !important;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%) !important;
+    border: none !important;
+    outline: none !important;
+    color: #fff !important;
+    padding: 10px 0px !important;
+    border-radius: 2px !important;
+    width: 70% !important;
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+}
+.mainClassOfSearch > .css-e5c77h{
+    width: 40% !important;
+}
+.productSearch{
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-right: 17px;
+    /* outline: none; */
+    width: 40% !important;
+    /* border: none; */
+    /* border-bottom: 1px solid #344767; */
+}
+.videoHeight{
+    height: 200px;
+    width: 85%;
+    padding-top: 10px;
+}
+.pdfClassName{
+    width: 85%;
+    padding-top: 10px;
+    /* padding-left: 10%; */
+    height: 200px;
+}
+.imageClassName{
+    height: 100%;
+    width: 85%;
+    /* padding-left: 15%; */
+    padding-top: 10px;
+}
+@media screen and (max-width: 425px) {
+    .productSearch{
+        width: 100%;
+    }
+    .videoHeight{
+        padding-top: 10px;
+        /* height: 140px !important; */
+        /* background: #344767; */
+    }
+    .pdfClassName{
+        width: 95%;
+        padding-left: 5%;
+        padding-top: 10px;
+        height: 200px;
+    }
+    .educationPagination > .ant-pagination > .ant-pagination-options {
+        display: initial !important;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .videoHeight{
+        width: 85%;
+        padding-top: 10px;
+        height: 160px !important;
+        /* background: aquamarine; */
+    }
+    .pdfClassName{
+        width: 90%;
+        padding-left: 10%;
+        /* padding-right: 10%; */
+        height: 200px;
+    }
+    .educationPagination > .ant-pagination > .ant-pagination-options {
+        display: initial !important;
+    }
+  }
+
+  @media only screen and (max-width: 768px) and (min-width: 425px)  {
+    .videoHeight{
+        padding-top: 10px;
+        height: 180px !important;
+        /* background: aquamarine; */
+    }
+    .pdfClassName{
+        width: 90%;
+        padding-left: 10%;
+        padding-top: 10px;
+        /* padding-right: 10%; */
+        /* height: 160px; */
+    }
+    .educationPagination > .ant-pagination > .ant-pagination-options {
+        display: initial !important;
+    }
+  }
+
+  .rpv-toolbar__center, .rpv-toolbar__left{
+    display: none !important;
+  }

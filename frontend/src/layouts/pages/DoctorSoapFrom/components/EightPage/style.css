@@ -1,0 +1,188 @@
+.therapiCssinput {
+  width: 22% !important;
+  border: 0.0625rem solid #dee2e6;
+  border-radius: 0.35rem;
+  color: #495057 !important;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+}
+.diagno2 {
+  margin-top: -16px;
+}
+.no-span {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 18px 0px 0px -20px;
+}
+.span-css {
+  margin: 18px 2px 0px 6px;
+  font-size: 13px;
+}
+.span-css-outoff {
+  margin: 18px 2px 0px 0px;
+  font-size: 13px;
+}
+.inputCss {
+  border: 0.0625rem solid #dee2e6;
+  border-radius: 0.35rem;
+  color: #495057 !important;
+  padding: 0 0.45rem;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  width: 78px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.dropdown-desc {
+  color: #495057;
+  padding: 0.5rem 1.75rem;
+  border: 0.0625rem solid #d2d6da !important;
+  font-size: 0.875rem !important;
+  outline: none !important;
+  background-color: none;
+  border-radius: 0.5rem;
+}
+.diagno1Lab {
+  color: rgb(240, 22, 164);
+  font-size: 14px !important;
+  margin-left: 10px;
+}
+.diagno1Labs {
+  color: rgb(240, 22, 164);
+  font-size: 14px !important;
+  margin-left: 50px;
+}
+
+.diagno1Lab1 {
+  color: rgb(240, 22, 164);
+  font-size: 12px;
+}
+.tableCss {
+  overflow-x: auto;
+  background-color: #ffffff;
+  border: 0.0625rem solid #d2d6da;
+  /* box-shadow: 0rem 1.25rem 1.6875rem 0rem rgb(0 0 0 / 5%); */
+  border-radius: none;
+  margin: 10px;
+}
+.left-div {
+  padding-left: 10px;
+  width: 100%;
+}
+.right-div {
+  border-left: 0.0625rem solid #d2d6da;
+  padding-left: 20px;
+}
+.therapiLab {
+  /* margin-left: 20%; */
+}
+.trCss {
+  border-bottom: 0.0625rem solid #d2d6da;
+}
+.therapiCss {
+  border: 0.0625rem solid #dee2e6;
+  border-radius: 0.35rem;
+  color: #495057 !important;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  width: 110px;
+}
+.secondSide,
+.firstSide,
+.thirdSide {
+  /* display: inline-block; */
+  border: 0.0625rem solid #d2d6da;
+
+  padding: 0px 0px 0px 10px;
+}
+.first-div1,
+.thirdSide {
+  /* display: inline-block; */
+  padding: 0px 0px 0px 10px;
+}
+.firstSide {
+  width: 52%;
+}
+.secondSide {
+  width: 34.5%;
+}
+.first-div1 {
+  /*width: 86.5%;*/
+  padding: 0px 0px 0px 10px;
+}
+.spanLab {
+  display: inline-block;
+  font-size: 0.875rem !important;
+  font-weight: 700;
+  color: #344767;
+  line-height: 1;
+  /* margin-right: 0.65rem; */
+}
+.spanLab1 {
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: red;
+  line-height: 1;
+  margin-right: 0.65rem;
+}
+.left-div-border {
+  border-right: 0.0625rem solid #d2d6da;
+  padding-left: 10px;
+}
+.tableHD {
+  border: 0.0625rem solid #d2d6da;
+  padding: 15px 0px 15px 15px;
+  display: table-caption;
+}
+.checkboxExa {
+  margin-left: 15px;
+}
+.nxtbutton {
+  top: 20px;
+  position: absolute;
+  left: -88px;
+}
+.table-header {
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.diagnostic-code-table-row-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 720px;
+  padding-left: 6px;
+}
+
+.diagnostic-code-table-header-container {
+  display: flex;
+  width: 100%;
+  min-width: 720px;
+  padding-left: 6px;
+  padding-top: 10px;
+}
+
+.diagnostic-code-table-container {
+  overflow-x: auto;
+}
+
+.diagnostic-code-table-index-span {
+  margin: unset;
+  margin-left: -20px;
+}
+
+.diagnostic-code-table-slash-span {
+  margin: unset;
+  margin-left: 6px;
+}
+
+@media (min-width: 992px) {
+  .diagnostic-code-table-row-container .diagnostic-code-grid-container {
+    max-width: 63.77% !important;
+  }
+}

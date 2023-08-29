@@ -1,0 +1,272 @@
+.labelClass label{
+    padding: 0px !important;
+}
+.inputclasses{
+    border: none !important;
+    outline: none !important;
+    border-bottom: 1px solid gray !important;
+    background: #F1F4FF !important;
+    height: 23px !important;
+}
+.HT{
+    width: 160px !important;
+    margin-left: 20px !important;
+}
+.BP{
+    width: 137px !important;
+    margin-left: 40px !important;
+}
+.PULSE{
+    width: 137px !important;
+    margin-left: 27px !important;
+
+}
+.RR{
+    width: 137px !important;
+    margin-left: 40px !important;
+}
+.Wt{
+    width: 145px !important;
+    margin-left: 10px !important;
+}
+.Temp{
+    width: 137px !important;
+    margin-left: 25px !important;
+}
+.spo2{
+    width: 137px !important;
+    margin-left: 27px !important;
+}
+.areaInput1{
+    width: 215px !important;
+}
+.areaInput2{
+    width: 215px !important;
+}
+.areaInput3{
+    width: 215px !important;
+}
+// lables classses
+.wtLable{
+    margin-left: 3px !important;
+}
+.tempLable{
+    margin-left: 25px !important;
+}
+.spo2Lable{
+    margin-left: 25px !important;
+}
+
+.CN{
+    margin-left: 36px !important;
+    width: 225px !important;
+}
+.Derm{
+    margin-left: 25px !important;
+    width: 225px !important;
+}
+.Myo{
+    margin-left: 30px !important;
+    width: 225px !important;
+}
+.dtr{
+    margin-left: 31px !important;
+    width: 225px !important;
+}
+.Path{
+    margin-left: 29px !important;
+    width: 225px !important;
+}
+
+.content-table1{
+    border-collapse: collapse !important;
+    // margin: 25px 0 !important;
+    font-size: 0.6em !important;
+    min-width: 100px !important;
+    overflow: hidden !important;
+    // box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    // background-color: #DCDCDC !important;    
+}
+
+.content-table1 thead tr {
+    // background-color: #009879 !important;
+    text-align: left !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.content-table1 th,
+.content-table1 td {
+    // padding: 10px 13px !important;
+    padding: 3px 3px 3px 5px !important;
+}
+.dropDownInputComponent{
+    margin-right : 8px !important;
+    width : 50px !important;
+    padding : 3px !important;
+    background: #f1f4ff !important;
+    font-size : 15px !important;
+    border : #f1f4ff !important;
+}
+
+.table2Compo{
+    padding-left: 130px !important;
+}
+
+.rightGhRom{
+    left: 190px !important;
+}
+
+@media only screen and (max-width : 912px){
+    .mBottom{
+        margin-bottom: 11% !important;
+    }
+    .mBottom1{
+        margin-bottom: 9% !important;
+    }
+}
+@media only screen and (max-width : 768px){
+    .ptGrph1{
+        padding-top: 1% !important;
+        margin-bottom: 5% !important;
+    }
+    .ptGrph2{
+        padding-top: 1% !important;
+        margin-bottom: 5% !important;
+    }
+    .ImgCompo3{
+        padding-top: 55px !important;
+    }
+    .table1Compo{
+        padding-top: 45px !important;
+    }
+    .table2Compo{
+        padding-top: 10px !important;
+        padding-left: 0px !important;
+    }
+    .lsRom{
+        left: 125px !important;
+    }
+    .mBottom{
+        margin-bottom: 13% !important;
+    }
+    
+    .rightGhRom{
+        left: 150px !important;
+    }
+    
+   }
+   
+   @media only screen and (max-width : 1025px){
+    .graph3 {
+        height: 230px !important;
+        width: 250px !important;
+    }
+    .graph4{
+        height: 230px !important;
+        width: 250px !important;
+    } 
+    .image4Parenet{
+        padding-left: 25px !important;
+    }
+    .image1Compo{
+        height: 210px !important;
+        width: 240px !important;
+    }
+    .image2Compo{
+        height: 230px !important;
+        width: 240px !important;
+    }
+    .IR80{
+        top: -55px !important;
+        left: 0 !important;
+    }
+    .IR80Lable{
+        left: 0 !important;
+        top: -25px !important;
+    }
+    .ER90Label{
+        top: -25px !important;
+        left: 0 !important;
+    }
+    .ER90{
+        top: -55px !important;
+        left: 0 !important;
+    }
+    .class18090{
+        bottom: 10px !important;
+    }
+    .class18090Label{
+        top: -64px !important;
+    }
+
+    .classAdd60{
+        bottom: 10px !important;
+    }
+    .classAdd60Label{
+        top: -64px !important;
+    }
+    .right80Label{
+        top: -82px !important;
+    }
+    .right80{
+        bottom: 25px !important;
+    }
+    .right30{
+        bottom: 10px !important;
+    }
+    .right30Label{
+        top: -65px !important;
+    }
+   }
+   @media only screen and (max-width : 480px){
+    .ptGrph1{
+        padding-top: 45px !important;
+    }
+   .padingTopGrpah{
+        padding-top: 70px !important;
+        margin-bottom: 110px !important;
+   }
+   .ImgCompo3{
+        padding-top: 0 !important;
+    }
+}
+   .boxInput {
+        width: 50px !important;
+        padding: 3px !important;
+        background-color: #f1f4ff !important;
+        font-size: 15px;
+        border: #f1f4ff !important;
+        outline: none;
+        border: none;
+   }
+
+   .table1Component1{
+        border-collapse: collapse !important;
+        font-size: 0.8em !important;
+        min-width: 100px !important;
+        overflow: hidden !important;
+        margin: auto;
+   }
+
+   .table1Component1 thead tr {
+        text-align: left !important;
+        color: black !important;
+        font-weight: bold !important;
+    }
+
+    .table1Component1 th,
+    .table1Component1 td {
+        padding: 3px 3px 3px 5px !important;
+    }
+
+    .nextButton1{
+        position: absolute;
+        right: 0;
+        top: 20px !important;
+    }
+    @media screen and (min-width: 765px) and (max-width: 768px) {
+        .tabl{
+            margin-left: 150px;
+        }
+    }
